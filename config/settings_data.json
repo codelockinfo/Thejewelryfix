@@ -3074,9 +3074,15 @@
         ],
         "settings": {
         }
+      },
+      "custom_banner_section_RfRQeV": {
+        "type": "custom-banner-section",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
+      "custom_banner_section_RfRQeV",
       "1596624928746"
     ]
   }
