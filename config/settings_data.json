@@ -1362,6 +1362,7 @@
       },
       "1581505838591": {
         "type": "featured_collection",
+        "disabled": true,
         "settings": {
           "title": "LATEST PRODUCTS",
           "sub_title": "",
