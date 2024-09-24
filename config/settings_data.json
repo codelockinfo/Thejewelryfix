@@ -1288,119 +1288,6 @@
           "show_txt": true
         }
       },
-      "1581505821233": {
-        "type": "collection-list_packery",
-        "blocks": {
-          "1581505821233-3": {
-            "type": "collection",
-            "settings": {
-              "collection": "clothing",
-              "img_align": "top",
-              "title": "ACCESSORIES",
-              "url": ""
-            }
-          },
-          "1581505821233-1": {
-            "type": "collection",
-            "settings": {
-              "collection": "clothing",
-              "img_align": "center",
-              "title": "CLOTHING",
-              "url": ""
-            }
-          },
-          "1581505821233-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "clothing",
-              "img_align": "center",
-              "title": "FOOTWEAR",
-              "url": ""
-            }
-          },
-          "1581505821233-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "clothing",
-              "img_align": "center",
-              "title": "HANDBAG",
-              "url": ""
-            }
-          }
-        },
-        "block_order": [
-          "1581505821233-3",
-          "1581505821233-1",
-          "1581505821233-2",
-          "1581505821233-0"
-        ],
-        "disabled": true,
-        "settings": {
-          "title": "",
-          "sub_title": "",
-          "sub_font": "2",
-          "style_title": "title_1",
-          "ic_tt": "gem",
-          "show_clpr": false,
-          "hoverz": true,
-          "cat_design": "9",
-          "cat_space": "30",
-          "spn_txt": "Shop now",
-          "pr_txt": "products",
-          "cat_lay4": 2,
-          "cat_lay5": 3,
-          "hidden": false,
-          "cp_code": false,
-          "layout": "container",
-          "cl_bg": "",
-          "hide_bgimg": false,
-          "mg": "50px,,90px,",
-          "pd": "",
-          "mg_mb": ",,60px,",
-          "pd_mb": ""
-        }
-      },
-      "1581505838591": {
-        "type": "featured_collection",
-        "disabled": true,
-        "settings": {
-          "title": "LATEST PRODUCTS",
-          "sub_title": "",
-          "sub_font": "2",
-          "btn_title": "See all products",
-          "style_title": "title_1",
-          "ic_tt": "gem",
-          "show_clpr": false,
-          "collection": "clothing",
-          "limit": 6,
-          "space": 30,
-          "use_pagination": "more",
-          "use_bar_lm": false,
-          "btn_rd": false,
-          "btn_icon": true,
-          "btn_style": "primary",
-          "col_pr": "4",
-          "col_pr_tb": "3",
-          "col_pr_mb": "6",
-          "pr_des": "1 tc",
-          "show_vendor": false,
-          "use_cdt": true,
-          "round_cd": true,
-          "cdt_des": "5",
-          "use_eq_height": false,
-          "image_ratio": "ratio_nt",
-          "image_size": "nt_cover",
-          "image_position": "8",
-          "hidden": false,
-          "cp_code": false,
-          "layout": "container",
-          "cl_bg": "",
-          "mg": ",,90px,",
-          "pd": "",
-          "mg_mb": ",,60px,",
-          "pd_mb": ""
-        }
-      },
       "header_banner": {
         "type": "header_banner",
         "settings": {
@@ -3423,8 +3310,6 @@
     },
     "content_for_index": [
       "1581505806578",
-      "1581505821233",
-      "1581505838591",
       "1597058003104"
     ]
   }
