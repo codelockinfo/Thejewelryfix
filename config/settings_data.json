@@ -2615,6 +2615,7 @@
           "1595988840822-3",
           "1595988840822-4"
         ],
+        "disabled": true,
         "settings": {
           "se_height": "cus_h",
           "use_custom_h": "1",
