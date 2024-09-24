@@ -38,6 +38,29 @@
   </div>
 </div>
 {%- endcapture -%}
+
+{%- capture image_layout -%}
+<div class="col-12 col-md-6">
+  <div class="nt_img_txt oh pr middle center">
+
+      <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_background}}" 
+         data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" 
+         style="position:relative; padding-top:111.111%; background-size:cover;">
+        
+    {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
+      {%- if image != blank -%}
+        <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bgset="{{ image | img_url: '1x1' }}" data-sizes="auto" data-ratio="{{image.aspect_ratio}}" data-parent-fit="cover" style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;"></div>
+      {%- else -%}
+        <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bg="https://placehold.jp/1/{% cycle 'a8dacc', '56cfe1', 'f99077','c8b09b' %}/fff/570x630.png?text=Image+with+text" style="padding-top: 111.1111111111111%;"></div>
+      {%- endif -%}
+        </div>
+    {%- comment -%}</a>{%- endcomment -%}
+  </div>
+</div> 
+
+{%- endcapture -%}
+
+  
 <div class="nt_se_{{sid}} {{section.settings.layout}} txt_shadow_{{section.settings.use_shadow}}">
   <div class="row no-gutters equal_nt {{img_ratio}} al_center">
     {%- if section.settings.img_position == '1' -%}{{- image_layout -}}{%- endif -%}
