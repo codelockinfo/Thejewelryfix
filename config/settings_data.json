@@ -3875,6 +3875,8 @@
         "type": "image_text",
         "settings": {
           "image": "shopify://shop_images/Rectangle_112.png",
+          "new_background_image": "shopify://shop_images/Rectangle_113.png",
+          "img_background": "left",
           "img_align": "center",
           "img_position": "1",
           "image_ratio": "auto",
