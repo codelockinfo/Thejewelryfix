@@ -1,0 +1,11 @@
+.width-container{
+    max-width: 1600px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* BANNER SECTION CSS */
+
+.custom-banner-section{
+    padding: 100px 0;
+}
