@@ -17,13 +17,24 @@
 {%- capture image_layout -%}
 <div class="col-12 col-md-6">
   <div class="nt_img_txt oh pr middle center">
-    {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
+    <!-- New Background Image with Schema Setting -->
+    <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_background}}" 
+         data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" 
+         style="position:relative; padding-top:111.111%; background-size:cover;">
+      
+      <!-- Existing Image at 50% Size on Top of Background -->
       {%- if image != blank -%}
-        <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bgset="{{ image | img_url: '1x1' }}" data-sizes="auto" data-ratio="{{image.aspect_ratio}}" data-parent-fit="cover" style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;"></div>
+        <div class="existing-image" 
+             style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:50%; height:auto;">
+          <img src="{{ image | img_url: '1x1' }}" alt="Overlay Image" style="width:100%; height:auto;">
+        </div>
       {%- else -%}
-        <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bg="https://placehold.jp/1/{% cycle 'a8dacc', '56cfe1', 'f99077','c8b09b' %}/fff/570x630.png?text=Image+with+text" style="padding-top: 111.1111111111111%;"></div>
+        <div class="existing-image" 
+             style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:50%; height:auto;">
+          <img src="https://placehold.jp/1/{% cycle 'a8dacc', '56cfe1', 'f99077','c8b09b' %}/fff/570x630.png?text=Image+with+text" alt="Placeholder Image" style="width:100%; height:auto;">
+        </div>
       {%- endif -%}
-    {%- comment -%}</a>{%- endcomment -%}
+    </div>
   </div>
 </div>
 {%- endcapture -%}
@@ -57,6 +68,30 @@
          "id": "image",
          "label": "Image"
        },
+         {
+      "type": "image_picker",
+      "id": "new_background_image",
+      "label": "Background Image"
+    },
+     {
+      "type": "select",
+      "id": "img_background",
+      "label": "Image Alignment",
+      "options": [
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
       {
         "type": "select",
         "id": "img_align",
