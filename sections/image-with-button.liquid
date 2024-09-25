@@ -18,7 +18,7 @@
   <div class="nt_bg_lz backgroundimg lazyloadt4s item__position {{section.settings.img_background}}" 
          data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" >
          </div>
-        <div class="custom-container" style="position:relative; display: contents;">
+        <div class="custom-container">
           <div class="col-12 col-md-6">
           <div class="nt_img_txt oh pr middle center">
           {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
@@ -410,6 +410,10 @@
     width: 35%; 
     left: 0px;
 }
+  .custom-container{
+    position:relative; 
+    display: contents;
+  }
   .font{
               font-family: Poppins !important;
               font-size: 64px;
