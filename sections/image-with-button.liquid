@@ -19,22 +19,19 @@
          data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" 
          style="position:absolute; background-size:cover;  width: 35%; left: 0px;">
          </div>
-  <div class="custom-container" style="position:relative; display: contents;">
-<div class="col-12 col-md-6">
-  <div class="nt_img_txt oh pr middle center">
-
-      
-    {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
-      {%- if image != blank -%}
-        <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bgset="{{ image | img_url: '1x1' }}" data-sizes="auto" data-ratio="{{image.aspect_ratio}}" data-parent-fit="cover" style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;"></div>
-      {%- else -%}
-        <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bg="https://placehold.jp/1/{% cycle 'a8dacc', '56cfe1', 'f99077','c8b09b' %}/fff/570x630.png?text=Image+with+text" style="padding-top: 111.1111111111111%;"></div>
-      {%- endif -%}
-       
-    {%- comment -%}</a>{%- endcomment -%}
-  </div>
-</div> 
-</div>
+        <div class="custom-container" style="position:relative; display: contents;">
+          <div class="col-12 col-md-6">
+          <div class="nt_img_txt oh pr middle center">
+          {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
+            {%- if image != blank -%}
+              <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bgset="{{ image | img_url: '1x1' }}" data-sizes="auto" data-ratio="{{image.aspect_ratio}}" data-parent-fit="cover" style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;"></div>
+            {%- else -%}
+              <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bg="https://placehold.jp/1/{% cycle 'a8dacc', '56cfe1', 'f99077','c8b09b' %}/fff/570x630.png?text=Image+with+text" style="padding-top: 111.1111111111111%;"></div>
+            {%- endif -%}
+       {%- comment -%}</a>{%- endcomment -%}
+       </div>
+    </div> 
+ </div>
 
 {%- endcapture -%}
 
