@@ -563,9 +563,22 @@ text-align: left;
     width: 50% !important;
   }
 
-  .video-container {
-    width: 100% !important;
-    height: auto !important;
-  }
+ .video-container {
+  width: 386px; /* New width */
+  height: 288px; /* New height */
+  position: absolute; /* Absolute positioning for custom top and left values */
+  top: 5664px; /* Position from the top */
+  left: 22px; /* Position from the left */
+  overflow: hidden; /* Hide any overflowing content */
+  gap: 0px; /* No gap */
+  opacity: 0px; /* Set opacity to 0, adjust this if needed */
+}
+
+.videoembed {
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  object-fit: cover; /* Ensures the video covers the entire container without distortion */
+}
+
 }
 </style>
