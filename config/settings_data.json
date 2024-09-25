@@ -3912,7 +3912,7 @@
           "button_label": "Shop Now",
           "button_link": "",
           "open_link": "_blank",
-          "txt_align": "tc",
+          "txt_align": "tl",
           "use_shadow": false,
           "cl_txt": "dark",
           "layout": "container",
