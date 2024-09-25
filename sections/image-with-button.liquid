@@ -563,7 +563,7 @@ text-align: left;
     width: 50% !important;
   }
 
- .video-container {
+ /* .video-container {
   width: 386px !important; /* New width */
   height: 288px !important; /* New height */
   position: absolute !important; /* Absolute positioning for custom top and left values */
@@ -573,11 +573,23 @@ text-align: left;
   gap: 0px !important; /* No gap */
   opacity: 0px !important; /* Set opacity to 0, adjust this if needed */
 }
-
+ */
 .videoembed {
   width: 100% !important; /* Full width of the container */
   height: 100% !important; /* Full height of the container */
   object-fit: cover !important; /* Ensures the video covers the entire container without distortion */
+}
+  .nt_bg_lz {
+    width: 100%; /* Make sure the image takes full width on mobile */
+    height: 250px; /* Adjust height for mobile */
+  }
+
+  .video-container {
+    width: 100%; /* Adjust video container to full width on mobile */
+    height: auto;
+    opacity: 1; /* Make video visible */
+    position: relative; /* Change position to stack */
+  }
 }
 
 }
