@@ -75,7 +75,7 @@
     letter-spacing: 0.68em;
     text-align: left;">{{section.settings.designstudio}}</h5>
           <h3 class="mb__20 font mt__0 fs__30 {{cl_arr[0]}} lh__1">{{section.settings.title}}</h3>
-         {{ section.settings.text }}
+         <div class="custom-class">{{ section.settings.text }}</div>
         {%- if url != blank and section.settings.button_label -%}<p class="mg__0"><a class="button {{cl_arr[2]}}" href="{{url}}" target="{{section.settings.open_link}}">{{section.settings.button_label}}</a></p>{%- endif -%}
       </div>
     </div>
