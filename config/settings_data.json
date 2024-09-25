@@ -3915,7 +3915,7 @@
           "txt_align": "tl",
           "use_shadow": false,
           "cl_txt": "dark",
-          "layout": "nt_full",
+          "layout": "container",
           "cl_bg": "",
           "mg": "50px,,50px,",
           "pd": "",
