@@ -19,13 +19,13 @@
          data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" >
          </div>
         <div class="custom-container">
-          <div class="col-12 col-md-6">
-          <div class="nt_img_txt oh pr middle center">
+          <div class="coll-12 coll-md-6">
+          <div class="">
           {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
             {%- if image != blank -%}
-              <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bgset="{{ image | img_url: '1x1' }}" data-sizes="auto" data-ratio="{{image.aspect_ratio}}" data-parent-fit="cover" style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;"></div>
+              <div class="{{section.settings.img_align}}" data-bgset="{{ image | img_url: '1x1' }}" data-sizes="auto" data-ratio="{{image.aspect_ratio}}" data-parent-fit="cover" style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;"></div>
             {%- else -%}
-              <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bg="https://placehold.jp/1/{% cycle 'a8dacc', '56cfe1', 'f99077','c8b09b' %}/fff/570x630.png?text=Image+with+text" style="padding-top: 111.1111111111111%;"></div>
+              <div class="{{section.settings.img_align}}" data-bg="https://placehold.jp/1/{% cycle 'a8dacc', '56cfe1', 'f99077','c8b09b' %}/fff/570x630.png?text=Image+with+text" style="padding-top: 111.1111111111111%;"></div>
             {%- endif -%}
        {%- comment -%}</a>{%- endcomment -%}
        </div>
