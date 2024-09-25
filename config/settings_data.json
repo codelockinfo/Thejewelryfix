@@ -3875,14 +3875,38 @@
         "type": "image_text",
         "settings": {
           "image": "shopify://shop_images/Rectangle_112.png",
-          "new_background_image": "shopify://shop_images/Rectangle_113.png",
-          "img_background": "left",
           "img_align": "center",
           "img_position": "1",
           "image_ratio": "auto",
           "text_size": "60,18",
           "title": "Make Your  Day Brighter .",
           "text": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>",
+          "button_label": "Shop Now",
+          "button_link": "",
+          "open_link": "_blank",
+          "txt_align": "tc",
+          "use_shadow": false,
+          "cl_txt": "dark",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "image_with_button_MP7Vgk": {
+        "type": "image-with-button",
+        "settings": {
+          "image": "shopify://shop_images/Rectangle_112.png",
+          "new_background_image": "shopify://shop_images/Rectangle_113.png",
+          "img_background": "center",
+          "img_align": "center",
+          "img_position": "1",
+          "image_ratio": "auto",
+          "text_size": "60,18",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
           "button_label": "Shop Now",
           "button_link": "",
           "open_link": "_blank",
@@ -3907,7 +3931,8 @@
       "1581508031759",
       "1596624928746",
       "1597058003104",
-      "image_text_QDygXM"
+      "image_text_QDygXM",
+      "image_with_button_MP7Vgk"
     ]
   }
 }
