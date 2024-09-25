@@ -42,7 +42,7 @@
 {%- capture image_layout -%}
   <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_background}}" 
          data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" 
-        >
+         style="position:relative; padding-top:50%; background-size:cover;, width:50%">
          </div>
   <div class="custom-container">
 <div class="col-12 col-md-6">
@@ -81,7 +81,7 @@
 
 {%- schema -%}
   {
-    "name": "Image with button",
+    "name": "Image with text",
     "class": "nt_section type_image_text",
     "settings": [
       {
@@ -399,23 +399,14 @@
     ],
     "presets": [
       {
-        "name": "Image with button",
+        "name": "7. Image with text",
         "category": "III. Image"
       }
     ]
   }
 {% endschema %}
-
-<!-- <style>
-  /*---------------- Custom CSS by CLS020 -------------------*/
-
-.custom-container{
- position: absolute;
-}
-.nt_bg_lz{
-          position: relative;
-          padding-top: 50%;
-          width: 50%;
-          background-size:cover;
-}
-</style> -->
+<style>
+  .custom-container{
+    position: absolute;
+  }
+</style>
