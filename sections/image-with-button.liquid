@@ -15,10 +15,9 @@
  assign cl_arr = cl_txt | split:"," -%}
   <div class="main-container">
 {%- capture image_layout -%}
- 
   <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_background}}" 
          data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" 
-         style="position:absolute; background-size:cover; width:50%;margin-left: -683px;">
+         style="position:absolute; background-size:cover;  width: 35%; left: 0px;">
          </div>
   <div class="custom-container" style="position:relative; display: contents;">
 <div class="col-12 col-md-6">
