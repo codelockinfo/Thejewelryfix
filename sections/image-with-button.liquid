@@ -22,11 +22,26 @@
           <div class="col-12 col-md-6">
           <div class="nt_img_txt oh pr middle center">
           {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
-            {%- if image != blank -%}
-              <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bgset="{{ image | img_url: '1x1' }}" data-sizes="auto" data-ratio="{{image.aspect_ratio}}" data-parent-fit="cover" style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;"></div>
-            {%- else -%}
-              <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_align}}" data-bg="https://placehold.jp/1/{% cycle 'a8dacc', '56cfe1', 'f99077','c8b09b' %}/fff/570x630.png?text=Image+with+text" style="padding-top: 111.1111111111111%;"></div>
-            {%- endif -%}
+          {%- if section.settings.video != blank -%}
+  <div class="nt_bg_lz lazyloadt4s item__position {{ section.settings.img_align }}">
+    <video 
+      controls
+      style="width: 100%; height: auto; padding-top: {{ 1 | divided_by: section.settings.video.aspect_ratio | times: 100 }}%;">
+      <source src="{{ section.settings.video | file_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+{%- else -%}
+  <div class="nt_bg_lz lazyloadt4s item__position {{ section.settings.img_align }}">
+    <video 
+      controls
+      style="width: 100%; height: auto; padding-top: 56.25%;">
+      <source src="https://placehold.jp/570x630.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+{%- endif -%}
+
        {%- comment -%}</a>{%- endcomment -%}
        </div>
     </div> 
@@ -81,6 +96,12 @@
       "id": "new_background_image",
       "label": "Background Image"
     },
+      {
+  "type": "video",
+  "id": "video",
+  "label": "Upload Video",
+},
+
      {
       "type": "select",
       "id": "img_background",
