@@ -3873,6 +3873,7 @@
       },
       "image_text_QDygXM": {
         "type": "image_text",
+        "disabled": true,
         "settings": {
           "image": "shopify://shop_images/Rectangle_112.png",
           "img_align": "center",
