@@ -40,7 +40,7 @@
     {%- if section.settings.img_position == '1' -%}{{- image_layout -}}{%- endif -%}
     <div class="col-12 col-md-6 txt_col_img">
       <div class="flex column pl__20 pr__20 pb__20 pt__20 shadow_wrap {{section.settings.txt_align}} {{cl_arr[1]}}">
-        <div class="subhead" style="font-family: Poppins; font-size: 24px; font-weight: 500; line-height: 30.34px; letter-spacing: 0.68em; text-align: left;color: #CAA45D;
+        <div class="subhead" style="
 ">
           {{section.settings.designstudio}}
         </div>
@@ -430,12 +430,13 @@
         text-align: left;
   }
   .subhead{
-          font-family: Poppins;
-          font-size: 24px;
-          font-weight: 500;
-          line-height: 30.34px;
-          letter-spacing: 0.68em;
-          text-align: left;
+          font-family: Poppins !important; 
+          font-size: 24px !important; 
+          font-weight: 500 !important; 
+          line-height: 30.34px !important; 
+          letter-spacing: 0.68em !important;
+          text-align: left !important;
+          color: #CAA45D !important;
   }
   .custom-class{
         font-family: Poppins !important;
