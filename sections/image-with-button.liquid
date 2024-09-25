@@ -468,21 +468,17 @@
         color: #FFFFFF;
         width: 788px;
 }
-.video-container {
-  position: absolute !important; /* For placing the video based on 'top' and 'left' */
-  width: 672px !important; /* Width according to your provided value */
-  height: 502px !important; /* Height according to your provided value */
-  /* Hidden (you can adjust this to show or hide the video) */
-  overflow: hidden !important; /* Prevent overflow if the video size differs */
+  .video-container {
+  width: 500px; /* Define the square size */
+  height: 500px; /* Same height as width to make it square */
+  overflow: hidden; /* Hide any overflowing content */
 }
 
 .videoembed {
-  width: 100% !important; /* Ensures the video fits the width of the container */
-  height: 100% !important; /* Ensures the video fits the height of the container */
-  object-fit: cover !important; /* Ensures the video fills the container without distortion */
-  gap: 0px !important; /* This does not affect the video but is included as per your request */
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  object-fit: cover; /* Ensures the video covers the entire square without distortion */
 }
-
 /* .paddingtext{
   padding-top:20px !important;
   padding-bottom:20px important;
