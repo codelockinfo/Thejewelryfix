@@ -13,7 +13,7 @@
   assign cl_txt = 'cw,cw,button-o-w' 
  endif 
  assign cl_arr = cl_txt | split:"," -%}
-  <div class="main-container" style="background:1F1F1F">
+  <div class="main-container" style="background:1F1F1F;">
 {%- capture image_layout -%}
   <div class="nt_bg_lz lazyloadt4s item__position {{section.settings.img_background}}" 
          data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" 
