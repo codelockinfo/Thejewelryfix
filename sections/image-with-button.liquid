@@ -39,7 +39,7 @@
   <div class="row no-gutters equal_nt {{img_ratio}} al_center">
     {%- if section.settings.img_position == '1' -%}{{- image_layout -}}{%- endif -%}
     <div class="col-12 col-md-6 txt_col_img">
-      <div class="paddingtext {{section.settings.txt_align}} {{cl_arr[1]}}">
+      <div class="flex paddingtext column pl__20 pr__20 pb__20 pt__20 shadow_wrap {{section.settings.txt_align}} {{cl_arr[1]}}">
         <div class="subhead">
           {{section.settings.designstudio}}
         </div>
@@ -450,8 +450,6 @@
         line-height: 27px !important;
         text-align: left !important;
         color: #FFFFFF;
-        width: 788px !important;
-        height: 126px !important;
 }
 /* .paddingtext{
   padding-top:20px !important;
