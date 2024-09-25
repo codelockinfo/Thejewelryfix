@@ -3901,6 +3901,7 @@
         "settings": {
           "image": "shopify://shop_images/Rectangle_112.png",
           "new_background_image": "shopify://shop_images/Rectangle_113.png",
+          "video": "shopify://files/videos/-672f-4956-a02f-ad8ba3419449.mp4",
           "img_background": "center",
           "img_align": "center",
           "img_position": "1",
