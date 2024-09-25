@@ -24,7 +24,7 @@
           {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
        {%- if section.settings.video != blank -%}
   <div class="video-container">
-    <video class="videoembed" autoplay muted loop >
+    <video class="videoembed" autoplay muted loop style="width: 100%; height: auto;">
       <source src="https://s3-figma-videos-production-sig.figma.com/video/1279519040122898043/TEAM/78c9/cfe0/-672f-4956-a02f-ad8ba3419449?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jFBiyFnyO4I9KqHxbiDibyslcatDpPu0x8eOj0~dJkJNonSwz1lY8mGfsNBUJWJCVBpZ1gGH8MJEuVkxZ39iZGbT44Q-4ND1aoUSJcS3Wo8QSW~nldRsubczjNfkk~4cdEPUhc4R0hMRpkemZVyR9BkMZxzDOgpQqsMr85uFfLOLr7uqqIcvAq-09VS4kEP~5HrX8uB0LuBJxWuP7axyWUkEFByrCtGM1xsJDEkWEuKaNMFOZjkU38DRGhevABYp0oPpz1YJNtqXqjbd2S2zfmrS9OCodkVzKad1H6tTL9PO1ZP-q~2DmAVaKm~SArGg53rsWRl1sGO~ZuGOs8SXRA__" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -468,21 +468,17 @@
         color: #FFFFFF;
         width: 788px;
 }
-.video-container {
-  position: absolute; /* For placing the video based on 'top' and 'left' */
-  width: 672px; /* Width according to your provided value */
-  height: 502px; /* Height according to your provided value */
-  /* Hidden (you can adjust this to show or hide the video) */
-  overflow: hidden; /* Prevent overflow if the video size differs */
+  .video-container {
+  width: 500px; /* Define the square size */
+  height: 500px; /* Same height as width to make it square */
+  overflow: hidden; /* Hide any overflowing content */
 }
 
 .videoembed {
-  width: 100%; /* Ensures the video fits the width of the container */
-  height: 100%; /* Ensures the video fits the height of the container */
-  object-fit: cover; /* Ensures the video fills the container without distortion */
-  gap: 0px; /* This does not affect the video but is included as per your request */
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  object-fit: cover; /* Ensures the video covers the entire square without distortion */
 }
-
 /* .paddingtext{
   padding-top:20px !important;
   padding-bottom:20px important;
