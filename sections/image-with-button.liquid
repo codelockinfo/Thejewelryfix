@@ -22,26 +22,21 @@
           <div class="col-12 col-md-6">
           <div class="nt_img_txt oh pr middle center">
           {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
-          {%- if section.settings.video != blank -%}
-  <div class="nt_bg_lz lazyloadt4s item__position {{ section.settings.img_align }}">
-    <video 
-      controls
-      style="width: 100%; height: auto; padding-top: {{ 1 | divided_by: section.settings.video.aspect_ratio | times: 100 }}%;">
+           {%- if section.settings.video != blank -%}
+  <div class="video-container">
+    <video class="videoembed" autoplay muted loop style="width: 100%; height: auto;">
       <source src="{{ section.settings.video | file_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
 {%- else -%}
-  <div class="nt_bg_lz lazyloadt4s item__position {{ section.settings.img_align }}">
-    <video 
-      controls
-      style="width: 100%; height: auto; padding-top: 56.25%;">
+  <div class="video-container">
+    <video class="videoembed" autoplay muted loop style="width: 100%; height: auto;">
       <source src="https://placehold.jp/570x630.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
 {%- endif -%}
-
        {%- comment -%}</a>{%- endcomment -%}
        </div>
     </div> 
@@ -91,17 +86,16 @@
          "id": "image",
          "label": "Image"
        },
+        {
+      "type": "video",
+      "id": "video",
+      "label": "Upload Video",
+    },
          {
       "type": "image_picker",
       "id": "new_background_image",
       "label": "Background Image"
     },
-      {
-  "type": "video",
-  "id": "video",
-  "label": "Upload Video",
-},
-
      {
       "type": "select",
       "id": "img_background",
