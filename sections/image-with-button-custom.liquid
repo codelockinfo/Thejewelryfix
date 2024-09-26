@@ -3,6 +3,7 @@
    <div class="backgroundimg {{section.settings.img_background}}" 
          data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" >
          </div>
+  <div class="custom-row">
 <div class="custom-container">
    {%- if section.settings.video != blank -%}
   <div class="video-container">
@@ -19,8 +20,8 @@
     </video>
   </div>
 {%- endif -%}
+</div>
  
- </div>
 
    
 <div class="backgorund">
@@ -38,6 +39,7 @@
         </a>
       </div>
     </div>
+  </div>
   </div>
 
 {% schema %}
@@ -83,11 +85,19 @@
 {% endschema %}
 
 <style>
-  .backgorund{
+ .custom-row{
+   margin-right: 0;
+    margin-left: 0;
+       display: flex;
+}
+   .backgorund{
        margin-top: 50px !important;
                             margin-right: auto !important;
                             margin-bottom: 50px !important;
                             margin-left: auto !important;
+                    width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
   }
     .main-container{
      background: #1d1d1d !important;
