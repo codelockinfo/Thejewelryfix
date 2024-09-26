@@ -3923,6 +3923,16 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "image_with_button_custom_nF6cTQ": {
+        "type": "image-with-button-custom",
+        "settings": {
+          "new_background_image": "shopify://shop_images/Rectangle_113.png",
+          "designstudio": "Image with text",
+          "title": "Image with text",
+          "text": "Image with text",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
@@ -3935,7 +3945,8 @@
       "1596624928746",
       "1597058003104",
       "image_text_QDygXM",
-      "image_with_button_MP7Vgk"
+      "image_with_button_MP7Vgk",
+      "image_with_button_custom_nF6cTQ"
     ]
   }
 }
