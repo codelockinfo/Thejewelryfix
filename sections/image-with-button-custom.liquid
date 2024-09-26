@@ -1,11 +1,13 @@
-<div class="maincontainer">
-
-   <div class="background-img {{section.settings.img_background}}" 
+<div class="main-container">
+{%- capture image_layout -%}
+  <div class="background-img" 
          data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" >
          </div>
-  <div class="custom-row">
-<div class="custom--container">
-   {%- if section.settings.video != blank -%}
+        <div class="custom--container">
+          <div class="column-12">
+          <div class="center">
+          {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
+       {%- if section.settings.video != blank -%}
   <div class="video--container">
    <video class="video_embed" autoplay muted loop>
       <source src="https://s3-figma-videos-production-sig.figma.com/video/1279519040122898043/TEAM/78c9/cfe0/-672f-4956-a02f-ad8ba3419449?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jFBiyFnyO4I9KqHxbiDibyslcatDpPu0x8eOj0~dJkJNonSwz1lY8mGfsNBUJWJCVBpZ1gGH8MJEuVkxZ39iZGbT44Q-4ND1aoUSJcS3Wo8QSW~nldRsubczjNfkk~4cdEPUhc4R0hMRpkemZVyR9BkMZxzDOgpQqsMr85uFfLOLr7uqqIcvAq-09VS4kEP~5HrX8uB0LuBJxWuP7axyWUkEFByrCtGM1xsJDEkWEuKaNMFOZjkU38DRGhevABYp0oPpz1YJNtqXqjbd2S2zfmrS9OCodkVzKad1H6tTL9PO1ZP-q~2DmAVaKm~SArGg53rsWRl1sGO~ZuGOs8SXRA__" type="video/mp4">
@@ -20,27 +22,39 @@
     </video>
   </div>
 {%- endif -%}
-</div>
- 
 
-   
-<div class="back_gorund">
-      <div class="padding_text">
+       {%- comment -%}</a>{%- endcomment -%}
+       </div>
+    </div> 
+ </div>
+
+{%- endcapture -%}
+
+  
+<div class="backgorund">
+  <div class="custom-row">
+    {%- if section.settings.img_position == '1' -%}{{- image_layout -}}{%- endif -%}
+    <div class="text_box">
+      <div class="padding_text {{section.settings.txt_align}} {{cl_arr[1]}}">
         <div class="sub_head">
           {{section.settings.designstudio}}
         </div>
-        <div class="font_title">
+        <div class="title">
           {{section.settings.title}}
         </div>
+        
         <div class="custom--class">{{ section.settings.text }}</div>
+        
         <!-- Shop Now Button -->
         <a href="{{ section.settings.button_link }}" class="shop_btn">
           SHOP NOW
         </a>
       </div>
     </div>
+    {%- if section.settings.img_position == '2' -%}{{- image_layout -}}{%- endif -%}
   </div>
-  </div>
+</div>
+     </div> 
 
 {% schema %}
   {
@@ -101,7 +115,7 @@
                 padding-right: 15px;
                 padding-left: 15px;
   }
-    .maincontainer{
+    .main-container{
      background: #1d1d1d !important;
      overflow: hidden !important;
      position: relative !important;
@@ -121,6 +135,12 @@
   .custom--container{
     position:relative !important; 
     display: contents !important;
+  }
+  .column-12, .text_box{
+        padding-right: 15px;
+        padding-left: 15px;
+        position: relative;
+        width: 100%;
   }
   .font_title{
               font-family: Poppins !important;
@@ -282,5 +302,12 @@ text-align: left;
     opacity: 1; /* Make video visible */
     position: relative; /* Change position to stack */
   }
+}
+  @media (min-width: 768px) {
+    .column-12 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
 </style>
