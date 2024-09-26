@@ -1,20 +1,20 @@
-<div class="main-container">
+<div class="maincontainer">
 
    <div class="background-img {{section.settings.img_background}}" 
          data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" >
          </div>
   <div class="custom-row">
-<div class="custom-container">
+<div class="custom--container">
    {%- if section.settings.video != blank -%}
-  <div class="video-container">
-   <video class="videoembed" autoplay muted loop>
+  <div class="video--container">
+   <video class="video_embed" autoplay muted loop>
       <source src="https://s3-figma-videos-production-sig.figma.com/video/1279519040122898043/TEAM/78c9/cfe0/-672f-4956-a02f-ad8ba3419449?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jFBiyFnyO4I9KqHxbiDibyslcatDpPu0x8eOj0~dJkJNonSwz1lY8mGfsNBUJWJCVBpZ1gGH8MJEuVkxZ39iZGbT44Q-4ND1aoUSJcS3Wo8QSW~nldRsubczjNfkk~4cdEPUhc4R0hMRpkemZVyR9BkMZxzDOgpQqsMr85uFfLOLr7uqqIcvAq-09VS4kEP~5HrX8uB0LuBJxWuP7axyWUkEFByrCtGM1xsJDEkWEuKaNMFOZjkU38DRGhevABYp0oPpz1YJNtqXqjbd2S2zfmrS9OCodkVzKad1H6tTL9PO1ZP-q~2DmAVaKm~SArGg53rsWRl1sGO~ZuGOs8SXRA__" type="video/mp4">
       Your browser does not support the video tag.
    </video>
 </div>
 {%- else -%}
-  <div class="video-container">
-    <video class="videoembed" autoplay muted loop style="width: 100%; height: auto;">
+  <div class="video--container">
+    <video class="video_embed" autoplay muted loop style="width: 100%; height: auto;">
       <source src="https://placehold.jp/570x630.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -24,17 +24,17 @@
  
 
    
-<div class="backgorund">
-      <div class="paddingtext">
-        <div class="subhead">
+<div class="back_gorund">
+      <div class="padding_text">
+        <div class="sub_head">
           {{section.settings.designstudio}}
         </div>
-        <div class="font">
+        <div class="font_title">
           {{section.settings.title}}
         </div>
-        <div class="custom-class">{{ section.settings.text }}</div>
+        <div class="custom--class">{{ section.settings.text }}</div>
         <!-- Shop Now Button -->
-        <a href="{{ section.settings.button_link }}" class="shopbtn">
+        <a href="{{ section.settings.button_link }}" class="shop_btn">
           SHOP NOW
         </a>
       </div>
@@ -88,7 +88,7 @@
  .custom-row{
        display: flex;
 }
-   .backgorund{
+   .back_gorund{
        margin-top: 50px !important;
                             margin-right: auto !important;
                             margin-bottom: 50px !important;
@@ -97,7 +97,7 @@
                 padding-right: 15px;
                 padding-left: 15px;
   }
-    .main-container{
+    .maincontainer{
      background: #1d1d1d !important;
      overflow: hidden !important;
      position: relative !important;
@@ -109,11 +109,11 @@
     left: 0px !important;
     background-position: center center;
 }
-  .custom-container{
+  .custom--container{
     position:relative !important; 
     display: contents !important;
   }
-  .font{
+  .font_title{
               font-family: Poppins !important;
               font-size: 64px;
               font-weight: 600;
@@ -121,7 +121,7 @@
               text-align: left;
               color: #FFFFFF;
   }
-   .subhead{
+   .sub_head{
           font-family: Poppins !important; 
           font-size: 24px !important; 
           font-weight: 500 !important; 
@@ -146,7 +146,7 @@
     background: #CAA45D;
 }
  
-  .custom-class{
+  .custom--class{
         font-family: Poppins !important;
         font-size: 18px !important;
         font-weight: 400 !important;
@@ -155,13 +155,13 @@
         color: #FFFFFF;
         width: 788px;
 }
-  .video-container {
+  .video--container {
   width: 500px; /* Define the square size */
   height: 500px; /* Same height as width to make it square */
   overflow: hidden; /* Hide any overflowing content */
 }
 
-.videoembed {
+.video_embed {
      width: 672px;
     height: 502px;
     object-fit: cover
@@ -195,7 +195,7 @@
     text-align: center !important;
   }
 
-  .shopbtn {
+  .shop_btn {
     width: 100%;
     font-size: 14px;
     padding: 10px 12px;
