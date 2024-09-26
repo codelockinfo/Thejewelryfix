@@ -49,7 +49,7 @@
 <div class="backgorund nt_se_{{sid}} {{section.settings.layout}} txt_shadow_{{section.settings.use_shadow}}">
   <div class="row no-gutters equal_nt {{img_ratio}} al_center">
     {%- if section.settings.img_position == '1' -%}{{- image_layout -}}{%- endif -%}
-    <div class="col-12 col-md-6 txt_col_img">
+    <div class="col-12 textbox col-md-6 txt_col_img">
       <div class="paddingtext {{section.settings.txt_align}} {{cl_arr[1]}}">
         <div class="subhead">
           {{section.settings.designstudio}}
@@ -478,6 +478,9 @@
   width: 100%; /* Full width of the container */
   height: 100%; /* Full height of the container */
   object-fit: cover; /* Ensures the video covers the entire square without distortion */
+}
+  .textbox{
+        right: 30px !important;
 }
 /* .paddingtext{
   padding-top:20px !important;
