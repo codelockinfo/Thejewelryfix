@@ -1,3 +1,18 @@
+{%- liquid
+  assign sid = section.id
+  assign img_ratio = section.settings.image_ratio 
+  assign ck = false 
+ if img_ratio == 'auto' 
+  assign ck = true 
+ endif
+ assign image = section.settings.image
+ assign url = section.settings.button_link 
+ if section.settings.cl_txt == 'dark' 
+  assign cl_txt = 'cd,cg' 
+ else 
+  assign cl_txt = 'cw,cw,button-o-w' 
+ endif 
+ assign cl_arr = cl_txt | split:"," -%}
 <div class="main-container">
 {%- capture image_layout -%}
   <div class="nt_bg_lz background-img lazyloadt4s item__position {{section.settings.img_background}}" 
