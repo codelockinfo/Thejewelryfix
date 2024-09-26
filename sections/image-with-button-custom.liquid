@@ -19,20 +19,61 @@
     </video>
   </div>
 {%- endif -%}
+ 
+ </div>
 
-  
+   
+<div class="backgorund">
+  <div class="row no-gutters equal_nt {{img_ratio}} al_center">
+    {%- if section.settings.img_position == '1' -%}{{- image_layout -}}{%- endif -%}
+    <div class="col-12 textbox col-md-6 txt_col_img">
+      <div class="paddingtext {{section.settings.txt_align}} {{cl_arr[1]}}">
+        <div class="subhead">
+          {{section.settings.designstudio}}
+        </div>
+        <div class="mb__20 font mt__0 fs__30 {{cl_arr[0]}} lh__1">
+          {{section.settings.title}}
+        </div>
+        
+        <div class="custom-class">{{ section.settings.text }}</div>
+        
+        <!-- Shop Now Button -->
+        <a href="{{ section.settings.button_link }}" class="btn shopbtn btn-primary mt__20">
+          SHOP NOW
+        </a>
+      </div>
+    </div>
+    {%- if section.settings.img_position == '2' -%}{{- image_layout -}}{%- endif -%}
+  </div>
 </div>
-  
+     </div> 
 </div>
+
+
+
+
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+   "name": "Image with button",
+    "class": "nt_section type_image_text",
+    "settings": [
+      {
+      "type": "image_picker",
+      "id": "new_background_image",
+      "label": "Background Image"
+    },
+    ]
   }
 {% endschema %}
 
 <style>
+  .backgorund{
+       margin-top: 50px !important;
+                            margin-right: auto !important;
+                            margin-bottom: 50px !important;
+                            margin-left: auto !important;
+  }
     .main-container{
      background: #1d1d1d !important;
      overflow: hidden !important;
