@@ -8,14 +8,14 @@
           <div class="center">
           {%- comment -%}<a href="{{ url | default:'#' }}" class="db">{%- endcomment -%}
        {%- if section.settings.video != blank -%}
-  <div class="video--container">
+  <div class="custom-video-container">
    <video class="video_embed" autoplay muted loop>
       <source src="https://s3-figma-videos-production-sig.figma.com/video/1279519040122898043/TEAM/78c9/cfe0/-672f-4956-a02f-ad8ba3419449?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jFBiyFnyO4I9KqHxbiDibyslcatDpPu0x8eOj0~dJkJNonSwz1lY8mGfsNBUJWJCVBpZ1gGH8MJEuVkxZ39iZGbT44Q-4ND1aoUSJcS3Wo8QSW~nldRsubczjNfkk~4cdEPUhc4R0hMRpkemZVyR9BkMZxzDOgpQqsMr85uFfLOLr7uqqIcvAq-09VS4kEP~5HrX8uB0LuBJxWuP7axyWUkEFByrCtGM1xsJDEkWEuKaNMFOZjkU38DRGhevABYp0oPpz1YJNtqXqjbd2S2zfmrS9OCodkVzKad1H6tTL9PO1ZP-q~2DmAVaKm~SArGg53rsWRl1sGO~ZuGOs8SXRA__" type="video/mp4">
       Your browser does not support the video tag.
    </video>
 </div>
 {%- else -%}
-  <div class="video--container">
+  <div class="custom-video-container">
     <video class="video_embed" autoplay muted loop style="width: 100%; height: auto;">
       <source src="https://placehold.jp/570x630.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -184,7 +184,7 @@
         color: #FFFFFF;
         width: 788px;
 }
-  .video--container {
+  .custom-video-container {
   width: 500px; /* Define the square size */
   height: 500px; /* Same height as width to make it square */
   overflow: hidden; /* Hide any overflowing content */
@@ -236,7 +236,7 @@
     /* left: 0 !important; */
   }
 
-  .video--container {
+  .custom-video-container {
     width: 100% !important;
     height: auto !important;
   }
@@ -296,7 +296,7 @@ text-align: left;
     height: 250px; /* Adjust height for mobile */
   }
 
-  .video--container {
+  .custom-video-container {
     width: 100%; /* Adjust video container to full width on mobile */
     height: auto;
     opacity: 1; /* Make video visible */
