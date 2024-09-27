@@ -3929,6 +3929,9 @@
         "settings": {
           "new_background_image": "shopify://shop_images/Rectangle_113.png",
           "img_background": "right",
+          "video_file": "shopify://files/videos/-672f-4956-a02f-ad8ba3419449.mp4",
+          "video_width": "672",
+          "video_height": "502",
           "designstudio": "DESIGN VIDEO",
           "title": "Make Your Day Brighter .",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.",
