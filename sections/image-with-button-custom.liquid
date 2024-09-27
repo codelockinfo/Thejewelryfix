@@ -1,8 +1,13 @@
 <div class="main_container">
 
-  <div class="background-img" 
-         data-bg="{{ section.settings.new_background_image | img_url: 'master' }}" >
-         </div>
+ <div class="background-img" 
+     style="background-image: url('{{ section.settings.new_background_image | img_url: 'master' }}'); 
+            background-size: cover; 
+            background-position: center; 
+            height: 100vh; 
+            width: 100%;">
+</div>
+
         <div class="custom_container">
           <div class="column-12">
           <div class="custom_center">
