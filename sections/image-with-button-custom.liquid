@@ -1,5 +1,6 @@
 <div class="main_container">
   <div class="background-img"></div>
+  <div class="display_mp4txt">
      <div class="custom_container">
         <div class="column-12">
           <div class="custom_center">
@@ -42,6 +43,7 @@
       {%- if section.settings.img_position == '2' -%}{{- image_layout -}}{%- endif -%}
     </div>
   </div>
+</div>
 </div> 
 
 {% schema %}
@@ -253,7 +255,9 @@ margin-top: 44px;
 } */
   /* Mobile (max-width: 767px) */
 @media (max-width: 767px) {
-
+ .display_mp4txt{
+  
+ }
    .main_container{
        background: #1d1d1d !important;
        overflow: hidden !important;
