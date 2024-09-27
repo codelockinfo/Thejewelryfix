@@ -4,9 +4,10 @@
         <div class="column-12">
           <div class="custom_center">
            <div class="custom-video-container">
-            <video class="video_embed" autoplay muted loop style="width: 672px; height: 502px;">
-               <source src="https://s3-figma-videos-production-sig.figma.com/video/1279519040122898043/TEAM/78c9/cfe0/-672f-4956-a02f-ad8ba3419449?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jFBiyFnyO4I9KqHxbiDibyslcatDpPu0x8eOj0~dJkJNonSwz1lY8mGfsNBUJWJCVBpZ1gGH8MJEuVkxZ39iZGbT44Q-4ND1aoUSJcS3Wo8QSW~nldRsubczjNfkk~4cdEPUhc4R0hMRpkemZVyR9BkMZxzDOgpQqsMr85uFfLOLr7uqqIcvAq-09VS4kEP~5HrX8uB0LuBJxWuP7axyWUkEFByrCtGM1xsJDEkWEuKaNMFOZjkU38DRGhevABYp0oPpz1YJNtqXqjbd2S2zfmrS9OCodkVzKad1H6tTL9PO1ZP-q~2DmAVaKm~SArGg53rsWRl1sGO~ZuGOs8SXRA__" type="video/mp4">
-                 Your browser does not support the video tag.
+           <video class="video_embed" autoplay muted loop 
+                   style="width: {{ section.settings.video_width }}px; height: {{ section.settings.video_height }}px;">
+                <source src="{{ section.settings.video_url }}" type="video/mp4">
+                Your browser does not support the video tag.
             </video>
           </div>
          </div>
@@ -68,6 +69,23 @@
           "label": "Right"
         }
       ]
+    },
+      {
+      "type": "url",
+      "id": "video_url",
+      "label": "Video URL",
+    },
+    {
+      "type": "text",
+      "id": "video_width",
+      "label": "Video Width (px)",
+      "default": "672"
+    },
+    {
+      "type": "text",
+      "id": "video_height",
+      "label": "Video Height (px)",
+      "default": "502"
     },
       
        {
