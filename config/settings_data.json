@@ -3929,7 +3929,7 @@
         "settings": {
           "new_background_image": "shopify://shop_images/Rectangle_113.png",
           "img_background": "right",
-          "video_file": "shopify://files/videos/-672f-4956-a02f-ad8ba3419449.mp4",
+          "video_cdn_url": "https://s3-figma-videos-production-sig.figma.com/video/1279519040122898043/TEAM/78c9/cfe0/-672f-4956-a02f-ad8ba3419449?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jFBiyFnyO4I9KqHxbiDibyslcatDpPu0x8eOj0~dJkJNonSwz1lY8mGfsNBUJWJCVBpZ1gGH8MJEuVkxZ39iZGbT44Q-4ND1aoUSJcS3Wo8QSW~nldRsubczjNfkk~4cdEPUhc4R0hMRpkemZVyR9BkMZxzDOgpQqsMr85uFfLOLr7uqqIcvAq-09VS4kEP~5HrX8uB0LuBJxWuP7axyWUkEFByrCtGM1xsJDEkWEuKaNMFOZjkU38DRGhevABYp0oPpz1YJNtqXqjbd2S2zfmrS9OCodkVzKad1H6tTL9PO1ZP-q~2DmAVaKm~SArGg53rsWRl1sGO~ZuGOs8SXRA__",
           "video_width": "672",
           "video_height": "502",
           "designstudio": "DESIGN VIDEO",
