@@ -35,12 +35,16 @@
           {{section.settings.title}}
         </div>
         
-        <div class="custom_class">{{ section.settings.text }}</div>
-        
-        <!-- Shop Now Button -->
-        <a href="{{ section.settings.button_link }}" class="shop_btn">
-          SHOP NOW
-        </a>
+        <div class="custom_class">
+  <!-- Display Text -->
+  {{ section.settings.text }}
+  
+  <!-- Shop Now Button -->
+  <a href="{{ section.settings.button_link }}" class="shop_btn">
+    SHOP NOW
+  </a>
+</div>
+
       </div>
     </div>
     {%- if section.settings.img_position == '2' -%}{{- image_layout -}}{%- endif -%}
