@@ -1,11 +1,6 @@
 <div class="main_container">
 
- <div class="background-img" 
-     style="
-            background-size: cover; 
-            background-position: center; 
-            height: 100vh; 
-            width: 100%;">
+ <div class="background-img">
 </div>
 
         <div class="custom_container">
@@ -136,6 +131,7 @@
      background: #1d1d1d !important;
      overflow: hidden !important;
      position: relative !important;
+      display: flex;
   }
   .background-img{
     background-image: url('{{ section.settings.new_background_image | img_url: 'master' }}'); 
