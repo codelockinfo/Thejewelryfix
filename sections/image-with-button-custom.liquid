@@ -6,12 +6,10 @@
           <div class="custom_center">
            <div class="custom-video-container">
            {% if section.settings.video_cdn_url %}
-              <div class="video-container">
                <video class="video_embed" autoplay muted loop>
                 <source src="{{ section.settings.video_cdn_url }}" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
-              </div>
             {% else %}
               <p>Please add a valid CDN video URL in the section settings.</p>
            {% endif %}
@@ -128,13 +126,6 @@
 {% endschema %}
 
 <style>
-   .video-container {
-            display: flex;
-            justify-content: center;      /* Center video horizontally */
-            align-items: center;          /* Center video vertically */
-            height: 100vh;                /* Full height of the viewport */
-            width: 100vw;                 /* Full width of the viewport */
-        }
    .display_mp4txt{
       display: contents;
  }
@@ -287,9 +278,12 @@ margin-top: 44px;
     height: 225px;
     left: -16px;
 }
-   .video_embed {
-                max-width: 90%;           /* For small devices, make the video take up more space */
-            }
+ .video_embed {
+      width: 386px;
+      height: 288px;
+      margin-left: 11px;
+      margin-top: 75px;
+  }
      .back_gorund{
     padding-top: 0px;
     margin-bottom: 0px;
