@@ -4,12 +4,14 @@
         <div class="column-12">
           <div class="custom_center">
            <div class="custom-video-container">
-            {% if section.settings.video_file %}
-              <video class="video_embed" autoplay muted loop style="width: {{ section.settings.video_width }}px; height: {{ section.settings.video_height }}px;">
-                <source src="{{ section.settings.video_file }}" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            {% endif %}
+           {% if section.settings.video_cdn_url %}
+                <video class="video_embed" autoplay muted loop style="width: {{ section.settings.video_width }}px; height: {{ section.settings.video_height }}px;">
+                  <source src="{{ section.settings.video_cdn_url }}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              {% else %}
+                <p>Please add a valid CDN video URL in the section settings.</p>
+           {% endif %}
           </div>
          </div>
        </div> 
