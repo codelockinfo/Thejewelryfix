@@ -431,6 +431,7 @@
         "blocks": {
           "1595994733101": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "social": "2",
               "border_bl": true,
@@ -441,6 +442,7 @@
           },
           "1596007070336": {
             "type": "text2",
+            "disabled": true,
             "settings": {
               "text": "<p>Summer sale discount off <a href=\"#cr\" title=\"#cr\"><strong>50%</strong></a>! <a href=\"/collections/clothing\" title=\"Clothing\">Shop Now</a>;;;</p><p>The Best Shopify Themes.;;;</p><p>MADE WITH LOVE;;;</p><p>Customer support is second to none;;;</p><p>Fantastic theme! Beautifully designed!</p>",
               "effect": "1",
@@ -451,6 +453,7 @@
           },
           "header_top-2": {
             "type": "cur",
+            "disabled": true,
             "settings": {
               "hide": true,
               "col": "4"
