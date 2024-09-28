@@ -496,10 +496,108 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "simple_qbXkQx": {
+            "type": "simple",
+            "settings": {
+              "title": "MEN'S",
+              "url": "/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_hnb73z": {
+            "type": "simple",
+            "settings": {
+              "title": "WOMEN'S",
+              "url": "/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_7eiMGU": {
+            "type": "simple",
+            "settings": {
+              "title": "GOLD CHAINS",
+              "url": "/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_q9VreK": {
+            "type": "simple",
+            "settings": {
+              "title": "ENGAGEMENT",
+              "url": "/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_LiRrCa": {
+            "type": "simple",
+            "settings": {
+              "title": "WATCHES",
+              "url": "/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_Jkiekn": {
+            "type": "simple",
+            "settings": {
+              "title": "CUSTOM",
+              "url": "/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_rVU4qB": {
+            "type": "simple",
+            "settings": {
+              "title": "MADE TO ORDER",
+              "url": "/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
-          "simple_8xhpxM"
+          "simple_8xhpxM",
+          "simple_qbXkQx",
+          "simple_hnb73z",
+          "simple_7eiMGU",
+          "simple_q9VreK",
+          "simple_LiRrCa",
+          "simple_Jkiekn",
+          "simple_rVU4qB"
         ],
         "settings": {
           "height": 75,
