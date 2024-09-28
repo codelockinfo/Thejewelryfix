@@ -716,7 +716,7 @@
         ],
         "settings": {
           "layout": "12",
-          "bg": "#222222",
+          "bg": "#3e4550",
           "cl": "#ffffff",
           "cl_a": "#ffffff",
           "cl_hover": "#b59677"
