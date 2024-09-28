@@ -626,7 +626,7 @@
           "1581507824602": {
             "type": "menu",
             "settings": {
-              "title": "CATEGORIES",
+              "title": "COMPANY",
               "menu": "",
               "order": "1",
               "cl": "2",
@@ -637,7 +637,7 @@
           "1581507828337": {
             "type": "menu",
             "settings": {
-              "title": "INFORMATION",
+              "title": "HELP",
               "menu": "",
               "order": "1",
               "cl": "2",
