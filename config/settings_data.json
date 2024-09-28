@@ -709,20 +709,13 @@
             "settings": {
               "text": "Copyright © [year] <span class=\"cp\">Gecko</span> All Rights Reserved. Powered by <a href=\"https://the4.co\">The4</a>"
             }
-          },
-          "1581507855652": {
-            "type": "menu",
-            "settings": {
-              "menu": "footer"
-            }
           }
         },
         "block_order": [
-          "1581507860120",
-          "1581507855652"
+          "1581507860120"
         ],
         "settings": {
-          "layout": "6",
+          "layout": "12",
           "bg": "#222222",
           "cl": "#ffffff",
           "cl_a": "#ffffff",
