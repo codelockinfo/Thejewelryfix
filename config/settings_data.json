@@ -650,8 +650,8 @@
             "settings": {
               "newl_des": "1",
               "btn_icon": false,
-              "title": "NEWSLETTER SIGNUP",
-              "sub_title": "Subscribe to our newsletter and get 10% off your first purchase",
+              "title": "SUBSCRIBE TO NEWSLETTER",
+              "sub_title": "",
               "source": "1",
               "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
               "height": 30,
