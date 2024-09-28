@@ -627,7 +627,7 @@
             "type": "menu",
             "settings": {
               "title": "COMPANY",
-              "menu": "",
+              "menu": "company",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -638,7 +638,7 @@
             "type": "menu",
             "settings": {
               "title": "HELP",
-              "menu": "",
+              "menu": "help",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
