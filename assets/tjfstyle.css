@@ -337,5 +337,11 @@ font-weight: 600 !important;
   font-family: Poppins !important;
 font-size: 18px !important;
 font-weight: 700 !important;
+}
+.template-collection .widget-title .nt_filter_block li a{
+ color:#ffffff !important;
+  font-family: Poppins !important;
+font-size: 14px !important;
+font-weight: 500 !important;
 
 }
