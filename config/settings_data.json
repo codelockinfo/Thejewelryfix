@@ -2868,11 +2868,82 @@
         "type": "sidebar_shop",
         "settings": {
         }
+      },
+      "celebrity_slider_dbeGLh": {
+        "type": "celebrity-slider",
+        "blocks": {
+          "text_U3iatK": {
+            "type": "text",
+            "settings": {
+              "image": "shopify://shop_images/Rectangle_185.png",
+              "smallimg": "shopify://shop_images/Ellipse_33.png",
+              "nametext": "<p>Busta</p><p>Rhymes</p>",
+              "product": ""
+            }
+          },
+          "text_FFainy": {
+            "type": "text",
+            "settings": {
+              "image": "shopify://shop_images/Rectangle_186.png",
+              "smallimg": "shopify://shop_images/Ellipse_34.png",
+              "nametext": "<p>Mr. </p><p>Beast</p>",
+              "product": ""
+            }
+          },
+          "text_7FpJGh": {
+            "type": "text",
+            "settings": {
+              "image": "shopify://shop_images/Rectangle_187.png",
+              "smallimg": "shopify://shop_images/Ellipse_35.png",
+              "nametext": "<p>Kodak </p><p>Black</p>",
+              "product": ""
+            }
+          },
+          "text_xjYrTJ": {
+            "type": "text",
+            "settings": {
+              "image": "shopify://shop_images/Rectangle_188.png",
+              "smallimg": "shopify://shop_images/Ellipse_36.png",
+              "nametext": "<p>Cardi </p><p>B</p>",
+              "product": ""
+            }
+          },
+          "text_KiQteL": {
+            "type": "text",
+            "settings": {
+              "image": "shopify://shop_images/b4dc23f186c64a94b5260f648e20df63.png",
+              "smallimg": "shopify://shop_images/c98ae27933a00e4f5763c9312afde69e.png",
+              "nametext": "<p>Young </p><p>Ma</p>",
+              "product": ""
+            }
+          },
+          "text_rtC4DX": {
+            "type": "text",
+            "settings": {
+              "image": "shopify://shop_images/Rectangle_187.png",
+              "smallimg": "shopify://shop_images/Ellipse_35.png",
+              "nametext": "<p>Kodak </p><p>Black</p>",
+              "product": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_U3iatK",
+          "text_FFainy",
+          "text_7FpJGh",
+          "text_xjYrTJ",
+          "text_KiQteL",
+          "text_rtC4DX"
+        ],
+        "settings": {
+          "sectionhead": "Celebrity Jewelry"
+        }
       }
     },
     "content_for_index": [
       "custom_banner_section_RfRQeV",
-      "custom_category_section_X7n9FW"
+      "custom_category_section_X7n9FW",
+      "celebrity_slider_dbeGLh"
     ]
   }
 }
