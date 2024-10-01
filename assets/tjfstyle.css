@@ -324,4 +324,7 @@ margin: 0 8px !important;
 }
 .product-inner .product-title{
   color:#ffffff !important;
+  font-family: Poppins;
+font-size: 16px !important;
+font-weight: 600 !important;
 }
