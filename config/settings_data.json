@@ -9,7 +9,7 @@
 */
 {
   "current": {
-    "general_layout": "full_width",
+    "general_layout": "wide",
     "cus_w_bd": 1170,
     "body_bg": "#fff",
     "body_bg_image": "",
