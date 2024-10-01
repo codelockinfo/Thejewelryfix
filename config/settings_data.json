@@ -2812,6 +2812,45 @@
       },
       "custom_category_section_X7n9FW": {
         "type": "custom-category-section",
+        "blocks": {
+          "category_block_jHtTdW": {
+            "type": "category_block",
+            "settings": {
+              "category_name": ""
+            }
+          },
+          "category_block_QCtRPP": {
+            "type": "category_block",
+            "settings": {
+              "category_name": ""
+            }
+          },
+          "category_block_pnaND3": {
+            "type": "category_block",
+            "settings": {
+              "category_name": ""
+            }
+          },
+          "category_block_kCf336": {
+            "type": "category_block",
+            "settings": {
+              "category_name": ""
+            }
+          },
+          "category_block_i4f4wm": {
+            "type": "category_block",
+            "settings": {
+              "category_name": ""
+            }
+          }
+        },
+        "block_order": [
+          "category_block_jHtTdW",
+          "category_block_QCtRPP",
+          "category_block_pnaND3",
+          "category_block_kCf336",
+          "category_block_i4f4wm"
+        ],
         "settings": {
           "title": "",
           "view_all_url": "",
