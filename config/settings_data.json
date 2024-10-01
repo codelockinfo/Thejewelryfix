@@ -2809,10 +2809,19 @@
         "type": "custom-announcment",
         "settings": {
         }
+      },
+      "custom_category_section_X7n9FW": {
+        "type": "custom-category-section",
+        "settings": {
+          "title": "",
+          "view_all_url": "",
+          "view_all_text": ""
+        }
       }
     },
     "content_for_index": [
-      "custom_banner_section_RfRQeV"
+      "custom_banner_section_RfRQeV",
+      "custom_category_section_X7n9FW"
     ]
   }
 }
