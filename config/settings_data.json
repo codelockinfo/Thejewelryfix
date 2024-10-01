@@ -2833,8 +2833,8 @@
             "type": "category_block",
             "settings": {
               "image": "shopify://shop_images/5cdf224c366ed376bbfea99148f0bde1.png",
-              "category_name": "",
-              "category_url": ""
+              "category_name": "WATCHES",
+              "category_url": "shopify://collections"
             }
           },
           "category_block_kCf336": {
