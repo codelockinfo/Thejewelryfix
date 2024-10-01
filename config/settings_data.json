@@ -2894,9 +2894,9 @@
           "category_block_i4f4wm"
         ],
         "settings": {
-          "title": "",
-          "view_all_url": "",
-          "view_all_text": ""
+          "title": "Shop  by Category",
+          "view_all_url": "shopify://collections",
+          "view_all_text": "VIEW ALL"
         }
       }
     },
