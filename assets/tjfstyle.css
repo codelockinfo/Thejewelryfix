@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 body ,#nt_wrapper{
-    background-color: #000 !important;
+    background-color: #171717 !important;
 }
 
 /* HEADER SECTION  */
@@ -311,4 +311,14 @@ border-radius: 0  !important;
 transform: rotate(45deg)  !important;
 border: 1px solid #71717A !important;
 margin: 0 8px !important;
+}
+
+
+
+
+
+/* COLLECTION CSS */
+.product-inner {
+    padding: 10px !important;
+  background-color: #1d1d1d !important;
 }
