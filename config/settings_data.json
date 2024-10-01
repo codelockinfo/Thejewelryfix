@@ -29,7 +29,7 @@
     "catalog_mode": false,
     "enable_toolbar": true,
     "enable_new_pp": false,
-    "enable_pro_pr_pp": false,
+    "enable_pro_pr_pp": true,
     "enable_ck_pp": false,
     "enable_age_pp": false,
     "enable_salse_pp": false,
@@ -2388,138 +2388,6 @@
         "settings": {
         }
       },
-      "1596624928746": {
-        "type": "instagram_feed",
-        "blocks": {
-          "1596624928746-0": {
-            "type": "1",
-            "settings": {
-              "title": "@ FOLLOW US ON INSTAGRAM",
-              "sub_title": "",
-              "sub_font": "2",
-              "style_title": "title_1",
-              "ic_tt": "gem",
-              "show_clpr": false
-            }
-          },
-          "1596624928746-1": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596624928746-3": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625080751": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625123291": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625119199": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596624928746-5": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596624928746-2": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596624928746-6": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596624928746-4": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625109835": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625121506": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          },
-          "1596625107692": {
-            "type": "img",
-            "settings": {
-              "url": ""
-            }
-          }
-        },
-        "block_order": [
-          "1596624928746-0",
-          "1596624928746-1",
-          "1596624928746-3",
-          "1596625080751",
-          "1596625123291",
-          "1596625119199",
-          "1596624928746-5",
-          "1596624928746-2",
-          "1596624928746-6",
-          "1596624928746-4",
-          "1596625109835",
-          "1596625121506",
-          "1596625107692"
-        ],
-        "settings": {
-          "open_link": "_self",
-          "layout_des": "2",
-          "space": "0",
-          "rounded_ins": "0",
-          "col_pr": "2",
-          "col_pr_tb": "3",
-          "col_pr_mb": "6",
-          "loop": false,
-          "au_time": 0,
-          "au_hover": true,
-          "button": true,
-          "btn_vi": "2",
-          "btn_owl": "1",
-          "btn_color": "3",
-          "dot": false,
-          "dot_owl": "1",
-          "dot_color": "1",
-          "use_eq_height": true,
-          "image_ratio": "ratio1_1",
-          "image_size": "nt_cover",
-          "image_position": "8",
-          "layout": "nt_full",
-          "cl_bg": "#ffffff",
-          "mg": "120px,,,",
-          "pd": "",
-          "mg_mb": "60px,,,",
-          "pd_mb": ""
-        }
-      },
       "header_4": {
         "type": "header_4",
         "blocks": {
@@ -2944,8 +2812,7 @@
       }
     },
     "content_for_index": [
-      "custom_banner_section_RfRQeV",
-      "1596624928746"
+      "custom_banner_section_RfRQeV"
     ]
   }
 }
