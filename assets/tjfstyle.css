@@ -1,11 +1,157 @@
-.width-container{
+.width-container {
     max-width: 1600px;
     padding: 0 15px;
     margin: 0 auto;
 }
+body ,#nt_wrapper{
+    background-color: #000 !important;
+}
 
+/* HEADER SECTION  */
+.nt_menu>li>a{
+    font-family: Poppins !important;
+    border-bottom: 3px solid transparent;
+    font-weight: 600 !important;
+}
+.ntheader {
+    margin: 0 50px;
+}
+.nt_menu > li > a:hover{
+  color:#CAA45D !important;
+  border-bottom: 3px solid #CAA45D;
+}
+.header__mid .container{
+    max-width: 100% !important;
+}
+element {
+    padding-bottom: 0 !important;
+}
+
+/* FOOTER CSS  */
+.footer__top .widget-title{
+    font-family: Poppins !important;
+font-size: 16px !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+
+}
+.footer__top #block_1581507819652{
+color:#A1A1AA !important
+
+}
+.footer__top .menu_footer .menu-item a {
+    font-family: Poppins !important;
+font-size: 14px !important;
+font-weight: 400 !important;
+}
+.footer__top .nt-social {
+    margin-top: 20px !important;
+}
+.footer__top a:hover{
+    color: #CAA45D !important;
+}
+.footer__top .newl_des_2 .js_mail_agree  .mc4wp-form-fields .row{
+    flex-direction: column !important;
+}
+.footer__top .newl_des_2 .js_mail_agree  .mc4wp-form-fields .w__100{
+   width: auto !important;
+   margin-top: 10px !important;
+   background-color: #CAA45D !important;
+   color: #000 !important;
+   padding: 15px 30px !important; 
+}
+.footer__top .newl_des_2  .signup-newsletter-form input.input-text{
+   color: #71717A !important;
+   background-color: #FFFFFF !important;
+   padding: 25px 10px !important;
+}
+.footer__top .nt-social i{
+    width: 30px;
+    height: 30px;
+    background-color: #171717;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+.footer__top .nt-social i:hover{
+   background-color: #F0D882 !important;
+}
+.footer__top .nt-social a{
+   margin:0 5px !important ;
+}
+.footer__top .newl_des_2  .signup-newsletter-form {
+   border: 0 !important;
+}
+.footer__bot_wrap  .f_bot_bt_copy{
+    border-top: 1px solid #3E4550 !important;
+    padding-top: 20px !important;
+}
 /* BANNER SECTION CSS */
 
-.custom-banner-section{
+.custom-banner-section {
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    position: relative;
+    z-index: 1;
+}
+.custom-banner-section::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 65%;
+    z-index: -1;
+}
+
+.custom-banner-img {
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    right: -10%;
+    top: 0;
+    z-index: -1;
+}
+
+.banner-img {
+    object-fit: cover;
+    object-position: left;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-banner-section .banner-heading {
+    font-family: Dancing Script;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80.92px;
+    color: #F0D882;
+}
+
+.custom-banner-section .banner-main-heading {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80.92px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.banner-button {
+    background-color: #CAA45D;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 10px 30px;
+}
+
+.custom-content{
     padding: 100px 0;
 }

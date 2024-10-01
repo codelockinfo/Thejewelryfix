@@ -1,0 +1,123 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+<div class="custom-tickerwrapper">
+  <ul class="custom-list">
+    {% for block in section.blocks %}
+      <li class="custom-listitem">
+        <span>{{ block.settings.ticker_text }}</span>
+      </li>
+    {% endfor %}
+    {% for block in section.blocks %}
+      <li class="custom-listitem">
+        <span>{{ block.settings.ticker_text }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+
+{% schema %}
+    {
+      "name": "Text Scroll left",
+      "settings": [],
+      "blocks": [
+        {
+          "type": "ticker_item",
+          "name": "Ticker Item",
+          "settings": [
+            {
+              "type": "text",
+              "id": "ticker_text",
+              "label": "Ticker Text",
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Text Scroll left",
+          "category": "Custom"
+        }
+      ]
+    }
+    {% endschema %}
+
+<style>
+.custom-tickerwrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  background: #000000;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 15px;
+}
+
+ul.custom-list {
+  display: flex; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.custom-list.custom-cloned {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px;
+}
+
+ul.custom-list li {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  padding: 0 20px;
+  white-space: nowrap;
+  border-left: 1px solid #A1A1AA;
+  /* border-right: 1px solid #A1A1AA; */
+}
+
+ul.custom-list li span {
+  display: inline-block; 
+  font-size: 18px;
+  color: #A1A1AA;
+}
+</style>
+
+<script>
+$(document).ready(function() {
+  var $tickerWrapper = $(".custom-tickerwrapper");
+  var $list = $tickerWrapper.find("ul.custom-list");
+  var $clonedList = $list.clone();
+  var listWidth = 10;
+  var scrollSpeed = {{ settings.scroll_speed | default: 40 }};
+
+  $list.find("li").each(function(i) {
+    listWidth += $(this, i).outerWidth(true);
+  });
+
+  var endPos = $tickerWrapper.width() - listWidth;
+
+  $list.add($clonedList).css({
+    "width": listWidth + "px"
+  });
+
+  $clonedList.addClass("custom-cloned").appendTo($tickerWrapper);
+
+  // Create the GSAP timeline for infinite scrolling
+  var infinite = new TimelineMax({repeat: -1, paused: false});
+  var time = scrollSpeed;
+  infinite
+    .fromTo($list, time, {rotation: 0.01, x: -listWidth}, {force3D: true, x: 0, ease: Linear.easeNone}, 0)
+    .fromTo($clonedList, time, {rotation: 0.01, x: 0}, {force3D: true, x: listWidth, ease: Linear.easeNone}, 0)
+    .set($list, {force3D: true, rotation: 0.01, x: 0})
+    .to($clonedList, time, {force3D: true, rotation: 0.01, x: listWidth, ease: Linear.easeNone}, time)
+    .to($list, time, {force3D: true, rotation: 0.01, x: -listWidth, ease: Linear.easeNone}, time)
+    .progress(1).progress(0)
+    .play();
+});
+
+
+</script>
