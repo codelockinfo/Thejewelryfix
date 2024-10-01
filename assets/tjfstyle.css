@@ -363,3 +363,9 @@ color:#F0D882 !important;
 .template-collection .nt_filter_block  .active>a{
 color:#F0D882 !important;
 }
+.template-collection .blockid_price .price_slider_amount .price_label > span{
+color:#CAA45D !important;
+}
+.template-collection .blockid_price .price_slider_amount .price_label{
+color:#ffffff !important;
+}
