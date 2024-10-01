@@ -345,3 +345,9 @@ font-size: 14px !important;
 font-weight: 500 !important;
 
 }
+.template-collection ul.nt_filter_styleck > li > a{
+  justify-content:space-between ;
+}
+.template-collection  ul.nt_filter_styleck > li > a::before
+  order:2;
+}
