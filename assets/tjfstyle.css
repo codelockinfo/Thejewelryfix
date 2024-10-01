@@ -360,6 +360,6 @@ color:#ffffff !important;
 .template-collection ul.nt_filter_styleck > li:hover a{
 color:#F0D882 !important;
 }
-.template-collection .nt_filter_block  .active{
+.template-collection .nt_filter_block  .active>a{
 color:#F0D882 !important;
 }
