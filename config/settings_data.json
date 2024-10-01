@@ -184,7 +184,7 @@
     "shop_layout": "default",
     "shop_des": "default",
     "cat_des": "1",
-    "shop_sidebar": "none",
+    "shop_sidebar": "left",
     "shop_size_sidebar": "2",
     "use_hidden_cat": false,
     "space_sidebar": 30,
@@ -196,7 +196,7 @@
     "cat_sticky": false,
     "shop_filters": true,
     "pop_style": "pop_default",
-    "type_filters": "1",
+    "type_filters": "2",
     "logic_filter": "2",
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
@@ -1288,6 +1288,7 @@
           "color": "#000000",
           "overlay": 54,
           "padding": 50,
+          "paddingmb": 50,
           "bg_pos": "center center",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
@@ -2294,13 +2295,6 @@
       "sidebar_shop2": {
         "type": "sidebar_shop2",
         "blocks": {
-          "sidebar_shop2-0": {
-            "type": "title",
-            "settings": {
-              "hidden_block": false,
-              "title": "By Title"
-            }
-          },
           "sidebar_shop2-1": {
             "type": "price",
             "settings": {
@@ -2308,82 +2302,53 @@
               "title": "By Price"
             }
           },
-          "sidebar_shop2-2": {
-            "type": "variants",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Size",
-              "key": "Size",
-              "style": "ck"
-            }
-          },
-          "sidebar_shop2-3": {
-            "type": "color",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Color",
-              "key": "Color"
-            }
-          },
-          "sidebar_shop2-4": {
-            "type": "vendor",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Vendor",
-              "style": "ck"
-            }
-          },
-          "sidebar_shop2-5": {
-            "type": "available",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "Product status"
-            }
-          },
-          "1596191009077": {
-            "type": "variants",
+          "tag2_cprjTc": {
+            "type": "tag2",
             "settings": {
               "hidden_block": false,
               "count": false,
-              "title": "By Shoes Size",
-              "key": "Shoes Size",
+              "title": "Gender",
+              "arra_enter": "Men,Women",
               "style": "ck"
             }
           },
-          "1596419303044": {
-            "type": "tags",
+          "tag2_emAmLG": {
+            "type": "tag2",
             "settings": {
               "hidden_block": false,
-              "count": true,
-              "title": "By Tags",
+              "count": false,
+              "title": "Thickness",
+              "arra_enter": "All,1 mm,2 mm,3 mm,4 mm,5 mm,6 mm+",
               "style": "ck"
             }
           },
-          "1596419377121": {
-            "type": "tag",
+          "tag2_tGVTRe": {
+            "type": "tag2",
             "settings": {
               "hidden_block": false,
-              "count": true,
-              "title": "By Tag Color",
-              "key": "color",
+              "count": false,
+              "title": "Color",
+              "arra_enter": "All,Gold,Rose,White",
+              "style": "ck"
+            }
+          },
+          "tag2_htXYbN": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": false,
+              "title": "Style",
+              "arra_enter": "Solitaire,Halo,Pave,Eternity,Half Eternity,Three Stone,Championship,Religious,Hip Hop",
               "style": "ck"
             }
           }
         },
         "block_order": [
-          "sidebar_shop2-0",
           "sidebar_shop2-1",
-          "sidebar_shop2-2",
-          "sidebar_shop2-3",
-          "sidebar_shop2-4",
-          "sidebar_shop2-5",
-          "1596191009077",
-          "1596419303044",
-          "1596419377121"
+          "tag2_cprjTc",
+          "tag2_emAmLG",
+          "tag2_tGVTRe",
+          "tag2_htXYbN"
         ],
         "settings": {
         }
@@ -2897,6 +2862,11 @@
           "title": "Shop  by Category",
           "view_all_url": "shopify://collections",
           "view_all_text": "VIEW ALL"
+        }
+      },
+      "sidebar_shop": {
+        "type": "sidebar_shop",
+        "settings": {
         }
       }
     },
