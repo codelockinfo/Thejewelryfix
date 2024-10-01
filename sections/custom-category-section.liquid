@@ -1,0 +1,117 @@
+<section class="category-main-section">
+  <div class="width-container">
+    <div class="commonheading">
+      <div class="section-head">{{ section.settings.title }}</div>
+      <a href="{{ section.settings.view_all_url }}" class="heading-button">{{ section.settings.view_all_text }}</a>
+    </div>
+  </div>
+  
+  <div class="category-slider-box">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            <div class="category-main-box">
+              <div class="category-img-box">
+                <img src="{{ block.settings.image | image_url }}" alt="category-img" class="category-img" loading="eager" />
+              </div>
+              <div class="category-name-box">
+                <div class="category-name">{{ block.settings.category_name }}</div>
+                <div class="category-icon">
+                  <i class="fa-solid fa-arrow-up-long"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+    {
+      "name": "Shop by Category",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Section Title",
+        },
+        {
+          "type": "url",
+          "id": "view_all_url",
+          "label": "View All URL",
+         
+        },
+        {
+          "type": "text",
+          "id": "view_all_text",
+          "label": "View All Button Text",
+        }
+      ],
+      "blocks": [
+        {
+          "type": "category_block",
+          "name": "Category",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Category Image"
+            },
+            {
+              "type": "text",
+              "id": "category_name",
+              "label": "Category Name"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Shop by Category"
+        }
+      ]
+    }
+    {% endschema %}
+
+<script>
+var swiper = new Swiper(".mySwiper", {
+slidesPerView: 4.5,
+spaceBetween: 30,
+freeMode: true,
+pagination: {
+  el: ".swiper-pagination",
+  clickable: true,
+},
+breakpoints: {
+  0: {
+    slidesPerView: 2,
+    spaceBetween: 20,
+  },
+  375: {
+    slidesPerView: 2,
+    spaceBetween: 20,
+  },
+  649: {
+    slidesPerView: 2,
+    spaceBetween: 20,
+  },
+  1000: {
+    slidesPerView: 3.5,
+    spaceBetween: 20,
+  },
+  1200: {
+    slidesPerView: 4.2,
+    spaceBetween: 30,
+  },
+  1300: {
+    slidesPerView: 4.5,
+    spaceBetween: 30,
+  },
+},
+});
+</script>
