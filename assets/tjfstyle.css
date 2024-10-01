@@ -372,3 +372,9 @@ color:#ffffff !important;
 .template-collection .noUi-connect{
 background-color:#CAA45D !important;
 }
+.template-collection .noUi-handle::after{
+background-color:#CAA45D !important;
+}
+.template-collection .noUi-handle::before{
+background-color:#CAA45D !important;
+}
