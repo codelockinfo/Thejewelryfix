@@ -357,3 +357,6 @@ border-radius:2px;
 .template-collection .clear_filter{
 color:#ffffff !important;
 }
+.template-collection ul.nt_filter_styleck > li:hover a{
+color#F0D882 !important;
+}
