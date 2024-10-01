@@ -350,4 +350,7 @@ font-weight: 500 !important;
 }
 .template-collection  ul.nt_filter_styleck > li > a::before{
   order:2;
+  border: 2px solid #71717a;
+  background-color: transparent;
+border-radius:2px;
 }
