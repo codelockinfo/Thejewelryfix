@@ -16,7 +16,7 @@
                 <img src="{{ block.settings.image | image_url }}" alt="category-img" class="category-img" loading="eager" />
               </div>
               <div class="category-name-box">
-                <div class="category-name">{{ block.settings.category_name }}</div>
+                <a href="{{block.settings.category_url}}" class="category-name">{{ block.settings.category_name }}</a>
                 <div class="category-icon">
                   <i class="fa-solid fa-arrow-up-long"></i>
                 </div>
@@ -38,18 +38,18 @@
         {
           "type": "text",
           "id": "title",
-          "label": "Section Title",
+          "label": "Section Title"
         },
         {
           "type": "url",
           "id": "view_all_url",
-          "label": "View All URL",
+          "label": "View All URL"
          
         },
         {
           "type": "text",
           "id": "view_all_text",
-          "label": "View All Button Text",
+          "label": "View All Button Text"
         }
       ],
       "blocks": [
@@ -66,6 +66,11 @@
               "type": "text",
               "id": "category_name",
               "label": "Category Name"
+            },
+            {
+              "type": "url",
+              "id": "category_url",
+              "label": "Category url"
             }
           ]
         }
