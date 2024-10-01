@@ -358,5 +358,8 @@ border-radius:2px;
 color:#ffffff !important;
 }
 .template-collection ul.nt_filter_styleck > li:hover a{
-color#F0D882 !important;
+color:#F0D882 !important;
+}
+.template-collection ul.nt_filter_styleck > li.active{
+color:#F0D882 !important;
 }
