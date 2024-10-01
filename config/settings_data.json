@@ -2952,7 +2952,7 @@
           "button_label": "Shop Now",
           "button_link": "shopify://collections",
           "open_link": "_blank",
-          "txt_align": "tc",
+          "txt_align": "tl",
           "use_shadow": false,
           "cl_txt": "light",
           "layout": "container",
@@ -2967,8 +2967,8 @@
     "content_for_index": [
       "custom_banner_section_RfRQeV",
       "custom_category_section_X7n9FW",
-      "celebrity_slider_dbeGLh",
-      "image_text_Wi8EVj"
+      "image_text_Wi8EVj",
+      "celebrity_slider_dbeGLh"
     ]
   }
 }
