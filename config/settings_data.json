@@ -29,7 +29,7 @@
     "catalog_mode": false,
     "enable_toolbar": true,
     "enable_new_pp": false,
-    "enable_pro_pr_pp": true,
+    "enable_pro_pr_pp": false,
     "enable_ck_pp": false,
     "enable_age_pp": false,
     "enable_salse_pp": false,
@@ -648,7 +648,7 @@
           "1581507835369": {
             "type": "mail",
             "settings": {
-              "newl_des": "1",
+              "newl_des": "2",
               "btn_icon": false,
               "title": "SUBSCRIBE TO NEWSLETTER",
               "sub_title": "",
@@ -2933,6 +2933,12 @@
       },
       "custom_banner_section_RfRQeV": {
         "type": "custom-banner-section",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "custom-announcment": {
+        "type": "custom-announcment",
         "settings": {
         }
       }
