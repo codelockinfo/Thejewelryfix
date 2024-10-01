@@ -2807,6 +2807,38 @@
       },
       "custom-announcment": {
         "type": "custom-announcment",
+        "blocks": {
+          "ticker_item_QqkJ8N": {
+            "type": "ticker_item",
+            "settings": {
+              "ticker_text": "FREE SHIPPING $199 MINIMUM"
+            }
+          },
+          "ticker_item_LU6YRG": {
+            "type": "ticker_item",
+            "settings": {
+              "ticker_text": "FREE SHIPPING $199 MINIMUM"
+            }
+          },
+          "ticker_item_7qfKQb": {
+            "type": "ticker_item",
+            "settings": {
+              "ticker_text": "FREE SHIPPING $199 MINIMUM"
+            }
+          },
+          "ticker_item_LRXWkr": {
+            "type": "ticker_item",
+            "settings": {
+              "ticker_text": "FREE SHIPPING $199 MINIMUM"
+            }
+          }
+        },
+        "block_order": [
+          "ticker_item_QqkJ8N",
+          "ticker_item_LU6YRG",
+          "ticker_item_7qfKQb",
+          "ticker_item_LRXWkr"
+        ],
         "settings": {
         }
       },
