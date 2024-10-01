@@ -24,9 +24,9 @@
             {% if block.settings.category_name != blank %}
               <div class="category-name-box">
                 <a href="{{ block.settings.category_url }}" class="category-name">{{ block.settings.category_name }}</a>
-                <div class="category-icon">
+                <a href="{{ block.settings.category_url }}" class="category-icon">
                   <i class="fa-solid fa-arrow-up-long"></i>
-                </div>
+                </a>
               </div>
             {% endif %}
             </div>
