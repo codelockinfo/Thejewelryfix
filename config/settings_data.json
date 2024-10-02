@@ -2767,6 +2767,11 @@
       "custom_banner_section_RfRQeV": {
         "type": "custom-banner-section",
         "settings": {
+          "background_image": "shopify://shop_images/cf4c127756ca83274f282f3f0f033fe9_1.jpg",
+          "banner_heading": "",
+          "banner_main_heading": "",
+          "button_text": "",
+          "button_link": ""
         }
       },
       "custom-announcment": {
