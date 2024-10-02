@@ -2938,11 +2938,36 @@
         "settings": {
           "sectionhead": "Celebrity Jewelry"
         }
+      },
+      "image_text_Wi8EVj": {
+        "type": "image_text",
+        "settings": {
+          "image": "shopify://shop_images/image.png",
+          "img_align": "center",
+          "img_position": "2",
+          "image_ratio": "auto",
+          "text_size": "60,18",
+          "title": "LATEST MEN'S  HIP HOP JEWELRY",
+          "text": "",
+          "button_label": "Shop Now",
+          "button_link": "shopify://collections",
+          "open_link": "_blank",
+          "txt_align": "tl",
+          "use_shadow": false,
+          "cl_txt": "light",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
       "custom_banner_section_RfRQeV",
       "custom_category_section_X7n9FW",
+      "image_text_Wi8EVj",
       "celebrity_slider_dbeGLh"
     ]
   }
