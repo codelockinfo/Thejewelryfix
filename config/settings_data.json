@@ -2977,6 +2977,18 @@
           "promo_image": "shopify://shop_images/image_6144d0e9-8038-42f5-8fa9-7c7e8b9f1583.png",
           "promo_background": "shopify://shop_images/Rectangle_109.png"
         }
+      },
+      "advance_image_text_94NpUY": {
+        "type": "advance-image-text",
+        "settings": {
+          "left_bg_pattern": "shopify://shop_images/4db7940b4417c4a22014e462661194ef.jpg",
+          "center_image": "shopify://shop_images/Rectangle_112_efa1a14b-5232-4194-ac6c-9404e00a8cb6.png",
+          "small_title": "Design Video",
+          "main_title": "Make Your Day Brighter.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.",
+          "button_text": "Shop Now",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
@@ -2984,6 +2996,7 @@
       "custom_category_section_X7n9FW",
       "image_text_Wi8EVj",
       "custom_img_with_text_ya7Ygh",
+      "advance_image_text_94NpUY",
       "celebrity_slider_dbeGLh"
     ]
   }
