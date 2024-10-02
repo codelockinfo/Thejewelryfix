@@ -1,0 +1,67 @@
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+<div class="container">
+  <div class="promo-section">
+    <!-- Left side with text content -->
+    <div class="promo-content">
+      <div class="promo-title">
+        {{ section.settings.promo_title }}
+      </div>
+      <a href="{{ section.settings.promo_button_link }}" class="promo-button">
+        {{ section.settings.promo_button_text }}
+      </a>
+    </div>
+
+    <!-- Right side with image -->
+    <div class="promo-image">
+      <img src="{{ section.settings.promo_image | image_url }}" alt="Promo Image">
+    </div>
+  </div>
+</div>
+
+<style>
+.promo-section {
+    background-image: url("{{ section.settings.promo_background | image_url }}");
+  }
+
+
+ 
+ 
+</style>
+
+{% schema %}
+{
+  "name": "Promo Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "promo_title",
+      "label": "Promo Title",
+      "default": "Latest Men's Hip Hop Jewelry"
+    },
+    {
+      "type": "text",
+      "id": "promo_button_text",
+      "label": "Button Text",
+      "default": "Shop Now"
+    },
+    
+    {
+      "type": "image_picker",
+      "id": "promo_image",
+      "label": "Promo Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "promo_background",
+      "label": "Background Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Promo Section"
+    }
+  ]
+}
+{% endschema %}
