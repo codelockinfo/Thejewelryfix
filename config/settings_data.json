@@ -2768,10 +2768,11 @@
         "type": "custom-banner-section",
         "settings": {
           "background_image": "shopify://shop_images/cf4c127756ca83274f282f3f0f033fe9_1.jpg",
-          "banner_heading": "",
-          "banner_main_heading": "",
-          "button_text": "",
-          "button_link": ""
+          "banner_heading": "Special Offer",
+          "banner_main_heading": "Explore the Best  Hip Hop Jewelry Collection",
+          "button_text": "Shop Now",
+          "button_link": "",
+          "banner_image": "shopify://shop_images/ca95f86d0c50d11923441b80fb09a7d8_1.png"
         }
       },
       "custom-announcment": {
