@@ -2766,6 +2766,42 @@
       },
       "custom_banner_section_RfRQeV": {
         "type": "custom-banner-section",
+        "blocks": {
+          "image_text_block_ip9Umj": {
+            "type": "image_text_block",
+            "settings": {
+              "image": "shopify://shop_images/Vector_11.png",
+              "title": "Free Shipping over $79"
+            }
+          },
+          "image_text_block_cdHHhj": {
+            "type": "image_text_block",
+            "settings": {
+              "image": "shopify://shop_images/Group_1000004557.png",
+              "title": "30-Day Return"
+            }
+          },
+          "image_text_block_jmNN8a": {
+            "type": "image_text_block",
+            "settings": {
+              "image": "shopify://shop_images/Vector_12.png",
+              "title": "365-Day Warranty"
+            }
+          },
+          "image_text_block_8A8ebm": {
+            "type": "image_text_block",
+            "settings": {
+              "image": "shopify://shop_images/Group_1000004558.png",
+              "title": "24X7 Customer Service"
+            }
+          }
+        },
+        "block_order": [
+          "image_text_block_ip9Umj",
+          "image_text_block_cdHHhj",
+          "image_text_block_jmNN8a",
+          "image_text_block_8A8ebm"
+        ],
         "settings": {
           "background_image": "shopify://shop_images/cf4c127756ca83274f282f3f0f033fe9_1.jpg",
           "banner_heading": "Special Offer",
