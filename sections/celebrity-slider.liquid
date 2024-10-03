@@ -10,16 +10,13 @@
             <div class="slider_heading">{{section.settings.sectionhead}}</div>
         {% endif %}
         <div class="next-prev-icons">
-          <i class="fa-solid fa-chevron-left button-prev"></i>
-          <i class="fa-solid fa-chevron-right button-next"></i>
+          <i class="fa-solid fa-arrow-left-long button-prev"></i>
+          <i class="fa-solid fa-arrow-right-long button-next"></i>
         </div>
       </div>
       <div class="swiper-wrapper">
         {% for block in section.blocks %}
           <div class="swiper-slide">
-            {% if block.settings.nametext != blank %}
-                <div class="name_text">{{ block.settings.nametext }}</div>
-            {% endif %}
               
             {% if block.settings.image != blank %}
                 <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="collection_img">
@@ -32,16 +29,20 @@
                   class="j_img"
                   alt=""
                 >
+                {% if block.settings.nametext != blank %}
+                  <div class="name_text">{{ block.settings.nametext }}</div>
+              {% endif %}
               </div>
               </a>
+              
             {% endif %}
             
           </div>
         {% endfor %}
       </div>
       <div class="next-prev-btn">
-        <i class="fa-solid fa-chevron-left button-prev"></i>
-          <i class="fa-solid fa-chevron-right button-next"></i>
+        <i class="fa-solid fa-arrow-left-long button-prev"></i>
+          <i class="fa-solid fa-arrow-right-long button-next"></i>
       </div>
     </div>
   </div>
@@ -115,6 +116,7 @@
     letter-spacing: 0.05em;
     text-align: center;
     color: #fff;
+    margin-top: 20%;
   }
   .name_text p {
     margin-bottom: 10px;
@@ -138,7 +140,7 @@
     height: 120px;
     border: 4px solid #f6f5f3;
     border-radius: 50%;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: absolute;
     top: 85%;
     left: 6vw;
@@ -161,10 +163,10 @@
   .button-prev {
     width: 40px;
     height: 40px;
-    border: 1px solid black;
+    border: 1px solid #71717A;
     margin: 4px;
     text-align: center;
-    color: #000;
+    color: #fff;
     line-height: 40px;
     font-size: 18px;
 }
@@ -224,7 +226,7 @@
       display: none;
     }
     .image_section{
-      padding-bottom: 100px;
+      padding-bottom: 200px;
     }
   }
 
@@ -244,7 +246,7 @@
       display: none;
     }
     .next-prev-btn {
-      margin-top: 13%;
+      margin-top: 25%;
     }
     .name_text{
       text-align: center !important;

@@ -168,6 +168,70 @@ element {
 .custom-content{
     padding: 100px 0;
 }
+
+/* banner position section  */
+.custom-banner-section  .mainclass {
+    position: absolute;
+    width: 100%;
+    bottom: -6%;
+   z-index: 2;
+  }
+
+  .custom-banner-section  .custom-width-container {
+   
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+  }
+  .custom-banner-section  .maindiv{
+     display: flex;
+    justify-content: space-between;
+    background-color: #1D1D1D;
+  }
+  .custom-banner-section  .content-block {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid #333;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .custom-banner-section  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-box {
+    background-color: #000000;
+    padding: 10px; 
+    display: inline-block;
+  }
+
+  .image-box img {
+    width: 24px; 
+    height: 24px;
+  }
+
+  .text-container {
+    flex: 1;
+  }
+
+  .custome-heading {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .content-block:last-child {
+    border-right: none;
+  }
 /* CATEGORY SECTION CSS  */
 .commonheading {
     display: flex;

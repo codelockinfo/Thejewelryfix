@@ -19,6 +19,27 @@
     <img src="{{ section.settings.banner_image | img_url: 'master' }}" alt="banner-img" class="banner-img lazyloaded">
   </div>
   {% endif %}
+  <div class="mainclass">
+    <div class="custom-width-container">
+      <div class="maindiv">
+        {% for block in section.blocks %}
+          <div class="content-block">
+            <div class="image-container">
+              {% if block.settings.image != blank %}
+                <div class="image-box">
+                  <img src="{{ block.settings.image | img_url: 'master' }}">
+                </div>
+              {% else %}
+              {% endif %}
+            </div>
+            <div class="text-container">
+              <div class="custome-heading">{{ block.settings.title }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>
 {% endif %}
 {% schema %}
@@ -56,6 +77,24 @@
 "label": "Banner Image"
 }
 ],
+"blocks": [
+    {
+      "type": "image_text_block",
+      "name": "Image and Text Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
 "presets": [
 {
 "name": "Custom Banner Section",
