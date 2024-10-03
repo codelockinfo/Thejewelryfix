@@ -539,3 +539,7 @@ transform: rotate(45deg); */
     height: 100%;
     object-fit: cover;
   }
+  .custom-image-text .top-bottom-padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
