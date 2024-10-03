@@ -110,6 +110,7 @@
         display: flex;
         flex-direction: column;
         position: relative;
+        margin-bottom: 200px;
     }
       .custom-banner-section::after {
       position: absolute;
@@ -189,8 +190,8 @@
         padding-top: 10px; 
       }
       .custom-banner-section .mainclass {
-         position: relative;
-      }
+        bottom: -38%;
+    }
 }
 @media (max-width:600px) {
     .category-main-section .heading-button2{
@@ -208,4 +209,15 @@
     .promo-title{
         font-size: 32px;
     }
+    .custom-banner-section .custome-heading{
+      font-size: 14px;
+    }
+}
+@media (max-width:439px) {
+  .custom-banner-section {
+    margin-bottom: 250px;
+}
+.custom-banner-section .mainclass {
+  bottom: -47%;
+}
 }

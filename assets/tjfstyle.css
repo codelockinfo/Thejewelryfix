@@ -117,7 +117,7 @@ element {
     align-content: center;
     position: relative;
     z-index: 1;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -204,22 +204,23 @@ element {
     justify-content: center;
   }
 
-  .image-box {
+  .custom-banner-section .image-box {
     background-color: #000000;
     padding: 10px; 
     display: inline-block;
   }
 
-  .image-box img {
+  .custom-banner-section .image-box img {
     width: 24px; 
     height: 24px;
+    object-fit: contain;
   }
 
-  .text-container {
+  .custom-banner-section .text-container {
     flex: 1;
   }
 
-  .custome-heading {
+  .custom-banner-section .custome-heading {
     margin: 0;
     font-family: Poppins, sans-serif;
     font-size: 16px;
@@ -229,7 +230,7 @@ element {
     padding-left: 20px;
   }
 
-  .content-block:last-child {
+  .custom-banner-section  .content-block:last-child {
     border-right: none;
   }
 /* CATEGORY SECTION CSS  */
