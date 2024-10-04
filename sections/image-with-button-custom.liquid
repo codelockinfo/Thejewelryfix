@@ -518,7 +518,7 @@ margin-top: 44px;
 @media (min-width: 1281px) and (max-width: 1920px) {
 
 .main_container {
-     height: calc(400px + (644px - 400px) * ((100vw - 1281px) / (1920px - 1281px)));
+   height: clamp(400px, 10vw + 400px, 644px);
 }
 
 }
