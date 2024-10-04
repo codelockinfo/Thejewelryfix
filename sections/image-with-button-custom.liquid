@@ -514,42 +514,25 @@ margin-top: 44px;
     }
     @media (min-width: 1281px) {
     } */ 
- @media (max-width: 1919px) and (min-width: 1279px) {
+@media (max-width: 1920px) and (min-width: 1279px) {
     .background-img {
-        width: calc(617px - (100vw - 1279px) / 64); /* Smoothly decrease width */
-        height: calc(644px - (100vh - 600px) / 50); /* Adjust height based on viewport */
+        width: calc(617px - (1920px - 100vw) / 10); /* Adjust width */
+        height: calc(644px - (1920px - 100vh) / 20); /* Adjust height */
     }
 
     .video_embed {
-        width: calc(672px - (100vw - 1279px) / 64); /* Smoothly decrease width */
-        height: calc(502px - (100vh - 500px) / 50); /* Adjust height based on viewport */
-    }
-
-    .back_gorund {
-        margin-top: calc(50px - (100vh - 600px) / 50); /* Adjust top margin */
-        margin-right: calc(84px - (100vw - 1279px) / 64); /* Adjust right margin */
-        margin-bottom: calc(50px - (100vh - 600px) / 50); /* Adjust bottom margin */
-        margin-left: calc(5px + 2vw);
-        width: calc(100% - (100vw - 1279px) / 32); /* Responsive width */
-        padding-right: calc(54px - (100vw - 1279px) / 64); /* Adjust right padding */
-        padding-left: calc(51px - (100vw - 1279px) / 64); /* Adjust left padding */
-        padding-top: calc(55px - (100vh - 600px) / 50); /* Adjust top padding */
-    }
-
-    .font_title {
-        width: calc(505px - (100vw - 1279px) / 64); /* Adjust title width */
+        width: calc(672px - (1920px - 100vw) / 10); /* Adjust width */
+        height: calc(502px - (1920px - 100vh) / 20); /* Adjust height */
     }
 
     .custom_class {
-        width: calc(788px - (100vw - 1279px) / 64); /* Adjust custom class width */
-        height: calc(126px - (100vh - 600px) / 50); /* Adjust height */
-        margin-top: calc(40px - (100vh - 600px) / 50); /* Adjust top margin */
+        width: calc(788px - (1920px - 100vw) / 10); /* Adjust width */
+        height: calc(126px - (1920px - 100vh) / 20); /* Adjust height */
     }
 
     .main_container {
-        height: calc(644px - (100vh - 600px) / 50); /* Adjust height */
+        height: calc(644px - (1920px - 100vh) / 20); /* Adjust height */
     }
 }
-
 
 </style>
