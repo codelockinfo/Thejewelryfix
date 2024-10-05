@@ -2980,31 +2980,6 @@
           "sectionhead": "Celebrity Jewelry"
         }
       },
-      "image_text_Wi8EVj": {
-        "type": "image_text",
-        "disabled": true,
-        "settings": {
-          "image": "shopify://shop_images/image.png",
-          "img_align": "center",
-          "img_position": "2",
-          "image_ratio": "auto",
-          "text_size": "60,18",
-          "title": "LATEST MEN'S  HIP HOP JEWELRY",
-          "text": "",
-          "button_label": "Shop Now",
-          "button_link": "shopify://collections",
-          "open_link": "_blank",
-          "txt_align": "tl",
-          "use_shadow": false,
-          "cl_txt": "light",
-          "layout": "container",
-          "cl_bg": "",
-          "mg": "50px,,50px,",
-          "pd": "",
-          "mg_mb": "",
-          "pd_mb": ""
-        }
-      },
       "custom_img_with_text_ya7Ygh": {
         "type": "custom-img-with-text",
         "settings": {
@@ -3094,9 +3069,9 @@
       "collection_img_with_slider_NfCrdk": {
         "type": "collection-img-with-slider",
         "settings": {
-          "collectionproduct": "",
+          "collectionproduct": "hip-hop-pendants",
           "hedding_text": "watches",
-          "hedding": "",
+          "hedding": "Popular Trends",
           "btn_lable": "view all",
           "show_navigation": true
         }
@@ -3106,7 +3081,6 @@
       "custom_banner_section_RfRQeV",
       "custom_category_section_X7n9FW",
       "collection_img_with_slider_NfCrdk",
-      "image_text_Wi8EVj",
       "custom_img_with_text_ya7Ygh",
       "advance_image_text_94NpUY",
       "custom_testimonial_section_XkVBje",
