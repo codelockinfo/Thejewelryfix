@@ -127,6 +127,12 @@ endif -%}
 
       {%- when 'pricereview' -%}
         {%- if pr_tags contains 't4_hide_price' %}{% continue %}{% endif -%}
+          <div class="sku-custom-div">
+          <div class="sku_wrapper">{{ 'products.product.product_sku' | t }} <span class="sku value cb{% if current_variant.sku == blank %} dn{% endif %}" id="pr_sku{{call_cl}}">{{current_variant.sku}}</span><span class="sku value{% if current_variant.sku != blank %} dn{% endif %}" id="pr_sku_na{{call_cl}}">{{ 'products.product.na' | t }}</span></div>
+          <div class="jdgm-widget jdgm-preview-badge">
+            {{ product.metafields.judgeme.badge }}
+          </div>
+            </div>
         <div class="flex wrap fl_between al_center price-review mt__15 pb__10 mb__20 price_stock">
            <p class="price_range" id="price{{call_cl}}">
             {%- if nav_up_size == 0 and current_variant.unit_price_measurement -%}
