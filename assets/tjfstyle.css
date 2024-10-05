@@ -8,6 +8,17 @@ body,
 #nt_wrapper {
     background-color: #171717 !important;
 }
+.quote_rating .facl-star-half:after{
+    font-size: 15px !important;
+}
+.facl-star:before {
+    font-size: 15px !important;
+    color: #F0D882 !important;
+}
+.quote_rating .facl-star-half:before {
+    font-size: 15px !important;
+    color: #F0D882 !important;
+}
 
 /* HEADER SECTION  */
 .nt_menu>li>a {
@@ -16,9 +27,7 @@ body,
     font-weight: 600 !important;
 }
 
-.ntheader {
-    margin: 0 50px;
-}
+
 
 .ntheader .nt_menu>li>a:hover {
     color: #CAA45D !important;

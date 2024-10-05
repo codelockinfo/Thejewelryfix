@@ -79,6 +79,12 @@
         font-size: 42px;
     }
 }
+@media (min-width:769px) {
+  .ntheader {
+    margin: 0 50px;
+    /* height: 0 !important; */
+}
+}
 @media (max-width:768px) {
     .category-main-section .category-name {
         font-size: 18px;
