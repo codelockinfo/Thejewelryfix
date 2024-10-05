@@ -3090,16 +3090,27 @@
         "settings": {
           "title": "What Our Customers Are Saying"
         }
+      },
+      "collection_img_with_slider_NfCrdk": {
+        "type": "collection-img-with-slider",
+        "settings": {
+          "collectionproduct": "",
+          "hedding_text": "watches",
+          "hedding": "",
+          "btn_lable": "view all",
+          "show_navigation": true
+        }
       }
     },
     "content_for_index": [
       "custom_banner_section_RfRQeV",
       "custom_category_section_X7n9FW",
+      "collection_img_with_slider_NfCrdk",
       "image_text_Wi8EVj",
       "custom_img_with_text_ya7Ygh",
       "advance_image_text_94NpUY",
-      "celebrity_slider_dbeGLh",
-      "custom_testimonial_section_XkVBje"
+      "custom_testimonial_section_XkVBje",
+      "celebrity_slider_dbeGLh"
     ]
   }
 }
