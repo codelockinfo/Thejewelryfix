@@ -1,0 +1,280 @@
+<section class="custome_main_class">
+  <div class="custom-container">
+    <div class="heading-container">
+      <div class="heading">{{ section.settings.title }}</div>
+      <div class="test-arrowbox">
+        <div class="swiper-button-prev-test">
+          <i class="fa-solid fa-arrow-left-long button-prev"></i>
+        </div>
+        <div class="swiper-button-next-test">
+          <i class="fa-solid fa-arrow-right-long button-next"></i> 
+        </div>
+      </div>
+    </div>
+    <div class="swiper-container swiper-testimonial">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+        <div class="swiper-slide">
+          <div class="review-box">
+            <div class="media">
+              <div class="image">
+                {%- render 'quote_3',rating:block.settings.rating -%}
+                {% if block.settings.right_image !=blank %}
+                  <img src="{{ block.settings.right_image | img_url: 'medium' }}" alt="{{ block.settings.name }}'s right image" draggable="false" class="right">
+                {% endif %}
+              </div>
+              <div class="media-body">
+                <div class="review-discription">{{ block.settings.content }}</div>
+                <div class="review-text">{{ block.settings.name }}</div>
+                <div class="subtitle">{{ block.settings.position }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+{% schema %}
+{
+  "name": "Custom testimonial",
+  "class": "c-testimonial",
+  "settings": [
+      {
+            "type": "text",
+            "id": "title",
+            "label": "Section Title"
+        }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "position",
+          "label": "Position"
+        },
+        {
+          "type": "textarea",
+          "id": "content",
+          "label": "Testimonial Content"
+        },
+        {
+          "type": "image_picker",
+          "id": "right_image",
+          "label": "Image"
+        },
+        {
+            "type": "range",
+            "id": "rating",
+            "min": 0,
+            "max": 5,
+            "step": 0.5,
+            "label": "Rating",
+            "info": "Set less than '1' to disable Rating.",
+            "default": 5
+          }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom testimonial ",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+             
+<style>
+ .c-testimonial .custom-container{
+    max-width: 1600px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .c-testimonial   .heading-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .c-testimonial  .heading {
+    color: white;
+    font-size: 48px;
+    line-height: 120px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.c-testimonial .swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: visible !important;
+    z-index: 1;
+}
+
+.c-testimonial .review-box {
+    border-radius: 3px;
+    border: 1px solid #353530;
+    background: #1D1D1D;
+    padding: 30px;
+}
+
+.c-testimonial .review-text {
+  margin: 0;
+   font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 22px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    color: #D9D9D9;
+}
+
+
+.c-testimonial .review-discription {
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: #A1A1AA;
+  font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+    line-height: 22px;
+}
+
+.c-testimonial .subtitle {
+font-size: 16px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 22px;
+    color: #71717A;
+ 
+}
+  
+
+.c-testimonial .swiper-testimonial {
+  padding: 100px 20px;
+  padding-top: 30px;
+}
+  
+.c-testimonial .image {
+    height: auto;
+    max-width: 100%;
+    margin-left: 0px;
+    vertical-align: middle;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.c-testimonial .left {
+    width: 45%;
+    object-fit: cover;
+}
+
+.c-testimonial .right{
+    width: 15%;
+    object-fit: cover;
+    margin-left: 133px;
+}
+.c-testimonial .test-arrowbox {
+  display: flex;
+}
+
+/* .c-testimonial .swiper-button-prev-test,
+.c-testimonial .swiper-button-next-test {
+  margin-left: 20px;
+  cursor: pointer; 
+  font-size: 24px; 
+  color: white;
+  width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+  margin: 4px;
+      text-align: center;
+} */
+.button-prev ,.button-next{
+    color: #fff;
+}
+.c-testimonial .custome_main_class .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 15px !important;
+    height: 15px !important;
+    background: #CAA45D !important;
+    border-radius: 0 !important;
+    transform: rotate(45deg) !important;
+    border: 0 !important;
+}
+
+.c-testimonial .custome_main_class .swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    transform: rotate(45deg) !important;
+    border: 1px solid #71717A !important;
+    margin: 0 8px !important;
+}
+  @media (max-width: 768px) {
+    .c-testimonial .test-arrowbox {
+      display: none;
+    }
+    .c-testimonial .heading{
+      font-size: 24px;
+      line-height: 40px;
+      margin-bottom: 60px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .c-testimonial .heading{
+      font-size: 34px;
+    }
+  }
+</style>
+
+
+<script>
+  var swiper = new Swiper('.swiper-container.swiper-testimonial', {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next-test',
+        prevEl: '.swiper-button-prev-test',
+    },
+    breakpoints: {
+        1280: {
+            slidesPerView: 4,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        640: {
+            slidesPerView: 1,
+        },
+        320: {
+            slidesPerView: 1,
+        },
+    },
+});
+</script>
