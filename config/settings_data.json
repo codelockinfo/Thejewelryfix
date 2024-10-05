@@ -3025,6 +3025,12 @@
           "button_text": "Shop Now",
           "button_link": ""
         }
+      },
+      "custom_testimonial_section_XkVBje": {
+        "type": "custom-testimonial-section",
+        "settings": {
+          "title": ""
+        }
       }
     },
     "content_for_index": [
@@ -3033,7 +3039,8 @@
       "image_text_Wi8EVj",
       "custom_img_with_text_ya7Ygh",
       "advance_image_text_94NpUY",
-      "celebrity_slider_dbeGLh"
+      "celebrity_slider_dbeGLh",
+      "custom_testimonial_section_XkVBje"
     ]
   }
 }
