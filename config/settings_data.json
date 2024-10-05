@@ -3073,7 +3073,7 @@
           "hedding_text": "watches",
           "hedding": "Popular Trends",
           "btn_lable": "view all",
-          "mainimg": "shopify://shop_images/image_6.png",
+          "mainimg": "shopify://shop_images/image_db3c53e3-650c-4d9e-ae11-99fd0ff87d4b.png",
           "show_navigation": true
         }
       },
@@ -3095,8 +3095,8 @@
           "hedding_text": "watches",
           "hedding": "Popular Trends",
           "btn_lable": "view all",
-          "mainimg": "shopify://shop_images/image_6.png",
-          "show_navigation": true
+          "mainimg": "shopify://shop_images/image_7.png",
+          "show_navigation": false
         }
       }
     },
