@@ -3028,8 +3028,23 @@
       },
       "custom_testimonial_section_XkVBje": {
         "type": "custom-testimonial-section",
+        "blocks": {
+          "testimonial_7xJic7": {
+            "type": "testimonial",
+            "settings": {
+              "name": "",
+              "position": "",
+              "content": "“Lorem ipsum dolor sit amet dolor sit consectetur eget maecenas sapien fusce egestas risus purus suspendisse turpis”",
+              "right_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "rating": 4.5
+            }
+          }
+        },
+        "block_order": [
+          "testimonial_7xJic7"
+        ],
         "settings": {
-          "title": ""
+          "title": "What Our Customers Are Saying"
         }
       }
     },
