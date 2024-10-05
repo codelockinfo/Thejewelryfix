@@ -1,0 +1,333 @@
+<div class="container">
+  <div class="watch_slider">
+    <div class="commonheading">
+      <div class="section-head">{{ section.settings.hedding }}</div>
+      {% if section.settings.show_navigation %}
+        <div class="next-prev-icons">
+          <i class="fa-solid fa-arrow-left-long button-prev"></i>
+          <i class="fa-solid fa-arrow-right-long button-next"></i>
+        </div>
+      {% endif %}
+    </div>
+    <div class="watch_image_section">
+      <div class="watch_single_image">
+        <div class="watch_img">
+          {% if section.settings.mainimg != blank %}
+            <img src="{{ section .settings.mainimg  |img_url : 'master' }}" alt="Product Image">
+          {%- endif %}
+          <div class="overlay"></div>
+          <div class="image_text">
+            <div class="watch_text">{{ section.settings.hedding_text }}</div>
+            <a class="heading-button">{{ section.settings.btn_lable }}</a>
+          </div>
+        </div>
+      </div>
+      <div class="watch_image_slider">
+        <div class="swiper Swiper_slider2">
+          <div class="swiper-wrapper">
+            {% for product in section.settings.collectionproduct.products %}
+              <div class="swiper-slide">
+                <div class="watch_sliders">
+                  <div class="slider_image">
+                    <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}">
+                  </div>
+                  <div class="watch_slider_text">
+                    <div class="watch_texall">{{ product.title }}</div>
+                    <span class="price dib mb__5">
+                      {%- render 'product_price', product: product, inc_price: inc_price -%}
+                    </span>
+                    <div class="jdgm-widget jdgm-preview-badge">
+                      {{ product.metafields.judgeme.badge }}
+                    </div>
+                    <form method="post" action="/cart/">
+                      <input name="id" value="1402808270917" type="hidden">
+                      <input name="add" value="ADD TO CART" type="submit" class="add_btn_watch">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "collection img slider",
+  "class": "collection-i-slider",
+  "settings": [
+    {
+      "id": "collectionproduct",
+      "type": "collection",
+      "label": "Select collection"
+    }, 
+    {
+      "type": "text",
+      "id": "hedding_text",
+      "default": "watches",
+      "label": "image text"
+    },
+    {
+      "type": "text",
+      "id": "hedding",
+      "label": "hedding"
+    },
+    {
+      "type": "text",
+      "id": "btn_lable",
+      "default": "view all",
+      "label": "all button lable"
+    },
+
+    {
+      "type": "image_picker",
+      "id": "mainimg",
+      "label": "main image"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_navigation",
+      "label": "Show Navigation Arrows",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "collection img slider"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .collection-i-slider .watch_slider{
+    padding:50px 0;
+  }
+  .collection-i-slider .price_varies,
+  .collection-i-slider .swatch__title,
+  .collection-i-slider .product_title,
+  .collection-i-slider .mg__0,
+  .collection-i-slider .facl,
+  .collection-i-slider .qty {
+    color: white !important;
+  }
+  .collection-i-slider .single_add_to_cart_button {
+    background: #353530 !important;
+    color: #caa45d !important;
+  }
+  .collection-i-slider .facl facl-heart-o {
+    color: #d9d9d9 !important;
+  }
+  .collection-i-slider .quantity {
+    background: #777777 !important;
+  }
+  .collection-i-slider #wrap_des_pr {
+    background: #171717 !important;
+  }
+  .collection-i-slider .tab_title_block.active {
+    background: #353530 !important;
+  }
+  .collection-i-slider .tab_title_block.active a {
+    color: #f0d882 !important;
+  }
+  .collection-i-slider .tab_title_block a {
+    color: #71717a !important;
+  }
+
+  .collection-i-slider .section-title .mr__10 {
+    font-size: 48px !important;
+    color: #ffffff !important;
+  }
+  .collection-i-slider .watch_slider .section-head {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 30px;
+  }
+  .collection-i-slider .watch_slider .watch_image_section {
+    display: flex;
+  }
+  .collection-i-slider .watch_slider .watch_img {
+    display: inline-block;
+  }
+  .collection-i-slider .watch_slider_text {
+    margin: 10px;
+  }
+  .collection-i-slider .watch_slider .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #caa45d 100%);
+  }
+  .collection-i-slider .watch_sliders {
+    background: #1d1d1d;
+    padding: 10px;
+  }
+  .collection-i-slider .watch_slider .image_text {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+  .collection-i-slider .watch_slider .image_text .watch_text {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .collection-i-slider .watch_slider .heading-button {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: #c7a15b;
+    background-color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  .collection-i-slider .watch_image_slider {
+    width: 75%;
+    margin-left: 24px;
+  }
+  .collection-i-slider .watch_slider .next-prev-icons {
+    display: flex;
+    justify-content: end;
+    /* margin-bottom: 40px; / */
+  }
+  .collection-i-slider .button-next,
+  .collection-i-slider .button-prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #71717a;
+    margin: 4px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+  }
+
+  .collection-i-slider .watch_texall {
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 8px 0px;
+    height: 150px;
+    overflow: hidden;
+  }
+  .collection-i-slider .price,
+  .collection-i-slider .price_range,
+  .collection-i-slider .grouped-pr-list-item__price {
+    color: #696969;
+    padding-bottom: 10px;
+  }
+  .collection-i-slider .current_price {
+    color: #caa45d;
+    font-weight: bold;
+  }
+
+  .collection-i-slider .original_price {
+    color: gray;
+    text-decoration: line-through;
+    margin-left: 10px;
+  }
+  .collection-i-slider .watch_image_slider .star_icon {
+    display: flex;
+  }
+
+  .collection-i-slider .cb {
+    color: #caa45d;
+  }
+  .collection-i-slider .watch_image_slider .star_icon {
+    display: flex;
+    padding-bottom: 10px;
+  }
+  .collection-i-slider .add_btn_watch {
+    width: 100%;
+    color: white !important;
+    background: #171717 !important;
+  }
+  .collection-i-slider .watch_single_image {
+    width: 25%;
+    height: auto;
+    /* max-width: 316px; */
+
+    position: relative;
+    overflow: hidden;
+  }
+  .collection-i-slider .watch_single_image .watch_img img {
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .collection-i-slider .watch_image_section {
+      display: flex;
+      display: block;
+      flex-direction: column;
+    }
+
+    .collection-i-slider .watch_single_image {
+      width: 100%;
+      margin: auto;
+      object-fit: cover;
+    }
+
+    .collection-i-slider .watch_image_slider {
+      width: 100%;
+      padding-top: 20px;
+      margin-left: 0px;
+    }
+    .collection-i-slider .watch_texall {
+      color: white;
+      font-family: Poppins;
+      font-size: 14px;
+      line-height: 24px;
+      padding: 8px 0px;
+    }
+    .collection-i-slider .watch_slider .Swiper_slider {
+      flex-direction: row !important;
+    }
+  }
+</style>
+
+<script>
+  var showNavigation = {{ section.settings.show_navigation | json }};
+  var swiper = new Swiper(".Swiper_slider2", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    navigation: showNavigation ? {
+      nextEl: '.button-next',
+      prevEl: '.button-prev',
+    } : false,  // Disable navigation if toggle is off
+    breakpoints: {
+       0: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1000: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      },
+    }
+  });
+</script>
