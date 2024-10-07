@@ -558,6 +558,50 @@ margin-top: 44px;
             
 
   }
+  
 }
+  @media (min-width: 1921px) and (max-width: 2103px) {
+
+    .main_container {
+        height: clamp(450px, 10vw + 450px, 700px); /* Adjusted for larger screen */
+    }
+
+    .video_embed {
+        width: clamp(500px, 25vw + 120px, 700px); /* Slightly increased */
+        height: clamp(400px, 19vw + 100px, 550px); /* Slightly increased */
+    }
+
+    .custom_center {
+        margin-left: 300px; /* Increased for larger screen */
+        margin-top: calc(
+            (clamp(450px, 10vw + 450px, 700px) - clamp(400px, 19vw + 100px, 550px)) / 2
+        ); /* Adjusted for new heights */
+    }
+
+    .custom_class {
+        width: calc(78% + 25px); /* Adjusted width slightly */
+        height: 130px; /* Adjusted height */
+        margin-top: 2px; /* Adjusted margin */
+    }
+
+    .back_gorund {
+        margin-top: 2.50%;    /* Slightly adjusted */
+        margin-right: 4.00%;   /* Adjusted */
+        margin-bottom: 2.50%;   /* Slightly adjusted */
+        margin-left: auto;      /* Centers the element */
+        width: 100%;
+        padding-right: 3%;      /* Slightly increased for larger screens */
+        padding-left: 2.75%;     /* Adjusted */
+        padding-top: 3%;         /* Adjusted for consistency */
+        margin-top: 0vw;         /* Remains unchanged */
+        padding-top: 7.5vw;      /* Remains unchanged */
+        padding-left: 1.90% !important; /* Already in percentage */
+    }
+
+    .font_title {
+        font-size: 45px; /* Increased font size for larger screens */
+    }
+}
+
   
 </style>
