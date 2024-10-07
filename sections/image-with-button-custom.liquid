@@ -436,7 +436,7 @@ margin-top: 44px;
   .back_gorund {
     padding-top: 0px;
 }
-}
+/* } */
   /* @media (min-width: 768px) {
     .column-12 {
         -ms-flex: 0 0 50%;
@@ -453,6 +453,17 @@ margin-top: 44px;
       height: 520px !important;
      } 
       
+}
+  @media (min-width: 768px) {
+    .main_container {
+        height: calc(473px + (10vh)); /* Increase base height based on viewport height for larger screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .main_container {
+        height: calc(473px + (15vh)); /* Further increase for even larger screens */
+    }
 }
 
 @media (min-width: 1280px) and (max-width: 1920px) {
