@@ -15,10 +15,12 @@
           {% if section.settings.mainimg != blank %}
             <img src="{{ section .settings.mainimg  |img_url : 'master' }}" alt="Product Image">
           {%- endif %}
-          <div class="overlay"></div>
-          <div class="image_text">
-            <div class="watch_text">{{ section.settings.hedding_text }}</div>
-            <a class="heading-button">{{ section.settings.btn_lable }}</a>
+          <div class="overlay">
+
+            <div class="image_text">
+              <div class="watch_text">{{ section.settings.hedding_text }}</div>
+              <a class="heading-button">{{ section.settings.btn_lable }}</a>
+            </div>
           </div>
         </div>
       </div>

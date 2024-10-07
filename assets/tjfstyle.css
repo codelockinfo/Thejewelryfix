@@ -558,3 +558,34 @@ transform: rotate(45deg); */
     display: flex;
     justify-content: space-between;
   }
+
+ .template-product .price_varies , .swatch__title , .product_title , .mg__0 ,.facl ,.qty{
+    color:white !important;
+ }
+ .template-product .single_add_to_cart_button{
+   background: #353530 !important;
+   color:#CAA45D!important;
+ }
+ .template-product .facl facl-heart-o{
+   color:#D9D9D9 !important;
+ }
+ .template-product .quantity{
+   background:#777777 !important;
+ }
+ .template-product #wrap_des_pr {
+   background: #171717 !important;
+ }
+ .tab_title_block.active {
+     background: #353530 !important;
+ }
+ .template-product .tab_title_block.active a{
+   color: #F0D882 !important;
+ }
+ .template-product .tab_title_block a{
+   color:#71717A !important;
+ }
+ 
+ .template-product .section-title .mr__10 {
+   font-size: 48px !important;
+     color: #FFFFFF !important;
+ }

@@ -24,11 +24,11 @@
             {% if block.settings.smallimg != blank %}
               <a href="{{block.settings.product.url }}">
               <div class="jewel_img_box">
-                <img
-                  src="{{ block.settings.smallimg | img_url: 'master' }}"
-                  class="j_img"
-                  alt=""
-                >
+              <div class="j-box">  <img
+              src="{{ block.settings.smallimg | img_url: 'master' }}"
+              class="j_img"
+              alt=""
+            ></div>
                 {% if block.settings.nametext != blank %}
                   <div class="name_text">{{ block.settings.nametext }}</div>
               {% endif %}
@@ -138,8 +138,6 @@
   .jewel_img_box {
     width: 120px;
     height: 120px;
-    border: 4px solid #f6f5f3;
-    border-radius: 50%;
     /* overflow: hidden; */
     position: absolute;
     top: 85%;
@@ -157,6 +155,13 @@
   .collection_img {
     width: 100%;
     height: 100%;
+  }
+  .j-box{
+    width: 120px;
+    height: 120px;
+    border: 4px solid #f6f5f3;
+    border-radius: 50%;
+    overflow: hidden;
   }
 
   .button-next,
