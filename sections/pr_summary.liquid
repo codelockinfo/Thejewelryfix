@@ -300,12 +300,16 @@ endif -%}
                    {%- elsif price_varies and on_sale -%}<span class="price price_varies"><del>{{ current_variant.compare_at_price | money }}</del> <ins>{{ current_variant.price | money }}</ins></span>
                    {%- elsif price_varies -%}<span class="price price_varies">{{ current_variant.price | money }}</span>{%- endif -%}
                     <div class="custom-v variations_button in_flex column w__100">
+                       <div class="flex qu-box"> 
+                         <div class="qu-name">Quantity</div>
                       <div class="custom-quantity-btn quantity pr mr__10  qty__{{bk_stts.show_qty}}" id="sp_qty{{call_cl}}"> 
+                       
                       <input type="number" class="input-text qty text tc qty_pr_js" step="1" min="1" max="{% if ck_preoder %}999{% elsif inventory_management != null %}{{inventory_quantity}}{% else %}9999{% endif %}" name="quantity" value="1" size="4" pattern="[0-9]*" inputmode="numeric">
                       <div class="qty tc fs__14">
                         <button type="button" class="plus db cb pa pd__0 pr__15 tr r__0"><i class="facl facl-plus"></i></button><button type="button" class="minus db cb pa pd__0 pl__15 tl l__0"><i class="facl facl-minus"></i></button>
                      </div>
                    </div> 
+                   </div>
                        <div class="flex wrap">
                           {%- if ck_external -%}<a href="{{link}}" rel="nofollow" target="_blank" class="truncate external_btn button">{{title}}</a>{%- render 'nt_add_w',class:"order-3",tooltip:"ttip_nt tooltip_top_left" -%}
                           {%- elsif no_sold_out == false -%}

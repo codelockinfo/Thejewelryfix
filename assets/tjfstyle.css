@@ -596,9 +596,7 @@ transform: rotate(45deg); */
  .template-product .quantity{
    background:#777777 !important;
  }
- .template-product .custom-quantity-btn{
-   margin-bottom: 15px;
- }
+
  .template-product #wrap_des_pr {
    background: #171717 !important;
  }
@@ -654,4 +652,29 @@ transform: rotate(45deg); */
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
+}
+.qu-name{
+    color: #fff;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.qu-box{
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* WISH LIST CSS */
+.template-collection .custom-hover-wish{
+    display: none;
+}
+.template-index .custom-hover-wish{
+    display: none;
+}
+
+.template-product .shopify-tabs .ul_tabs {
+    justify-content: start !important;
+    margin-bottom: 30px;
+}
+.template-product .ul_tabs li.active a, .ul_tabs li.tab_title_block.active a{
+    border: 0 !important;
 }
