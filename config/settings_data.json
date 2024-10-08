@@ -1545,7 +1545,7 @@
               "size_ck": "",
               "delivery": true,
               "page_dr": "",
-              "ask": true
+              "ask": false
             }
           },
           "pr_summary-5": {
