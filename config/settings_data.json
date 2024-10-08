@@ -201,7 +201,7 @@
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
     "pr_layout": "default",
-    "design_products": "4",
+    "design_products": "1",
     "size_img_pr": "2",
     "nav_img_pr": "medium",
     "use_sticky_des": false,
@@ -1528,7 +1528,6 @@
               "mess": "",
               "size": 16,
               "source": "1",
-              "image": "shopify://shop_images/trust_img2.png",
               "al": "tl",
               "wimg": 60,
               "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
@@ -1539,6 +1538,7 @@
             "type": "size",
             "settings": {
               "size_chart": "2",
+              "pos_sizeg": "1",
               "sc_type": "1",
               "page": "",
               "size_ck": "",
@@ -1552,6 +1552,7 @@
             "settings": {
               "show_pr_vendor": false,
               "show_sku": true,
+              "show_barcode": false,
               "show_category_product": true,
               "show_tag_product": true
             }
