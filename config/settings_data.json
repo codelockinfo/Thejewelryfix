@@ -1559,7 +1559,6 @@
           },
           "pr_summary-6": {
             "type": "social",
-            "disabled": true,
             "settings": {
               "class": "tc"
             }
