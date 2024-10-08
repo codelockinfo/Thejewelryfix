@@ -1524,6 +1524,7 @@
           },
           "1585709158220": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "mess": "",
               "size": 16,
