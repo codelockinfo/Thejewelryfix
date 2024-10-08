@@ -1553,8 +1553,8 @@
               "show_pr_vendor": false,
               "show_sku": false,
               "show_barcode": false,
-              "show_category_product": true,
-              "show_tag_product": true
+              "show_category_product": false,
+              "show_tag_product": false
             }
           },
           "pr_summary-6": {
