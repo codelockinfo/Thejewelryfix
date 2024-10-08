@@ -774,3 +774,14 @@ transform: rotate(45deg); */
     height: 60px;
     overflow: hidden;
 }
+
+.template-collection .product-title{
+    height: 60px;
+    overflow: hidden;
+}
+.template-product  .nt_add_w {
+    display: none;
+}
+.template-collection .btn_filter {
+    display: none;
+}
