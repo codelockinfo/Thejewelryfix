@@ -3927,7 +3927,6 @@
       },
       "image_with_button_custom_nF6cTQ": {
         "type": "image-with-button-custom",
-        "disabled": true,
         "settings": {
           "new_background_image": "shopify://shop_images/Rectangle_113.png",
           "img_background": "right",
@@ -3947,9 +3946,9 @@
           "video_cdn_url": "https://cdn.example.com/path-to-video.mp4",
           "video_width": "672",
           "video_height": "502",
-          "designstudio": "Image with text",
-          "title": "Image with text",
-          "text": "Image with text",
+          "designstudio": "DESIGN VIDEO",
+          "title": "Make Your Day Brighter .",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.",
           "button_link": ""
         }
       }
