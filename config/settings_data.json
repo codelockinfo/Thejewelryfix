@@ -3943,7 +3943,7 @@
         "type": "video-with-button-custom",
         "settings": {
           "img_background": "center",
-          "video_cdn_url": "https://cdn.example.com/path-to-video.mp4",
+          "video_cdn_url": "https://s3-figma-videos-production-sig.figma.com/video/1279519040122898043/TEAM/78c9/cfe0/-672f-4956-a02f-ad8ba3419449?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XlECRPy01FO8tsHxQ6HAYTcbelax6I2EZLIwaq~eL5cIw2sy3qKE4JiYjMXd22sATTiU3Bs~3r9gHmGSYGrUgeNSiOSS8wRmf5xvJzMDsdJzRk64YbykSSmT9p4ORq64dfIEGkdkIENGt7ihUj~t0qporJMCQ-Q-IsfBzExtQ-3jAgDpNQ2o3UN-bfVv8rq1REPgMLtucN-FCtOiXUnBblx5M-WCgxk-rJcQ4FTuHu3VmPNPew1lE0oCXQZ-FwExLKAMa9I5wmfG-Upur-OjuOR9ZpyPLY6C7rBSXguUuIaLwDkRmlb27qRqyTpw1hxrMqLsyokKjxmroOuyt0T2Gg__",
           "video_width": "672",
           "video_height": "502",
           "designstudio": "DESIGN VIDEO",
