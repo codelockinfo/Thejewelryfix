@@ -455,40 +455,52 @@ margin-top: 44px;
       
 }
   @media (min-width: 768px) {
-    .main_container {
-        height: calc((660px + 10vh) / 2); /* Increase base height based on viewport height for larger screens */
-    }
-  .background-img{
-    width: 38%;
-    height: 100%;
-    }
-      .custom_class {
-        width: 114%;
-        margin-top: 3px;
-        font-size: 1.2em;
-    }
-    .video_embed {
-        width: 188%;
-        height: 315px;
-        object-fit: cover;
-    }
-        .custom_center {
-        margin-left: 147px;
-        margin-top: 30px;
-        position: absolute;
-    }
-    .back_gorund{
-padding-top: 36px;
-  padding-left: 9.9%;
-    }
-    .btn-shop {
+.main_container {
+    height: calc((660px + 10vh) / 2); /* Increase base height based on viewport height for larger screens */
+    width: 100%; /* Ensure the main container takes the full width */
+}
+
+.background-img {
+    width: 38%; /* Keep the width as is */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Ensures the image covers the space without distortion */
+}
+
+.custom_class {
+    width: 114%; /* Consider adjusting this if necessary */
+    margin-top: 3px;
+    font-size: 1.2em;
+}
+
+.video_embed {
+    width: 100%; /* Adjust to 100% to fill the parent container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 188%; /* Set max-width if needed */
+    object-fit: cover; /* Ensures the video fits well */
+}
+
+.custom_center {
+    margin-left: auto; /* Center dynamically */
+    margin-right: auto; /* Center dynamically */
+    margin-top: 30px;
+    position: relative; /* Use relative positioning for centering */
+    width: fit-content; /* Adjust to fit the content */
+}
+
+.back_gorund {
+    padding-top: 36px;
+    padding-left: 9.9%;
+}
+
+.btn-shop {
     margin-top: 26px;
 }
-       .font_title {
-        font-size: 2.4em;
-         width: 112%;
-    }
+
+.font_title {
+    font-size: 2.4em;
+    width: 112%; /* Adjust if necessary */
 }
+
 
 @media (min-width: 1200px) {
     .main_container {
