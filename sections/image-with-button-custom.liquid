@@ -458,10 +458,11 @@ margin-top: 44px;
     .main_container {
         height: calc((660px - 12vh) / 2); /* Increase base height based on viewport height for larger screens */
     }
-  .background-img{
-    width: 38%;
-    height: 100%;
-    }
+.background-img {
+    width: calc(38% + 10px); /* Adjust as necessary */
+    height: calc(100% - 20px); /* Adjust as necessary */
+    object-fit: cover; /* Ensures proper fit */
+}
       .custom_class {
         width: 114%;
         margin-top: 3px;
