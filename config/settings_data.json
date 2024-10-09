@@ -3927,6 +3927,7 @@
       },
       "image_with_button_custom_nF6cTQ": {
         "type": "image-with-button-custom",
+        "disabled": true,
         "settings": {
           "new_background_image": "shopify://shop_images/Rectangle_113.png",
           "img_background": "right",
@@ -3936,6 +3937,19 @@
           "designstudio": "DESIGN VIDEO",
           "title": "Make Your Day Brighter .",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.",
+          "button_link": ""
+        }
+      },
+      "video_with_button_custom_nFFFdg": {
+        "type": "video-with-button-custom",
+        "settings": {
+          "img_background": "center",
+          "video_cdn_url": "https://cdn.example.com/path-to-video.mp4",
+          "video_width": "672",
+          "video_height": "502",
+          "designstudio": "Image with text",
+          "title": "Image with text",
+          "text": "Image with text",
           "button_link": ""
         }
       }
@@ -3951,7 +3965,8 @@
       "1597058003104",
       "image_text_QDygXM",
       "image_with_button_MP7Vgk",
-      "image_with_button_custom_nF6cTQ"
+      "image_with_button_custom_nF6cTQ",
+      "video_with_button_custom_nFFFdg"
     ]
   }
 }
