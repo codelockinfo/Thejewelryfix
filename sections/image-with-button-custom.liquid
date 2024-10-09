@@ -1,63 +1,50 @@
-<div class="main_container position-relative">
-  <div class="background-img">
-    <img src="//thejewelryfix4u.com/cdn/shop/files/4db7940b4417c4a22014e462661194ef_large.jpg?v=1727866567" alt="Background Image" class="w-full">
-  </div>
-  
+<div class="main_container">
+  <div class="background-img"></div>
   <div class="display_mp4txt">
-    <div class="custom_container">
-      <div class="column-12">
-        <div class="custom_center">
-          <div class="custom-video-container">
-            {% if section.settings.video_cdn_url %}
-              <video class="video_embed" autoplay muted loop>
+     <div class="custom_container">
+        <div class="column-12">
+          <div class="custom_center">
+           <div class="custom-video-container">
+           {% if section.settings.video_cdn_url %}
+               <video class="video_embed" autoplay muted loop>
                 <source src="{{ section.settings.video_cdn_url }}" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             {% else %}
               <p>Please add a valid CDN video URL in the section settings.</p>
-            {% endif %}
+           {% endif %}
+          </div>
+         </div>
+       </div> 
+     </div>
+
+  <div class="back_gorund">
+    <div class="custom-row">
+      {%- if section.settings.img_position == '1' -%}{{- image_layout -}}{%- endif -%}
+      <div class="text_box">
+        <div class="padding_text {{section.settings.txt_align}} {{cl_arr[1]}}">
+          <div class="sub_head">
+            {{section.settings.designstudio}}
+          </div>
+          <div class="font_title">
+            {{section.settings.title}}
+          </div>
+          
+          <div class="custom_class">{{ section.settings.text }}</div>
+          
+          <!-- Shop Now Button -->
+          <div class="btn-shop">
+          <a href="{{ section.settings.button_link }}" class="shop_btn">
+            SHOP NOW
+          </a>
           </div>
         </div>
       </div>
-      
-      <div class="back_gorund">
-        <div class="custom-row">
-          {%- if section.settings.img_position == '1' -%}
-            <div class="imgcenter">
-              <img src="//thejewelryfix4u.com/cdn/shop/files/Rectangle_112_efa1a14b-5232-4194-ac6c-9404e00a8cb6_large.png?v=1727866540" alt="Center Image" class="w-full">
-            </div>
-          {%- endif -%}
-          
-          <div class="text_box">
-            <div class="padding_text {{section.settings.txt_align}} {{cl_arr[1]}}">
-              <div class="small-title">
-                Design Video
-              </div>
-              <div class="jewelry-title">
-                {{section.settings.title}}
-              </div>
-              
-              <div class="custom_class">{{ section.settings.text }}</div>
-              
-              <!-- Shop Now Button -->
-              <div class="btn-shop">
-                <a href="{{ section.settings.button_link }}" class="shop_btn">
-                  SHOP NOW
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          {%- if section.settings.img_position == '2' -%}
-            <div class="imgcenter">
-              <img src="//thejewelryfix4u.com/cdn/shop/files/Rectangle_112_efa1a14b-5232-4194-ac6c-9404e00a8cb6_large.png?v=1727866540" alt="Center Image" class="w-full">
-            </div>
-          {%- endif -%}
-        </div>
-      </div>
+      {%- if section.settings.img_position == '2' -%}{{- image_layout -}}{%- endif -%}
     </div>
   </div>
 </div>
+</div> 
 
 {% schema %}
   {
@@ -636,147 +623,4 @@ margin-top: 44px;
    }
    }
   
-</style>
-<style>
-.w-full{
-    width: 100%;
-    height: 100%;
-}
-.imgcenter{
-    position: relative;
-    z-index: 9;
-    width: 50%;
-    text-align: end;
-}
-.jewelry-bgleft{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 35%;
-    height: 100%;
-}
-.position-relative{
-    position: relative;
-}
-.advance-img-text{
-    background: #1D1D1D;
-}
-.container {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-.jewelry-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* height: 500px; */
-  position: relative;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.jewelry-left {
-  width: 35%;
-  height: 100%;
-  background-image: url('//thejewelryfix4u.com/cdn/shop/files/4db7940b4417c4a22014e462661194ef_large.jpg?v=1727866567'); 
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  z-index: 1;
-}
-.jewelry-right {
-  width: 50%;
-  color: white;
-  padding: 50px;
-  position: relative;
-  z-index: 1;
-}
-
-.jewelry-image-container {
-  position: absolute;
-  left: 50%; 
-  transform: translateX(-50%);
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 60%; 
-  z-index: 2;
-}
-
-.center-image {
-  width: 60%; 
-  height: auto;
-  object-fit: contain;
-}
-
-.small-title {
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 30.34px;
-    letter-spacing: 0.68em;
-    text-align: left;
-    color: #CAA45D;
-}
-
-.jewelry-title {
-    font-family: Poppins;
-    font-size: 64px;
-    font-weight: 600;
-    line-height: 80.92px;
-    text-align: left;
-    color: #FFFFFF;
-}
-
-.jewelry-description {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 27px;
-    text-align: left;
-    color: #FFFFFF;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.jewelry-button {
-    background-color: #f0c050;
-    color: #000;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    text-align: center;
-}
-
-.jewelry-button:hover {
-  opacity: 0.8;
-}
-
-@media (max-width: 768px) {
-    .jewelry-bgleft{
-        height: 35%;
-        width: 100%;
-    }
-    .jewelry-right,.imgcenter{
-        width: 100%;
-        padding: 0;
-    }
-    .jewelry-section {
-        flex-wrap: wrap;
-        gap: 50px;
-    }
-    .small-title{
-        font-size: 16px;
-    }
-    .jewelry-title {
-        font-size: 40px;
-        line-height:50.57px;
-    }
-    .jewelry-description {
-        font-size: 14px;
-        line-height:21px;
-    }
-}
 </style>
