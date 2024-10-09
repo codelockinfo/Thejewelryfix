@@ -530,57 +530,45 @@ margin-top: 44px;
 }
 }
    @media (min-width: 777px) and (max-width: 1069px){
-.main_container {
-    height: calc((50% + 12vh) / 2); /* Adjusted base height to be more responsive */
+    .main_container {
+        height: calc((497px + 12vh) / 2); /* Increase base height based on viewport height for larger screens */
+    }
+  .background-img{
+    width: 38%;
+    height: 100%;
+    }
+    .custom_class {
+        width: 118%;
+        margin-top: 3px;
+        font-size: 0.9em;
+    }
+        .video_embed {
+        width: 201%;
+        height: 231px;
+        object-fit: cover;
+    }
+          .custom_center {
+        margin-left: 144px;
+        margin-top: 32px;
+        position: absolute;
+    }
+    .back_gorund {
+        padding-top: 12px;
+        padding-left: calc(14.9% - 9vw);
+    }
+        .btn-shop {
+        margin-top: 0px;
+    }
+        .font_title {
+        font-size: 1.88em;
+        width: 126%;
+    }
+      .shop_btn {
+    width: 160px;
+    font-size: 11px;
+    padding: 8px 6px;
 }
-
-.background-img {
-    width: 38%; /* Keep this as it is; adjust if necessary */
-    height: auto; /* Set height to auto to maintain aspect ratio */
 }
-
-.custom_class {
-    width: 100%; /* Set to 100% for full responsiveness */
-    margin-top: 3px;
-    font-size: 0.9em; /* Keep relative units for font size */
-}
-
-.video_embed {
-    width: 100%; /* Full width for responsiveness */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 50vh; /* Set a maximum height relative to viewport */
-    object-fit: cover; /* Cover without distortion */
-}
-
-.custom_center {
-    margin-left: auto; /* Center horizontally */
-    margin-right: auto; /* Center horizontally */
-    margin-top: 5%; /* Adjust top margin for spacing */
-    position: relative; /* Changed to relative for better flow */
-}
-
-.back_gorund {
-    padding-top: 12px;
-    padding-left: calc(14.9% - 9vw); /* Keep this calculation for responsiveness */
-}
-
-.btn-shop {
-    margin-top: 0; /* Reset margin */
-}
-
-.font_title {
-    font-size: 1.88em; /* Maintain responsive font size */
-    width: 100%; /* Set to 100% for responsiveness */
-}
-
-.shop_btn {
-    width: 100%; /* Full width for responsiveness */
-    max-width: 160px; /* Maintain maximum width */
-    font-size: 11px; /* Adjust as necessary */
-    padding: 8px 6px; /* Consistent padding */
-}
-   }
-
 
 @media (min-width: 1200px) {
     .main_container {
