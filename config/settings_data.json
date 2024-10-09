@@ -1522,6 +1522,11 @@
               "enable_payment_btn": true
             }
           },
+          "tab_iqnY6d": {
+            "type": "tab",
+            "settings": {
+            }
+          },
           "1585709158220": {
             "type": "img",
             "disabled": true,
@@ -1605,6 +1610,7 @@
           "pr_summary-1",
           "pr_summary-2",
           "pr_summary-3",
+          "tab_iqnY6d",
           "1585709158220",
           "pr_summary-4",
           "pr_summary-5",
