@@ -785,7 +785,9 @@ transform: rotate(45deg); */
 .template-collection .btn_filter {
     display: none;
 }
-
+.template-product .nt_labels {
+    display: none;
+}
 /* CUSTOM TAB  */
 .customtabs{
     border-bottom: 4px solid #353530;
