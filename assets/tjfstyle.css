@@ -911,5 +911,8 @@ transform: rotate(45deg); */
   .customtabs::-webkit-scrollbar {
     display: none;
   }
-  
+  .color-white a{
+        color: #999;
+
+  }
 /* custom tab */
