@@ -497,11 +497,11 @@
               "lb_cl": ""
             }
           },
-          "simple_qbXkQx": {
+          "simple_hnb73z": {
             "type": "simple",
             "settings": {
-              "title": "RINGS",
-              "url": "shopify://collections/rings",
+              "title": "KIDS JEWELRY",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -510,11 +510,11 @@
               "lb_cl": ""
             }
           },
-          "simple_hnb73z": {
+          "simple_qbXkQx": {
             "type": "simple",
             "settings": {
-              "title": "WOMEN'S",
-              "url": "/",
+              "title": "RINGS",
+              "url": "shopify://collections/rings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -592,8 +592,8 @@
         },
         "block_order": [
           "simple_8xhpxM",
-          "simple_qbXkQx",
           "simple_hnb73z",
+          "simple_qbXkQx",
           "simple_7eiMGU",
           "simple_q9VreK",
           "simple_LiRrCa",
