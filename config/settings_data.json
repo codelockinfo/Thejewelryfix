@@ -484,10 +484,10 @@
       "header_3": {
         "type": "header_3",
         "blocks": {
-          "simple_8xhpxM": {
+          "simple_hnb73z": {
             "type": "simple",
             "settings": {
-              "title": "HOME",
+              "title": "KIDS JEWELRY",
               "url": "/",
               "open_link": "_self",
               "icon": "",
@@ -497,11 +497,11 @@
               "lb_cl": ""
             }
           },
-          "simple_hnb73z": {
+          "simple_8xhpxM": {
             "type": "simple",
             "settings": {
-              "title": "KIDS JEWELRY",
-              "url": "/",
+              "title": "EARRINGS",
+              "url": "shopify://collections/earrings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -591,8 +591,8 @@
           }
         },
         "block_order": [
-          "simple_8xhpxM",
           "simple_hnb73z",
+          "simple_8xhpxM",
           "simple_qbXkQx",
           "simple_7eiMGU",
           "simple_q9VreK",
