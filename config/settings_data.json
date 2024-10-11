@@ -3927,7 +3927,6 @@
       },
       "image_with_button_custom_nF6cTQ": {
         "type": "image-with-button-custom",
-        "disabled": true,
         "settings": {
           "new_background_image": "shopify://shop_images/Rectangle_113.png",
           "img_background": "right",
