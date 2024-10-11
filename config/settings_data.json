@@ -565,8 +565,8 @@
           "simple_Jkiekn": {
             "type": "simple",
             "settings": {
-              "title": "CUSTOM",
-              "url": "shopify://pages/custom",
+              "title": "BLOGS",
+              "url": "shopify://pages/career",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
