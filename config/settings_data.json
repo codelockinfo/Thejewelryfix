@@ -527,7 +527,7 @@
             "type": "simple",
             "settings": {
               "title": "GOLD CHAINS",
-              "url": "/",
+              "url": "shopify://collections/pendant",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -540,7 +540,7 @@
             "type": "simple",
             "settings": {
               "title": "ENGAGEMENT",
-              "url": "/",
+              "url": "shopify://collections/earrings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -553,7 +553,7 @@
             "type": "simple",
             "settings": {
               "title": "WATCHES",
-              "url": "/",
+              "url": "shopify://collections/watches",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
