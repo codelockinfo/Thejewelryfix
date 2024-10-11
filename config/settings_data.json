@@ -500,8 +500,8 @@
           "simple_qbXkQx": {
             "type": "simple",
             "settings": {
-              "title": "MEN'S",
-              "url": "/",
+              "title": "Rings",
+              "url": "shopify://collections/rings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -577,6 +577,7 @@
           },
           "simple_rVU4qB": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "MADE TO ORDER",
               "url": "/",
