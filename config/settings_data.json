@@ -566,7 +566,7 @@
             "type": "simple",
             "settings": {
               "title": "CUSTOM",
-              "url": "/",
+              "url": "shopify://pages/custom",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
