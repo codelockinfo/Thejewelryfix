@@ -484,50 +484,11 @@
       "header_3": {
         "type": "header_3",
         "blocks": {
-          "simple_hnb73z": {
+          "simple_LiRrCa": {
             "type": "simple",
             "settings": {
-              "title": "KIDS JEWELRY",
-              "url": "/",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "simple_8xhpxM": {
-            "type": "simple",
-            "settings": {
-              "title": "EARRINGS",
-              "url": "shopify://collections/earrings",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "simple_qbXkQx": {
-            "type": "simple",
-            "settings": {
-              "title": "RINGS",
-              "url": "shopify://collections/rings",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "simple_7eiMGU": {
-            "type": "simple",
-            "settings": {
-              "title": "PENDANTS",
-              "url": "shopify://collections/hip-hop-pendants",
+              "title": "WATCHES",
+              "url": "shopify://collections/watches",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -549,11 +510,50 @@
               "lb_cl": ""
             }
           },
-          "simple_LiRrCa": {
+          "simple_7eiMGU": {
             "type": "simple",
             "settings": {
-              "title": "WATCHES",
-              "url": "shopify://collections/watches",
+              "title": "PENDANTS",
+              "url": "shopify://collections/hip-hop-pendants",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_qbXkQx": {
+            "type": "simple",
+            "settings": {
+              "title": "RINGS",
+              "url": "shopify://collections/rings",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_8xhpxM": {
+            "type": "simple",
+            "settings": {
+              "title": "EARRINGS",
+              "url": "shopify://collections/earrings",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_hnb73z": {
+            "type": "simple",
+            "settings": {
+              "title": "KIDS JEWELRY",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -591,12 +591,12 @@
           }
         },
         "block_order": [
-          "simple_hnb73z",
-          "simple_8xhpxM",
-          "simple_qbXkQx",
-          "simple_7eiMGU",
-          "simple_q9VreK",
           "simple_LiRrCa",
+          "simple_q9VreK",
+          "simple_7eiMGU",
+          "simple_qbXkQx",
+          "simple_8xhpxM",
+          "simple_hnb73z",
           "simple_Jkiekn",
           "simple_rVU4qB"
         ],
