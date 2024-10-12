@@ -2862,23 +2862,25 @@
           "ticker_item_QqkJ8N": {
             "type": "ticker_item",
             "settings": {
-              "ticker_text": "FREE SHIPPING $199 MINIMUM"
+              "ticker_text": "WORLDWIDE FREE SHIPPING"
             }
           },
           "ticker_item_LU6YRG": {
             "type": "ticker_item",
             "settings": {
-              "ticker_text": "FREE SHIPPING $199 MINIMUM"
+              "ticker_text": "GET EXCLUSIVE DISCOUNT: GETUPTO40PER"
             }
           },
           "ticker_item_7qfKQb": {
             "type": "ticker_item",
+            "disabled": true,
             "settings": {
               "ticker_text": "FREE SHIPPING $199 MINIMUM"
             }
           },
           "ticker_item_LRXWkr": {
             "type": "ticker_item",
+            "disabled": true,
             "settings": {
               "ticker_text": "FREE SHIPPING $199 MINIMUM"
             }
