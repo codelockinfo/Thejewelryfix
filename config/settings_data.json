@@ -2907,24 +2907,24 @@
           "category_block_QCtRPP": {
             "type": "category_block",
             "settings": {
-              "image": "shopify://shop_images/3.jpg",
-              "category_name": "PENDANTS",
-              "category_url": "shopify://collections/hip-hop-pendants"
+              "image": "shopify://shop_images/MG_2047.jpg",
+              "category_name": "Chains",
+              "category_url": "shopify://collections/pendant"
             }
           },
           "category_block_pnaND3": {
             "type": "category_block",
             "settings": {
-              "image": "shopify://shop_images/4.jpg",
-              "category_name": "WATCHES",
-              "category_url": "shopify://collections/watches"
+              "image": "shopify://shop_images/3.jpg",
+              "category_name": "Pendants",
+              "category_url": "shopify://collections/hip-hop-pendants"
             }
           },
           "category_block_kCf336": {
             "type": "category_block",
             "settings": {
               "image": "shopify://shop_images/2.jpg",
-              "category_name": "EARRINGS",
+              "category_name": "Earrings",
               "category_url": "shopify://collections/earrings"
             }
           },
