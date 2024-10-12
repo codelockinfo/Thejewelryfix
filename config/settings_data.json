@@ -2873,16 +2873,14 @@
           },
           "ticker_item_7qfKQb": {
             "type": "ticker_item",
-            "disabled": true,
             "settings": {
               "ticker_text": "FREE SHIPPING $199 MINIMUM"
             }
           },
           "ticker_item_LRXWkr": {
             "type": "ticker_item",
-            "disabled": true,
             "settings": {
-              "ticker_text": "FREE SHIPPING $199 MINIMUM"
+              "ticker_text": "GET EXCLUSIVE DISCOUNT: GETUPTO40PER"
             }
           }
         },
