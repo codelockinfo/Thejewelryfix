@@ -2963,7 +2963,7 @@
             "settings": {
               "image": "shopify://shop_images/Screenshot_2024-10-12_133943_2c2610b6-1564-4112-a5bb-0cf70c12d8de.jpg",
               "smallimg": "shopify://shop_images/Screenshot_2024-10-12_133943.jpg",
-              "nametext": "<p>Busta</p><p>Rhymes</p>",
+              "nametext": "",
               "product": ""
             }
           },
@@ -2972,7 +2972,7 @@
             "settings": {
               "image": "shopify://shop_images/Screenshot_2024-10-12_133525_aa1c449e-f0a5-424b-a639-4fb8547b095d.jpg",
               "smallimg": "shopify://shop_images/Screenshot_2024-10-12_133525.jpg",
-              "nametext": "<p>Mr. </p><p>Beast</p>",
+              "nametext": "",
               "product": ""
             }
           },
@@ -2981,7 +2981,7 @@
             "settings": {
               "image": "shopify://shop_images/Screenshot_2024-10-12_133813_330bc7dd-5756-4ef3-bcf5-b5e21d4c3ec6.jpg",
               "smallimg": "shopify://shop_images/Screenshot_2024-10-12_133813.jpg",
-              "nametext": "<p>Kodak </p><p>Black</p>",
+              "nametext": "",
               "product": ""
             }
           },
@@ -2990,7 +2990,7 @@
             "settings": {
               "image": "shopify://shop_images/Screenshot_2024-10-12_133635_c5e40f61-44f5-478f-9830-e6ef917af8e5.jpg",
               "smallimg": "shopify://shop_images/Screenshot_2024-10-12_133635.jpg",
-              "nametext": "<p>Cardi </p><p>B</p>",
+              "nametext": "",
               "product": ""
             }
           },
@@ -2999,12 +2999,13 @@
             "settings": {
               "image": "shopify://shop_images/Screenshot_2024-10-12_133423_240df283-37b6-4466-a810-c734efa99785.jpg",
               "smallimg": "shopify://shop_images/Screenshot_2024-10-12_133423.jpg",
-              "nametext": "<p>Young </p><p>Ma</p>",
+              "nametext": "",
               "product": ""
             }
           },
           "text_rtC4DX": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Rectangle_187.png",
               "smallimg": "shopify://shop_images/Ellipse_35.png",
