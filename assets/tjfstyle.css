@@ -810,6 +810,9 @@ font-weight: 400;
 .template-product .shopify-payment-button__more-options {
    color:#ffffff !important;
 }
+.template-product .facl-heart-o {
+   color:#ffffff !important;
+}
 /* CUSTOM TAB  */
 .customtabs{
     border-bottom: 4px solid #353530;
