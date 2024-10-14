@@ -261,8 +261,8 @@
       font-size: 24px !important;
       line-height: 30.84px;
     }
-  .collection-i-slider .watch_slider{
-    padding-bottom:0;
+  .watch_slider{
+    padding-top:0;
   }
 }
 @media (max-width:439px) {
