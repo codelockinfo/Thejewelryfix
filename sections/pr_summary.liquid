@@ -420,7 +420,7 @@ endif -%}
             {{ product.metafields.custom.tabdescription }}
           </div>
           <div class="custompanel" id="two-panel">
-            {{ product.metafields.custom.diamonddetails }}
+            {{ product.metafields.custom.diamonddetails | newline_to_br }}
           </div>
           <div class="custompanel" id="three-panel">
             {{ product.metafields.custom.metaltype }}
