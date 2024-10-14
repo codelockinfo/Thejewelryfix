@@ -790,7 +790,10 @@ transform: rotate(45deg); */
 }
 .template-product product__policies {
    color:#D9D9D9 !important;
-  
+  font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+
 }
 /* CUSTOM TAB  */
 .customtabs{
