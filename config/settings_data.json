@@ -2807,7 +2807,7 @@
           "category_block_jHtTdW": {
             "type": "category_block",
             "settings": {
-              "image": "shopify://shop_images/4.jpg",
+              "image": "shopify://shop_images/04.jpg",
               "category_name": "Watches",
               "category_url": "shopify://collections/watches"
             }
@@ -2815,7 +2815,7 @@
           "category_block_kCf336": {
             "type": "category_block",
             "settings": {
-              "image": "shopify://shop_images/2.jpg",
+              "image": "shopify://shop_images/05.jpg",
               "category_name": "Earrings",
               "category_url": "shopify://collections/earrings"
             }
@@ -2823,7 +2823,7 @@
           "category_block_i4f4wm": {
             "type": "category_block",
             "settings": {
-              "image": "shopify://shop_images/a13070a699c7e7448463d48c45d6847f.png",
+              "image": "shopify://shop_images/06.jpg",
               "category_name": "Bracelets",
               "category_url": "shopify://collections/bracelets"
             }
