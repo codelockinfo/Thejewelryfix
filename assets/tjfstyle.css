@@ -816,7 +816,7 @@ font-weight: 400;
 .template-product  .variations_button .nt_add_w {
    border:1px solid #BCBCBC !important;
 }
-.template-product  .custom-quantity .qty .facl-plus ,.facl-minus {
+.template-product  .custom-quantity .qty .facl-plus,.facl-minus {
    color:#fff !important;
 }
 /* CUSTOM TAB  */
