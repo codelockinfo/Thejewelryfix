@@ -794,11 +794,15 @@ transform: rotate(45deg); */
 font-size: 14px;
 font-weight: 400;
 }
-.template-product .product__policies {
-   color:#D9D9D9 !important;
+.template-product .product__policies a{
+   color:#53C7D7 !important;
   font-family: Poppins;
 font-size: 14px;
 font-weight: 400;
+}
+.template-product .sp-tab-content{
+   color:#ffffff !important;
+  
 }
 /* CUSTOM TAB  */
 .customtabs{
