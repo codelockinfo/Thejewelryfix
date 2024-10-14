@@ -2788,14 +2788,6 @@
       "custom_category_section_X7n9FW": {
         "type": "custom-category-section",
         "blocks": {
-          "category_block_jHtTdW": {
-            "type": "category_block",
-            "settings": {
-              "image": "shopify://shop_images/4.jpg",
-              "category_name": "Watches",
-              "category_url": "shopify://collections/watches"
-            }
-          },
           "category_block_QCtRPP": {
             "type": "category_block",
             "settings": {
@@ -2810,6 +2802,14 @@
               "image": "shopify://shop_images/3.jpg",
               "category_name": "Pendants",
               "category_url": "shopify://collections/hip-hop-pendants"
+            }
+          },
+          "category_block_jHtTdW": {
+            "type": "category_block",
+            "settings": {
+              "image": "shopify://shop_images/4.jpg",
+              "category_name": "Watches",
+              "category_url": "shopify://collections/watches"
             }
           },
           "category_block_kCf336": {
@@ -2830,9 +2830,9 @@
           }
         },
         "block_order": [
-          "category_block_jHtTdW",
           "category_block_QCtRPP",
           "category_block_pnaND3",
+          "category_block_jHtTdW",
           "category_block_kCf336",
           "category_block_i4f4wm"
         ],
