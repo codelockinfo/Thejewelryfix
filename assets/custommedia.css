@@ -272,4 +272,7 @@
 .custom-banner-section .mainclass {
   bottom: -47%;
 }
+  .collection-i-slider .add_btn_watch{
+    font-size:10px;
+  }
 }
