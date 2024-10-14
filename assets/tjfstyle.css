@@ -813,6 +813,9 @@ font-weight: 400;
 .template-product .facl-heart-o {
    color:#ffffff !important;
 }
+.template-product  .variations_button .nt_add_w {
+   color:#ffffff !important;
+}
 /* CUSTOM TAB  */
 .customtabs{
     border-bottom: 4px solid #353530;
