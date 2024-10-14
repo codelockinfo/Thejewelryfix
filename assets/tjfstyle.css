@@ -731,11 +731,7 @@ transform: rotate(45deg); */
 .template-product .price_range {
     display: flex;
     align-items: center;
-     color: #D9D9D9;
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
+    color:#fff !important;
 }
 
 .template-product .priceoff {
@@ -791,6 +787,10 @@ transform: rotate(45deg); */
 }
 .template-product .nt_labels {
     display: none;
+}
+.template-product product__policies {
+   color:#D9D9D9 !important;
+  
 }
 /* CUSTOM TAB  */
 .customtabs{
