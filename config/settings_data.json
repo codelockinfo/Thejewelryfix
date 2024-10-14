@@ -1403,7 +1403,7 @@
           "pr_summary-3": {
             "type": "frm",
             "settings": {
-              "ani": "shake",
+              "ani": "none",
               "time": 6,
               "btn_des": "3",
               "btn_txt": "2",
