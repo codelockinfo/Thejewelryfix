@@ -806,7 +806,9 @@ font-weight: 400;
 }
 .template-product .sp-tab-content h1,h2,h3,h4,h5,h6 {
    color:#ffffff !important;
-  
+}
+.template-product .shopify-payment-button__more-options {
+   color:#ffffff !important;
 }
 /* CUSTOM TAB  */
 .customtabs{
