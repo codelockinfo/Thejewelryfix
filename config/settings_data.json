@@ -1413,7 +1413,7 @@
               "swatch_size": "medium",
               "show_qty": false,
               "btn_atc_full": false,
-              "enable_payment_btn": false
+              "enable_payment_btn": true
             }
           },
           "tab_iqnY6d": {
