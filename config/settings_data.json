@@ -861,7 +861,7 @@
             "type": "help",
             "settings": {
               "title": "Need help?",
-              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"></i><a class=\"cg\" href=\"mailto:+1%20(225)%20469-7615\">+1 (225) 469-7615</a><br>\n<i class=\"pegk pe-7s-mail fwb mr__10\"></i>\n<a class=\"cg\" href=\"mailto:TheJewelryFix.btr@gmail.com\">TheJewelryFix.btr@gmail.com</a>"
+              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"></i><a class=\"cg\" href=\"tel:+1%20(225)%20469-7615\">+1 (225) 469-7615</a><br>\n<i class=\"pegk pe-7s-mail fwb mr__10\"></i>\n<a class=\"cg\" href=\"mailto:TheJewelryFix.btr@gmail.com\">TheJewelryFix.btr@gmail.com</a>"
             }
           },
           "mb_nav-8": {
