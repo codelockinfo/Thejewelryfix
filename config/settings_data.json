@@ -2932,11 +2932,11 @@
         "settings": {
           "left_bg_pattern": "shopify://shop_images/4db7940b4417c4a22014e462661194ef.jpg",
           "center_image": "shopify://shop_images/08_6fd80613-b3f9-41a9-b026-731b30bfe0f6.jpg",
-          "small_title": "Design Video",
-          "main_title": "Make Your Day Brighter.",
+          "small_title": "",
+          "main_title": "A Symbol of Love, Crafted to Last Forever",
           "description": "A wedding band is a timeless symbol of love and commitment. From classic gold to sleek platinum, it reflects personal style and the bond between partners. Simple or detailed, it’s a lasting reminder of your special journey together.",
           "button_text": "Shop Now",
-          "button_link": ""
+          "button_link": "shopify://collections/rings"
         }
       },
       "custom_testimonial_section_XkVBje": {
