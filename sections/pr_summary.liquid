@@ -426,7 +426,7 @@ endif -%}
             {{ product.metafields.custom.metaltype | newline_to_br }}
           </div>
           <div class="custompanel" id="four-panel">
-            {{ product.metafields.custom.otherinformation }}
+            {{ product.metafields.custom.otherinformation  | newline_to_br }}
           </div>
         </div>
       {% endif %}
