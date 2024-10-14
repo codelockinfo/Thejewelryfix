@@ -814,7 +814,7 @@ font-weight: 400;
    color:#ffffff !important;
 }
 .template-product  .variations_button .nt_add_w {
-   color:#ffffff !important;
+   border:1px solid #BCBCBC !imporant;
 }
 /* CUSTOM TAB  */
 .customtabs{
