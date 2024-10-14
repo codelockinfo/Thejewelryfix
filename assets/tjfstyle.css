@@ -731,6 +731,7 @@ transform: rotate(45deg); */
 .template-product .price_range {
     display: flex;
     align-items: center;
+    color:#fff !important;
 }
 
 .template-product .priceoff {
