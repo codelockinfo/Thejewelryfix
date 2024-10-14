@@ -887,12 +887,25 @@
       "mb_cat": {
         "type": "mb_cat",
         "blocks": {
+          "1585642167981": {
+            "type": "cat",
+            "settings": {
+              "cat": "",
+              "title": "Watches",
+              "url": "shopify://collections/watches",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "clock"
+            }
+          },
           "1585641915360": {
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "Women’s Clothing",
-              "url": "",
+              "title": "Cuban Chains",
+              "url": "shopify://collections/pendant",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
@@ -904,8 +917,8 @@
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "Men’s Clothing",
-              "url": "",
+              "title": "Pendants",
+              "url": "shopify://collections/hip-hop-pendants",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
@@ -913,25 +926,12 @@
               "icon": "male"
             }
           },
-          "1585642167981": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Watches",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "clock"
-            }
-          },
           "1585642277236": {
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "Acessories",
-              "url": "",
+              "title": "Rings",
+              "url": "shopify://collections/rings",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
@@ -943,8 +943,8 @@
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "",
-              "url": "",
+              "title": "Earrings",
+              "url": "shopify://collections/earrings",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
@@ -952,83 +952,27 @@
               "icon": "camera-retro"
             }
           },
-          "1585642600575": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Shoes",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "shoe-prints"
-            }
-          },
           "1585642629333": {
             "type": "cat",
             "settings": {
               "cat": "",
-              "title": "Jewellery",
-              "url": "",
+              "title": "Kid's Jewelry",
+              "url": "shopify://collections/kids-jewelry",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
               "icons_op": "2",
               "icon": "gem"
             }
-          },
-          "1585642644518": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "T-Shirt",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "tshirt"
-            }
-          },
-          "1585642780875": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Toys, Kids & Baby",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "child"
-            }
-          },
-          "1585642798957": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Decor",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "chair"
-            }
           }
         },
         "block_order": [
+          "1585642167981",
           "1585641915360",
           "1585642130935",
-          "1585642167981",
           "1585642277236",
           "1585642450066",
-          "1585642600575",
-          "1585642629333",
-          "1585642644518",
-          "1585642780875",
-          "1585642798957"
+          "1585642629333"
         ],
         "settings": {
         }
