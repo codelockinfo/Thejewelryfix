@@ -816,10 +816,10 @@ font-weight: 400;
 .template-product  .variations_button .nt_add_w {
    border:1px solid #BCBCBC !important;
 }
-.template-product  .custom-quantity .facl-plus {
+.template-product  .custom-quantity .plus  .facl-plus {
    color:#fff !important;
 }
-.template-product  .custom-quantity .facl-minus {
+.template-product  .custom-quantity .minus  .facl-minus {
    color:#fff !important;
 }
 /* CUSTOM TAB  */
