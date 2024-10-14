@@ -8,7 +8,7 @@
       <div class="promo-title">
         {{ section.settings.promo_title }}
       </div>
-      <a href="{{ section.settings.promo_button_link }}" class="promo-button">
+      <a href="{{ section.settings.button_url }}" class="promo-button">
         {{ section.settings.promo_button_text }}
       </a>
     </div>
@@ -47,7 +47,11 @@
       "label": "Button Text",
       "default": "Shop Now"
     },
-    
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button url"
+    },
     {
       "type": "image_picker",
       "id": "promo_image",
