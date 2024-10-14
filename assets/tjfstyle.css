@@ -731,7 +731,11 @@ transform: rotate(45deg); */
 .template-product .price_range {
     display: flex;
     align-items: center;
-    color:#fff !important;
+     color: #D9D9D9;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
 }
 
 .template-product .priceoff {
