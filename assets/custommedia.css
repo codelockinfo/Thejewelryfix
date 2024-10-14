@@ -262,7 +262,7 @@
       line-height: 30.84px;
     }
   .watch_slider{
-    padding-top:0;
+    padding-top:0 !important;
   }
 }
 @media (max-width:439px) {
