@@ -63,7 +63,6 @@
     "logo_svg": "",
     "logo": "shopify://shop_images/2addb0ab45f2c304bfbf53db95000fb4-removebg-preview.png",
     "logo_width": 180,
-    "logos": "shopify://shop_images/logo_01.png",
     "logos_width": 180,
     "logo_mb": "",
     "logo_mb_retina": "",
@@ -330,7 +329,7 @@
     "social_youtube_link": "",
     "social_behance_link": "",
     "social_soundcloud_link": "",
-    "favicon": "shopify://shop_images/logo.png",
+    "favicon": "",
     "favicon_apple": "",
     "checkout_header_image": "",
     "checkout_logo_image": "",
@@ -2935,7 +2934,7 @@
           "center_image": "shopify://shop_images/08_6fd80613-b3f9-41a9-b026-731b30bfe0f6.jpg",
           "small_title": "Design Video",
           "main_title": "Make Your Day Brighter.",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.",
+          "description": "A wedding band is a timeless symbol of love and commitment. From classic gold to sleek platinum, it reflects personal style and the bond between partners. Simple or detailed, it’s a lasting reminder of your special journey together.",
           "button_text": "Shop Now",
           "button_link": ""
         }
