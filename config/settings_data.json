@@ -2274,6 +2274,7 @@
           },
           "tag2_htXYbN": {
             "type": "tag2",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "count": false,
