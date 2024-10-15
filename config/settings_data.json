@@ -1525,6 +1525,7 @@
           },
           "pr_description-1": {
             "type": "add",
+            "disabled": true,
             "settings": {
               "title": "Additional Information"
             }
