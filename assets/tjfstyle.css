@@ -994,3 +994,12 @@ font-weight: 400;
      height: 100% !important;
      margin: 0 !important;
 }
+
+.customselect{
+    width: 50%;
+    color:#FFF !important;
+    margin-bottom: 30px; 
+}
+.customselect .variant-input{
+    color:#000 !important; 
+}

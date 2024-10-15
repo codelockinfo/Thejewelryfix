@@ -49,12 +49,12 @@
      right: -30%;
    }
  }
-   @media (min-width: 1501px) and (max-width: 1640px) {
+@media (min-width: 1501px) and (max-width: 1640px) {
    .custom-banner-img {
      right: -19%;
    }
  }
-@media (max-width:1024px) {
+@media (max-width:1024px) { 
     .promo-title {
         font-size: 50px;
     }
@@ -246,6 +246,9 @@
     .template-product .nt_pr h3.product-title, .template-collection .product-title{
       height: 50px;
     }
+    .customselect{
+      width: 100%;
+  }
 }
 @media (max-width:600px) {
     .category-main-section .heading-button2{
