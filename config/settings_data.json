@@ -2291,6 +2291,16 @@
               "arra_enter": "Moissanite Diamond,Lab Grown Diamond,Natural Diamond",
               "style": "ck"
             }
+          },
+          "tag2_ptFVkF": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": false,
+              "title": "Style",
+              "arra_enter": "",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
@@ -2299,7 +2309,8 @@
           "tag2_emAmLG",
           "tag2_tGVTRe",
           "tag2_htXYbN",
-          "tag2_kBbaqD"
+          "tag2_kBbaqD",
+          "tag2_ptFVkF"
         ],
         "settings": {
         }
