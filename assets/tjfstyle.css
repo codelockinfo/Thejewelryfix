@@ -596,6 +596,7 @@ transform: rotate(45deg); */
 
 .template-product .variations .swatch_pr_item span {
     color: #777777;
+    z-index: 1;
 }
 
 .template-product .price_varies,
