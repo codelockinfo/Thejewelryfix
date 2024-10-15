@@ -1003,3 +1003,7 @@ font-weight: 400;
 .customselect .variant-input{
     color:#000 !important; 
 }
+
+.sticky_atc_wrap {
+    background: #171717 !important;
+}
