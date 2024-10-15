@@ -987,3 +987,9 @@ font-weight: 400;
 .bg_color_yellow {
     background: linear-gradient(180deg, #EECE78 0%, #FDF5DC 50.5%, #EECE7A 100%);
 }
+
+.template-product  table .custom-video video{
+     width: 100% !important;
+     height: 100% !important;
+     margin: 0 !important;
+}
