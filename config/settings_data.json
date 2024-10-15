@@ -3038,7 +3038,7 @@
           "hedding_text": "watches",
           "hedding": "Popular Trends",
           "btn_lable": "view all",
-          "btnurl": "",
+          "btnurl": "shopify://collections/watches",
           "mainimg": "shopify://shop_images/01_ed0b66c7-e826-467f-ac90-c886cb34a4fd.jpg",
           "show_navigation": true
         }
