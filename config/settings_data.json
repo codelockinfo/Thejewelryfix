@@ -204,7 +204,7 @@
     "design_products": "2",
     "size_img_pr": "2",
     "nav_img_pr": "medium",
-    "use_sticky_des": false,
+    "use_sticky_des": true,
     "main_click": "zoom",
     "zoom_tp": "2",
     "pswp_tp": "light",
@@ -2743,7 +2743,7 @@
           "image_text_block_8A8ebm"
         ],
         "settings": {
-          "background_image": "shopify://shop_images/y6sAMZuORiiQKRxoTaOByQ.jpg",
+          "background_image": "shopify://shop_images/JNIekbqJSSaTEjTBYmxbPA.jpg",
           "banner_heading": "Special Offer",
           "banner_main_heading": "Explore the Best  <br> Hip Hop Jewelry <br>Collection",
           "button_text": "Shop Now",
