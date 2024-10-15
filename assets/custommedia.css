@@ -237,6 +237,9 @@
       font-size: 14px;
       line-height: 22.2px;
     }
+    .template-product .nt_pr h3.product-title, .template-collection .product-title{
+      height: 50px;
+    }
 }
 @media (max-width:600px) {
     .category-main-section .heading-button2{
@@ -263,6 +266,9 @@
     }
   .watch_slider{
     padding-top:0 !important;
+  }
+  .footer__top_wrap .textwidget  .db{
+    text-align: center !important;
   }
 }
 @media (max-width:439px) {
