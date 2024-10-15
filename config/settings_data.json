@@ -2281,6 +2281,15 @@
               "arra_enter": "Solitaire,Halo,Pave,Eternity,Half Eternity,Three Stone,Championship,Religious,Hip Hop",
               "style": "ck"
             }
+          },
+          "type_tmjVRR": {
+            "type": "type",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "Dimond Type",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
@@ -2288,7 +2297,8 @@
           "tag2_cprjTc",
           "tag2_emAmLG",
           "tag2_tGVTRe",
-          "tag2_htXYbN"
+          "tag2_htXYbN",
+          "type_tmjVRR"
         ],
         "settings": {
         }
