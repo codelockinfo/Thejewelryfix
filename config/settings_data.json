@@ -1531,6 +1531,7 @@
           },
           "1585724379549": {
             "type": "html",
+            "disabled": true,
             "settings": {
               "title": "Custom tab",
               "page": ""
@@ -1538,6 +1539,7 @@
           },
           "pr_description-2": {
             "type": "rivui",
+            "disabled": true,
             "settings": {
               "title": "Reviews"
             }

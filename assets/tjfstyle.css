@@ -955,6 +955,7 @@ font-weight: 400;
 	color: #ffff !important;
 	background-color: #171717 !important;
 }
+
 .mini_cart_title a{
     color:#fff !important;
 }
@@ -972,4 +973,16 @@ font-weight: 400;
 }
 .js_cat_dics .total .js_cat_ttprice strong ,.cart_tot_price{
     color: #fff !important;
+
+}
+.bg_color_rose {
+    background: linear-gradient(180deg, #F6C8AE 0%, #FEEEE6 50.5%, #F4BEA0 100%);
+}
+
+.bg_color_white {
+    background: linear-gradient(180deg, #DDDDDC 0%, #F6F6F6 50.5%, #D7D6D6 100%);
+}
+
+.bg_color_yellow {
+    background: linear-gradient(180deg, #EECE78 0%, #FDF5DC 50.5%, #EECE7A 100%);
 }
