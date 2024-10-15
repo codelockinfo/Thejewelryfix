@@ -284,6 +284,20 @@ endif -%}
                           {%- when '9' -%}{%- render 'swatch_simple',product:product,block:block,remove_soldout:remove_soldout,call_cl:call_cl,locale_url:locale_url,html_sizeg:html_sizeg,ck_sizeg:ck_sizeg,name_sizeg:name_sizeg -%}
                           {%- when '10' -%}{%- render 'swatch_simple_2',product:product,block:block,remove_soldout:remove_soldout,call_cl:call_cl,locale_url:locale_url,html_sizeg:html_sizeg,ck_sizeg:ck_sizeg,name_sizeg:name_sizeg -%}
                        {%- endcase -%}
+                        {% comment %} custom properties {% endcomment %}
+                          <div class="customize-properties mb__20">
+                            <h4 for="customization" class="swatch__title">Personalize Box</h4>
+                            <textarea
+                              class="personalizebox"
+                              id="personalize-box"
+                              type="text"
+                              name="properties[Personalize Box]"
+                              placeholder="Mention Your Personalization Size, Metal Color, etc. Here"
+                              spellcheck="false"
+                            ></textarea>
+                            {% comment %} <input  class="required" id="customization" name="properties[Personalization]" value="" /> {% endcomment %}
+                          </div>
+                          {% comment %} custom properties {% endcomment %}
                         <div class="nt_pr_js lazypreloadt4s op__0" data-id="{{call_cl}}" data-rendert4s="{{locale_url}}/products/{{product.handle}}/?view=js{{call_cl}}"></div>
                        {%- if pr_incoming_mess -%}
                           {%- if inventory_quantity <= 0 and current_variant.incoming and variants_size < 2 and inventory_management  -%}
@@ -341,20 +355,7 @@ endif -%}
 
                     </div>
                  {%- endform -%}
-                {% comment %} custom properties {% endcomment %}
-                <div class="customize-properties mt__40">
-                  <h4 for="customization" class="swatch__title">Personalize Box</h4>
-                  <textarea
-                    class="personalizebox"
-                    id="personalize-box"
-                    type="text"
-                    name="properties[Personalize Box]"
-                    placeholder="Mention Your Personalization Size, Metal Color, etc. Here"
-                    spellcheck="false"
-                  ></textarea>
-                  {% comment %} <input  class="required" id="customization" name="properties[Personalization]" value="" /> {% endcomment %}
-                </div>
-                {% comment %} custom properties {% endcomment %}
+         
 
                 {%- assign uavailable_v = pr_variants | where: "available", false -%}
                 {%- if settings.use_notify_me and uavailable_v.size > 0 -%}
