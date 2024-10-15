@@ -2287,8 +2287,8 @@
             "settings": {
               "hidden_block": false,
               "count": false,
-              "title": "Dimond Tyoe",
-              "arra_enter": "Moissanite Diamond,Lab Grown Diamond",
+              "title": "Dimond Type",
+              "arra_enter": "Moissanite Diamond,Lab Grown Diamond,Natural Diamond",
               "style": "ck"
             }
           }
