@@ -19,7 +19,7 @@
 
             <div class="image_text">
               <div class="watch_text">{{ section.settings.hedding_text }}</div>
-              <a class="heading-button">{{ section.settings.btn_lable }}</a>
+              <a href="{{ section.settings.btnurl }}" class="heading-button">{{ section.settings.btn_lable }}</a>
             </div>
           </div>
         </div>
@@ -88,6 +88,11 @@
       "id": "btn_lable",
       "default": "view all",
       "label": "all button lable"
+    },
+    {
+      "type": "url",
+      "id": "btnurl",
+      "label": "Collection urls"
     },
 
     {
