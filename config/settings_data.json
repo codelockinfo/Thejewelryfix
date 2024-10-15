@@ -2708,28 +2708,28 @@
           "image_text_block_ip9Umj": {
             "type": "image_text_block",
             "settings": {
-              "image": "shopify://shop_images/Vector_11.png",
+              "image": "shopify://shop_images/truck.png",
               "title": "Worldwide Free Shipping"
             }
           },
           "image_text_block_cdHHhj": {
             "type": "image_text_block",
             "settings": {
-              "image": "shopify://shop_images/Group_1000004557.png",
+              "image": "shopify://shop_images/back.png",
               "title": "7-Day Return Applicable"
             }
           },
           "image_text_block_jmNN8a": {
             "type": "image_text_block",
             "settings": {
-              "image": "shopify://shop_images/Vector_12.png",
-              "title": "Best Customer Service"
+              "image": "shopify://shop_images/money_installment.png",
+              "title": "Layaway Payment Plan"
             }
           },
           "image_text_block_8A8ebm": {
             "type": "image_text_block",
             "settings": {
-              "image": "shopify://shop_images/Group_1000004558.png",
+              "image": "shopify://shop_images/customer_suport.png",
               "title": "24X7 Customer Service"
             }
           }
