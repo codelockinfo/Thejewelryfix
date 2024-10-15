@@ -2284,6 +2284,7 @@
           },
           "type_tmjVRR": {
             "type": "type",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "count": true,
