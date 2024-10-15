@@ -2282,13 +2282,13 @@
               "style": "ck"
             }
           },
-          "type_tmjVRR": {
-            "type": "type",
-            "disabled": true,
+          "tag2_kBbaqD": {
+            "type": "tag2",
             "settings": {
               "hidden_block": false,
-              "count": true,
-              "title": "Dimond Type",
+              "count": false,
+              "title": "Dimond Tyoe",
+              "arra_enter": "",
               "style": "ck"
             }
           }
@@ -2299,7 +2299,7 @@
           "tag2_emAmLG",
           "tag2_tGVTRe",
           "tag2_htXYbN",
-          "type_tmjVRR"
+          "tag2_kBbaqD"
         ],
         "settings": {
         }
