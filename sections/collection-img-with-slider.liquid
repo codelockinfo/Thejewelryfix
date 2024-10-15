@@ -30,23 +30,29 @@
             {% for product in section.settings.collectionproduct.products %}
               <div class="swiper-slide">
                 <div class="watch_sliders">
+                  <a href="{{product.url}}">
                   <div class="slider_image">
                     <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}">
                   </div>
+                  </a>
                   <div class="watch_slider_text">
+                    <a href="{{product.url}}">
                     <div class="watch_texall">{{ product.title }}</div>
+                    </a>
                     <span class="price dib mb__5">
                       {%- render 'product_price', product: product, inc_price: inc_price -%}
                     </span>
                     <div class="jdgm-widget jdgm-preview-badge">
                       {{ product.metafields.judgeme.badge }}
                     </div>
-                    <form method="post" action="/cart/">
-                      <input name="id" value="1402808270917" type="hidden">
-                      <input name="add" value="ADD TO CART" type="submit" class="add_btn_watch">
-                    </form>
+                    <form method="post" action="/cart/add" class="">
+                    <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                    <input min="1" type="hidden" id="quantity" name="quantity" value="1"/>
+                    <input type="submit" value="Add to cart" class="c-single_add_to_cart_button" />
+                  </form>
                   </div>
                 </div>
+               
               </div>
             {% endfor %}
           </div>
@@ -116,9 +122,11 @@
   .collection-i-slider .qty {
     color: white !important;
   }
-  .collection-i-slider .single_add_to_cart_button {
-    background: #353530 !important;
-    color: #caa45d !important;
+  .collection-i-slider .c-single_add_to_cart_button {
+    background: #171717 !important;
+    color: #D9D9D9 !important;
+    border: 1px solid #71717A;
+    width: 100%;
   }
   .collection-i-slider .facl facl-heart-o {
     color: #d9d9d9 !important;

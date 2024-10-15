@@ -955,3 +955,21 @@ font-weight: 400;
 	color: #ffff !important;
 	background-color: #171717 !important;
 }
+.mini_cart_title a{
+    color:#fff !important;
+}
+.cart_header{
+    color: #fff !important;
+}
+.cart_items .qty .plus i{
+    color:#fff !important;
+}
+.cart_items .qty .minus  svg{
+    color:#fff !important;
+}
+.js_cat_dics .total .js_cat_ttprice .cart_tot_price ,strong{
+    color: #fff !important;
+}
+.js_cat_dics .total .js_cat_ttprice strong ,.cart_tot_price{
+    color: #fff !important;
+}
