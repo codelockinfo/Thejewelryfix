@@ -24,7 +24,7 @@
        <div class="container pr z_100">
           {%- for block in se_bks -%}
             {%- case block.type -%}
-             {%- when '1' -%}<h1 class="mb__5 cw">{{ collection.title }}</h1>
+             {%- when '1' -%}<h1 class=" collection-head-c mb__5 cw">{{ collection.title }}</h1>
              {% if settings.breadcrumb_pr %}<nav class="sp-breadcrumb custom-breadcrumb-class"><a href="{{ routes.root_url }}" class="dib custom-breadcrumb-class">{{ 'general.breadcrumbs.home' | t }}</a>{% if collection.url != blank %}  ||  <a href="{{collection.url}}" class="dib  custom-breadcrumb-class ">{{collection.title}}</a>{% endif %} </nav>{% endif %}</div>
              {%- else %}{% if settings.cat_des == '1' and IsShowDesSUB %}<div class="mt__5 mg__0 rtet4">{{ collection.description }}</div>{% endif -%}
             {%- endcase -%}
