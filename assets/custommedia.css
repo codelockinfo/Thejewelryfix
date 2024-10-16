@@ -287,6 +287,8 @@
   }
   .footer__top_wrap .textwidget  .db{
     text-align: center !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important; 
   }
 }
 @media (max-width:439px) {
