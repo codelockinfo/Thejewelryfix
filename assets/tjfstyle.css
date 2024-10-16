@@ -1010,6 +1010,25 @@ font-weight: 400;
 .mfp-with-anim{
    background: #171717 !important;
 }
-.mfp-with-anim .variations_button {
+/* .mfp-with-anim .variations_button {
   
+} */
+
+/* video description */
+.video-descrpiton{
+    display: flex;
+    flex-wrap: wrap;
 }
+.video-descrpiton .sp-tab-content{
+    width: 50%;
+}
+    .video-descrpiton .custom-video{
+        width: 50%;
+        padding-left: 30px;
+    }
+    .des_style_1.des_mb_2.sp-tab>.sp-tab-content{
+        border: 0 !important;
+    }
+    .table-responsive{
+        border: 0 !important;
+    }

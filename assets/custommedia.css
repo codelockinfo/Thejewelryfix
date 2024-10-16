@@ -67,6 +67,13 @@
       width: 60%;
 
     }
+    .video-descrpiton .sp-tab-content{
+      width: 100%;
+  }
+      .video-descrpiton .custom-video{
+          width: 100%;
+          padding-left: 0;
+      }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
     .custom-banner-section .banner-heading {

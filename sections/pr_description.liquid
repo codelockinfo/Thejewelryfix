@@ -67,10 +67,25 @@
     {%- case block.type -%}
 
       {%- when 'des' -%}
-      <div class="panel entry-content sp-tab des_mb_{{cl_mb}} des_style_{{cl_des}}{% if ck %} active{% assign ck = false %}{% else %} dn{% endif %}" id="tab_pr_deskl" {{ block.shopify_attributes }}>
+    {% assign videodescription = product.metafields.custom.description_video %}
+      <div class="{% if videodescription != blank  %}video-descrpiton {% endif %} panel entry-content sp-tab des_mb_{{cl_mb}} des_style_{{cl_des}}{% if ck %} active{% assign ck = false %}{% else %} dn{% endif %}" id="tab_pr_deskl" {{ block.shopify_attributes }}>
       	<div class="js_ck_view"></div><div class="heading bgbl dn"><a class="tab-heading flex al_center fl_between pr cd chp fwm" href="#tab_pr_deskl"><span class="txt_h_tab">{{bk_setts.title}}</span><span class="nav_link_icon ml__5"></span></a></div>
       	<div class="sp-tab-content rtet4">{{- product.description | split: '[split_dest4]' | last -}}</div>
+        {% if videodescription != blank %}
+         <div class="custom-video">
+          <video 
+          src="{{ videodescription }}" 
+          style="width: 100%; height: 100%; border: none; object-fit: cover;" 
+          autoplay 
+          muted 
+          loop 
+          playsinline
+          controls>
+      </video>
+         </div>
+        {% endif %}
       </div>
+
 
       {%- when 'buy' -%}{% if nav_up_size == 0 %}{% continue %}{% endif -%} 
       <div class="panel entry-content sp-tab des_mb_{{cl_mb}} des_style_{{cl_des}}{% if ck %} active{% assign ck = false %}{% else %} dn{% endif %}" id="tab_{{block.id}}" {{ block.shopify_attributes }}>
