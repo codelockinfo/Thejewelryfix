@@ -67,13 +67,15 @@
       width: 60%;
 
     }
-    .video-descrpiton .sp-tab-content{
+    .video-descrpiton .custom-tab-dec{
       width: 100%;
   }
       .video-descrpiton .custom-video{
           width: 100%;
           padding-left: 0;
       }
+      .des_style_1 .sp-tab-content{display:block !important}
+      .des_style_1 .sp-tab-content{display:none !important}
 }
 @media (min-width: 769px) and (max-width: 1024px) {
     .custom-banner-section .banner-heading {
