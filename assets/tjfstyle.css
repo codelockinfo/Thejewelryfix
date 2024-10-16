@@ -1040,3 +1040,24 @@ font-weight: 400;
     .mfp-content .price {
         color:  #ffff!important;
     }
+    .sticky_atc_content  .quantity .qty .facl-plus{
+        color:  #ffff!important;
+    }
+    .sticky_atc_content  .quantity .qty .facl-minus{
+        color:  #ffff!important;
+    }
+    .mfp-content  h3.product-title>a{
+        color:  #ffff!important;
+    }
+    .mfp-content  .variations_form .shopify-payment-button{
+       display: block !important;
+       width: 100% !important;
+       margin-top: 10px !important;
+    }
+    .mfp-content  .detail_link {
+        color:  #ffff !important;
+    }
+
+
+
+

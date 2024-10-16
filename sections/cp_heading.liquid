@@ -18,6 +18,7 @@
                {%- else -%}{% if block.settings.text == blank %}{% continue %}{% endif %}<p class="mg__0">{{ block.settings.text }}</p>
             {%- endcase -%}
           {%- endfor -%}
+       <nav class="sp-breadcrumb mt__10" aria-label="Breadcrumbs"><a href="{{ routes.root_url }}" class="dib">{{ 'general.breadcrumbs.home' | t }}</a><i class="facl facl-angle-right"></i>{{collection.title}}
        </div>
     {%- endif -%}
   {%- endcapture -%}
