@@ -329,7 +329,7 @@
     "social_youtube_link": "",
     "social_behance_link": "",
     "social_soundcloud_link": "",
-    "favicon": "",
+    "favicon": "shopify://shop_images/logo.png",
     "favicon_apple": "",
     "checkout_header_image": "",
     "checkout_logo_image": "",
@@ -2769,7 +2769,7 @@
         ],
         "settings": {
           "background_image": "shopify://shop_images/10.jpg",
-          "backgroundmobile": "shopify://shop_images/10_-_M.jpg",
+          "backgroundmobile": "shopify://shop_images/10_-_M_9fb63489-9cf2-4090-9a50-ccaf8518b933.jpg",
           "banner_heading": "Special Offer",
           "banner_main_heading": "Explore the Best  <br> Hip Hop Jewelry <br>Collection",
           "button_text": "Shop Now",
