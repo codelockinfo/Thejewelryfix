@@ -2527,9 +2527,9 @@ html.wf-fontawesome5free-n4-loading .fas:before {opacity: 0}
 .row:after,.row:before {
     display: none !important;
 }
-#nt_content {
+/* #nt_content {
     min-height: 50vh;
-}
+} */
 
 /* .browser-Chrome .slideshow__slide:not(.is-selected) {opacity: 0 !important} */
 
