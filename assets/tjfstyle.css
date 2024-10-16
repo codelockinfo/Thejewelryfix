@@ -1033,3 +1033,10 @@ font-weight: 400;
     .table-responsive{
         border: 0 !important;
     }
+
+    .sticky_atc_btn .sticky_atc_price{
+        color: #fff !important; 
+    }
+    .mfp-content .price {
+        color:  #ffff!important;
+    }
