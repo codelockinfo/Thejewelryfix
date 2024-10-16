@@ -73,21 +73,10 @@
       	<div class="sp-tab-content rtet4">{{- product.description | split: '[split_dest4]' | last -}}</div>
         {% if videodescription != blank %}
          <div class="custom-video">
-          <video 
-          src="{{ videodescription }}" 
-          style="width: 100%; height: 100%; border: none; object-fit: cover;" 
-          autoplay 
-          muted 
-          loop 
-          playsinline
-          controls>
-      </video>
-           <video controls autoplay>
-    <source src="{{  videodescription }}"
-                  type="video/webm">
-    <source src="{{  videodescription }}"
-                  type="video/mp4">
-             </video>
+          
+             <video autoplay="" loop="" controls="" width="100%">
+            <source src="https://cdn.shopify.com/videos/c/o/v/7556d74d1c094ca6b97d250827f5af9a.mp4" type="video/mp4" id="{{ section.id }}">
+          </video>
          </div>
         {% endif %}
       </div>
