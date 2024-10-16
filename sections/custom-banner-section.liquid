@@ -1,83 +1,81 @@
 {% if section.settings.background_image != blank %}
-<div class="custom-banner-section lazyloaded"
-  style="background-image: url({{ section.settings.background_image | img_url: 'master' }});">
-  <div class="width-container">
-    <div class="custom-content">
-      {% if section.settings.banner_heading != blank %}
-      <div class="banner-heading">{{ section.settings.banner_heading }}</div>
-      {% endif %}
-      {% if section.settings.banner_main_heading != blank %}
-      <div class="banner-main-heading">{{ section.settings.banner_main_heading }}</div>
-      {% endif %}
-      {% if section.settings.button_text != blank %}
-      <a href="{{ section.settings.button_link }}" class="banner-button">{{ section.settings.button_text }}</a>
-      {% endif %}
+  <div
+    class="custom-banner-section lazyloaded"
+  >
+    <div class="width-container">
+      <div class="custom-content">
+        {% if section.settings.banner_heading != blank %}
+          <div class="banner-heading">{{ section.settings.banner_heading }}</div>
+        {% endif %}
+        {% if section.settings.banner_main_heading != blank %}
+          <div class="banner-main-heading">{{ section.settings.banner_main_heading }}</div>
+        {% endif %}
+        {% if section.settings.button_text != blank %}
+          <a href="{{ section.settings.button_link }}" class="banner-button">{{ section.settings.button_text }}</a>
+        {% endif %}
+      </div>
     </div>
-  </div>
-  {% if section.settings.banner_image != blank %}
-  <div class="custom-banner-img">
-    <img src="{{ section.settings.banner_image | img_url: 'master' }}" alt="banner-img" class="banner-img lazyloaded">
-  </div>
-  {% endif %}
-  <div class="mainclass">
-    <div class="custom-width-container">
-      <div class="maindiv">
-        {% for block in section.blocks %}
-          <div class="content-block">
-            <div class="image-container">
-              {% if block.settings.image != blank %}
-                <div class="image-box">
-                  <img src="{{ block.settings.image | img_url: 'master' }}">
-                </div>
-              {% else %}
-              {% endif %}
+
+    <div class="mainclass">
+      <div class="custom-width-container">
+        <div class="maindiv">
+          {% for block in section.blocks %}
+            <div class="content-block">
+              <div class="image-container">
+                {% if block.settings.image != blank %}
+                  <div class="image-box">
+                    <img src="{{ block.settings.image | img_url: 'master' }}">
+                  </div>
+                {% else %}
+
+                {% endif %}
+              </div>
+              <div class="text-container">
+                <div class="custome-heading">{{ block.settings.title }}</div>
+              </div>
             </div>
-            <div class="text-container">
-              <div class="custome-heading">{{ block.settings.title }}</div>
-            </div>
-          </div>
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
-</div>
 {% endif %}
 {% schema %}
 {
-"name": "Custom Banner Section",
-"settings": [
-{
-"type": "image_picker",
-"id": "background_image",
-"label": "Background Image"
-},
-{
-"type": "text",
-"id": "banner_heading",
-"label": "Banner Heading"
-},
-{
-"type": "text",
-"id": "banner_main_heading",
-"label": "Main Heading"
-},
-{
-"type": "text",
-"id": "button_text",
-"label": "Button Text"
-},
-{
-"type": "url",
-"id": "button_link",
-"label": "Button Link"
-},
-{
-"type": "image_picker",
-"id": "banner_image",
-"label": "Banner Image"
-}
-],
-"blocks": [
+  "name": "Custom Banner Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "banner_heading",
+      "label": "Banner Heading"
+    },
+    {
+      "type": "text",
+      "id": "banner_main_heading",
+      "label": "Main Heading"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "backgroundmobile",
+      "label": "Mobile background image"
+    }
+  ],
+  "blocks": [
     {
       "type": "image_text_block",
       "name": "Image and Text Block",
@@ -95,11 +93,22 @@
       ]
     }
   ],
-"presets": [
-{
-"name": "Custom Banner Section",
-"category": "Custom"
-}
-]
+  "presets": [
+    {
+      "name": "Custom Banner Section",
+      "category": "Custom"
+    }
+  ]
 }
 {% endschema %}
+
+<style>
+  .custom-banner-section{
+    background-image: url({{ section.settings.background_image | img_url: 'master' }});
+  }
+  @media (max-width:768px){
+    .custom-banner-section{
+    background-image: url({{ section.settings.backgroundmobile | img_url: 'master' }});
+  }
+  }
+</style>
