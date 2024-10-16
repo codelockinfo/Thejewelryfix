@@ -72,11 +72,10 @@
       	<div class="js_ck_view"></div><div class="heading bgbl dn"><a class="tab-heading flex al_center fl_between pr cd chp fwm" href="#tab_pr_deskl"><span class="txt_h_tab">{{bk_setts.title}}</span><span class="nav_link_icon ml__5"></span></a></div>
       	<div class="sp-tab-content rtet4">{{- product.description | split: '[split_dest4]' | last -}}</div>
         {% if videodescription != blank %}
-          {{ videodescription }}??????
          <div class="custom-video">
           
              <video autoplay="" loop="" controls="" width="100%">
-            <source src="{{  videodescription  }}" type="video/mp4" id="{{ section.id }}">
+            <source src="https://cdn.shopify.com/videos/c/o/v/7556d74d1c094ca6b97d250827f5af9a.mp4" type="video/mp4" id="{{ section.id }}">
           </video>
          </div>
         {% endif %}
