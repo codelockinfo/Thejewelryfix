@@ -2767,12 +2767,11 @@
           "image_text_block_8A8ebm"
         ],
         "settings": {
-          "background_image": "shopify://shop_images/cf4c127756ca83274f282f3f0f033fe9_1.jpg",
+          "background_image": "shopify://shop_images/uEHTVjCTS9iUKw8ToKwZwA.png",
           "banner_heading": "Special Offer",
           "banner_main_heading": "Explore the Best  <br> Hip Hop Jewelry <br>Collection",
           "button_text": "Shop Now",
-          "button_link": "shopify://collections/pendant",
-          "banner_image": "shopify://shop_images/uEHTVjCTS9iUKw8ToKwZwA.png"
+          "button_link": "shopify://collections/pendant"
         }
       },
       "custom-announcment": {
