@@ -562,6 +562,27 @@
               "lb_cl": ""
             }
           },
+          "link_nXcPHH": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "",
+              "url": "",
+              "open_link": "_self",
+              "menu": "kids-jewelry",
+              "col": "6"
+            }
+          },
+          "cat_7VwQQx": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/FLR19387_4.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "",
+              "title": "",
+              "col": "6"
+            }
+          },
           "simple_Jkiekn": {
             "type": "simple",
             "settings": {
@@ -597,6 +618,8 @@
           "simple_qbXkQx",
           "simple_8xhpxM",
           "simple_hnb73z",
+          "link_nXcPHH",
+          "cat_7VwQQx",
           "simple_Jkiekn",
           "simple_rVU4qB"
         ],
