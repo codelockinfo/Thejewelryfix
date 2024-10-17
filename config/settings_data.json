@@ -551,6 +551,7 @@
           },
           "simple_hnb73z": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "KIDS JEWELRY",
               "url": "/",
@@ -564,7 +565,6 @@
           },
           "mega_JpaKMm": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "title": "KIDS JEWELRY",
               "url": "shopify://collections/kids-rings",
@@ -582,7 +582,6 @@
           },
           "link_nXcPHH": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "",
               "url": "shopify://collections/kids-rings",
@@ -593,9 +592,8 @@
           },
           "cat_7VwQQx": {
             "type": "cat",
-            "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/W_MG_0890copy.jpg",
+              "image": "shopify://shop_images/FLR19387_2.jpg",
               "cat_design": "2",
               "hoverz": true,
               "collection": "kids-rings",
