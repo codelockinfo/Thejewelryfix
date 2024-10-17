@@ -40,9 +40,9 @@
                <a class="lh__1 flex al_center pr" href="{{bk_stts.url}}" target="{{bk_stts.open_link}}"{% if bk_stts.cus_cl %} style="color:{{bk_stts.cl}}"{% endif %}>{%- render 'title_menu',block:block -%}</a>
                <div class="{{bk_stts.wid}} sub-menu"><div class="container"{% if  bk_stts.wid != 'full nav_t4cnt' %} style="width:{{bk_stts.cus_wid}}px"{% endif %}>
                   {%- if bk_stts.lazy_mn and admin_sp == false -%}
-                    <div class="row lazy_menu lazyloadt4s lazy_menu_mega" data-t4splitlz data-rendert4s="{{search_url}}/{{blockID}}+ntt4tag" data-jspackery='{ "itemSelector": ".sub-column-item","gutter": 0,"percentPosition": true,"originLeft": {{ltr}} }' data-set4url='{{url_seir}}'><div class="lds_bginfinity pr"></div></div>
+                     <div class="row lazy_menu unlazy_menu_mega" data-jspackery='{ "itemSelector": ".sub-column-item","gutter": 0,"percentPosition": true,"originLeft": {{ltr}} }'>{%- render 'menu_import',section:section,Current_id:blockID -%}</div>
                   {%- else -%}
-                    <div class="row lazy_menu unlazy_menu_mega" data-jspackery='{ "itemSelector": ".sub-column-item","gutter": 0,"percentPosition": true,"originLeft": {{ltr}} }'>{%- render 'menu_import',section:section,Current_id:blockID -%}</div>
+                     <div class="row lazy_menu lazyloadt4s lazy_menu_mega" data-t4splitlz data-rendert4s="{{search_url}}/{{blockID}}+ntt4tag" data-jspackery='{ "itemSelector": ".sub-column-item","gutter": 0,"percentPosition": true,"originLeft": {{ltr}} }' data-set4url='{{url_seir}}'><div class="lds_bginfinity pr"></div></div>
                   {%- endif -%}
               </div></div>
             </li>
