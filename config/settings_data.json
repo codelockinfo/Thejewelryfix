@@ -567,7 +567,7 @@
             "type": "mega",
             "settings": {
               "title": "KIDS JEWELRY",
-              "url": "/",
+              "url": "shopify://collections/kids-rings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -584,7 +584,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "",
-              "url": "",
+              "url": "shopify://collections/kids-rings",
               "open_link": "_self",
               "menu": "kids-jewelry",
               "col": "6"
