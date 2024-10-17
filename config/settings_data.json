@@ -2260,7 +2260,7 @@
               "hidden_block": false,
               "count": false,
               "title": "Thickness",
-              "arra_enter": "All,1 mm,2 mm,3 mm,4 mm,5 mm,6 mm+",
+              "arra_enter": "All,1 inch,2 inch,3 inch,4 inch,5 inch,6 inch+",
               "style": "ck"
             }
           },
