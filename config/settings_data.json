@@ -2259,7 +2259,7 @@
             "settings": {
               "hidden_block": false,
               "count": false,
-              "title": "Thickness",
+              "title": "Length",
               "arra_enter": "All,1 inch,2 inch,3 inch,4 inch,5 inch,6 inch+",
               "style": "ck"
             }
