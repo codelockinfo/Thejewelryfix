@@ -1132,3 +1132,9 @@ font-weight: 600 !important;
     color: #F0D882 !important;
     margin-top: 10px;
 }
+.cat_design_1 .cat_grid_item__wrapper{
+    bottom: 10px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
