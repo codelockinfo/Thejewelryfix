@@ -594,7 +594,7 @@
             "type": "cat",
             "settings": {
               "image": "shopify://shop_images/ndjsad.png",
-              "cat_design": "2",
+              "cat_design": "1",
               "hoverz": true,
               "collection": "kids-rings",
               "title": "",
