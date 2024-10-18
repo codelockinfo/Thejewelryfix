@@ -41,7 +41,7 @@ endif -%}
 		{%- case option_index -%}{%- when 0 -%}{%- assign selected_value = current_variant.option1 |default:choose_an_option -%}{%- when 1 -%}{%- assign selected_value = current_variant.option2 |default:choose_an_option -%}{%- else -%}{%- assign selected_value = current_variant.option3 |default:choose_an_option -%}{%- endcase -%}
 		{%- if get_color contains name -%}
 			<div data-opname="{{option.name | handleize}}" class="{{select_class}}{{ option_index }} swatch is-label{% cycle ' is-ntcolor','','' %}" id="{{select_id}}_{{ option_index }}">
-				<h4 class="swatch__title"><span>{{option.name}}: <span class="nt_name_current">{{selected_value}}</span></span></h4>
+				<h4 class="11111111 swatch__title"><span>{{option.name}}: <span class="nt_name_current">{{selected_value}}</span></span></h4>
 				<ul class="swatches-select swatch__list_pr" data-id="{{ option_index }}" data-size="{{size}}">
 			   	   {%- for value in option.values -%}
 			   	      {%- assign vh = value | handle -%}{%- assign sclass = '' -%}{%- if selected_value == value -%}{%- assign sclass = bclass -%}{%- endif -%}
@@ -51,7 +51,7 @@ endif -%}
 			</div>
 		{%- else -%}
 			<div data-opname="{{option.name | handleize}}" class="{{select_class}}{{ option_index }} swatch is-label is-{{option.name | handleize}}" id="{{select_id}}_{{ option_index }}">
-				<h4 class="swatch__title"><span>{{option.name}}: <span class="nt_name_current">{{selected_value}}</span></span>{% if ck_sizeg and name == name_sizeg %}{{html_sizeg}}{% assign ck_sizeg = false %}{% endif %}</h4>
+				<h4 class="22222222 swatch__title"><span>{{option.name}}: <span class="nt_name_current">{{selected_value}}</span></span>{% if ck_sizeg and name == name_sizeg %}{{html_sizeg}}{% assign ck_sizeg = false %}{% endif %}</h4>
 				<ul class="swatches-select swatch__list_pr" data-id="{{ option_index }}" data-size="{{size}}">
 		   	   {%- for value in option.values -%}
 		   	      {%- assign vh = value | handle -%}{%- assign sclass = '' -%}{%- if selected_value == value -%}{%- assign sclass = bclass -%}{%- endif -%}
