@@ -53,7 +53,7 @@
 					<ul class="swatches-select swatch__list_pr flex column pa t__0 l__0 css_ntbar" data-id="{{ option_index }}" data-size="{{size}}">
 				   	    {%- for value in option.values -%}
 				   	      {%- assign vh = value | handle -%}{%- assign sclass = '' -%}{%- if selected_value == value -%}{%- assign sclass = bclass -%}{%- endif -%}
-				   		   <li data-index="{{ forloop.index0 }}" data-value='{{ vh }}' class="nt-swatch swatch_pr_item pr bg_css_{{ vh }} {{sclass}}" data-escape="{{ value | escape }}"><span class="bg_imh_sel bg_color_{{ vh }} lazyloadt4s"></span><span class="swatch__value_pr truncate">{{ value }}</span></li>
+				   		   <li data-index="{{ forloop.index0 }}" data-value='{{ vh }}' class="nt-swatch swatch_pr_item pr bg_css_{{ vh }} {{sclass}}" data-escape="{{ value | escape }}"><span class="bg_imh_sel bg_color_{{ vh }} lazyloadt4s"></span><span class="111111 swatch__value_pr truncate">{{ value }}</span></li>
 				   	    {%- endfor -%}
 					</ul>
 			    </div>
