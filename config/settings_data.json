@@ -595,10 +595,10 @@
             "settings": {
               "image": "shopify://shop_images/ndjsad.png",
               "cat_design": "6",
-              "hoverz": true,
+              "hoverz": false,
               "collection": "kids-jewelry",
               "title": "",
-              "col": "6"
+              "col": "8"
             }
           },
           "simple_Jkiekn": {
