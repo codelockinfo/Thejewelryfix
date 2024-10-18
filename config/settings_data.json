@@ -594,7 +594,7 @@
             "type": "cat",
             "settings": {
               "image": "shopify://shop_images/ndjsad.png",
-              "cat_design": "6",
+              "cat_design": "1",
               "hoverz": false,
               "collection": "kids-jewelry",
               "title": "",
