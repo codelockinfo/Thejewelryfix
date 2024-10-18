@@ -45,7 +45,7 @@
 		{%- if get_color contains name -%}
 		    {%- if ck and has_img == '2' and img_variants.size > 0 -%}<div class="lazyloadt4s nt_pre_img op__0" data-rendert4s="/products/{{product.handle}}/?view=cl{{call_cl}}"></div>{%- assign ck = false -%}{%- endif -%}
 			<div data-opname="{{option.name | handleize}}" class="{{select_class}}{{ option_index }} swatch is-label is-selcolor{% cycle ' is-ntcolor','','' %}" id="{{select_id}}_{{ option_index }}">
-				<h4 class="swatch__title"><span>{{option.name}}: <span class="nt_name_current">{{selected_value}}</span></span></h4>
+				<h4 class="1111 swatch__title"><span>{{option.name}}: <span class="nt_name_current">{{selected_value}}</span></span></h4>
 				<div class="nt_lt_fake pr mt__10 mb__20">
 					<i class="pa op__0 facl facl-angle-down"></i>
 					<div class="header_picker nt_name_current truncate">{%- if settings.pr_curent == '1' and selected_variant == blank and v_size > 1 -%}{{ 'products.product.pick_a' | t:option:option.name }}{%- else -%}{{selected_value}}{%- endif -%}</div>
@@ -60,7 +60,7 @@
 			</div>
 		{%- else -%}
 			<div data-opname="{{option.name | handleize}}" class="{{select_class}}{{ option_index }} swatch is-label is-{{option.name | handleize}}" id="{{select_id}}_{{ option_index }}">
-				<h4 class="swatch__title"><span>{{option.name}}: <span class="nt_name_current">{{selected_value}}</span></span>{% if ck_sizeg and name == name_sizeg %}{{html_sizeg}}{% assign ck_sizeg = false %}{% endif %}</h4>
+				<h4 class="2222 swatch__title"><span>{{option.name}}: <span class="nt_name_current">{{selected_value}}</span></span>{% if ck_sizeg and name == name_sizeg %}{{html_sizeg}}{% assign ck_sizeg = false %}{% endif %}</h4>
 				<div class="nt_lt_fake pr mt__10 mb__20">
 					<i class="pa op__0 facl facl-angle-down"></i>
 					<div class="header_picker nt_name_current truncate">{%- if settings.pr_curent == '1' and selected_variant == blank and v_size > 1 -%}{{ 'products.product.pick_a' | t:option:option.name }}{%- else -%}{{selected_value}}{%- endif -%}</div>
