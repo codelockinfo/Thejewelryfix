@@ -1138,3 +1138,16 @@ font-weight: 600 !important;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.row.theiaStickySidebar.theiaStickySidebarProduct{
+    transition: all 0.5s;
+}
+.row.theiaStickySidebar.sticky{
+    transition: all 0.5s;
+    position: fixed;
+    top: 100px;
+}
+.row.theiaStickySidebar.slider-absolute{
+    position: absolute;
+    bottom: 0;
+    top: unset;
+}
