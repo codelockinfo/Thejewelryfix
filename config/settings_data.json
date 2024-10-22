@@ -2897,6 +2897,13 @@
               "category_name": "Bracelets",
               "category_url": "shopify://collections/bracelets"
             }
+          },
+          "category_block_mYQeak": {
+            "type": "category_block",
+            "settings": {
+              "category_name": "Rings",
+              "category_url": "shopify://collections/rings"
+            }
           }
         },
         "block_order": [
@@ -2904,7 +2911,8 @@
           "category_block_pnaND3",
           "category_block_jHtTdW",
           "category_block_kCf336",
-          "category_block_i4f4wm"
+          "category_block_i4f4wm",
+          "category_block_mYQeak"
         ],
         "settings": {
           "title": "Shop  by Category",
