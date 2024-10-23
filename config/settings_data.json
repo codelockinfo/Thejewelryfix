@@ -3119,6 +3119,18 @@
           "mainimg": "shopify://shop_images/02_cc7e1f0d-70b6-427a-a5c9-0c980a12981f.jpg",
           "show_navigation": false
         }
+      },
+      "collection_img_with_slider_X8R7RW": {
+        "type": "collection-img-with-slider",
+        "settings": {
+          "collectionproduct": "pendant",
+          "hedding_text": "Rings",
+          "hedding": "",
+          "btn_lable": "view all",
+          "btnurl": "",
+          "mainimg": "shopify://shop_images/02_cc7e1f0d-70b6-427a-a5c9-0c980a12981f.jpg",
+          "show_navigation": false
+        }
       }
     },
     "content_for_index": [
@@ -3127,6 +3139,7 @@
       "collection_img_with_slider_NfCrdk",
       "collection_img_with_slider_qcGLhd",
       "collection_img_with_slider_q6Ftzt",
+      "collection_img_with_slider_X8R7RW",
       "custom_img_with_text_ya7Ygh",
       "advance_image_text_94NpUY",
       "custom_testimonial_section_XkVBje",
