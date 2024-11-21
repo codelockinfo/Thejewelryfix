@@ -769,46 +769,38 @@
         "block_order": [
           "1600078759493"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "cart_widget": {
         "type": "cart_widget",
         "blocks": {
           "cart_widget-0": {
             "type": "price",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-1": {
             "type": "tax",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-2": {
             "type": "agree",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-3": {
             "type": "btnc",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-4": {
             "type": "btnck",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-5": {
             "type": "btnmr",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-6": {
             "type": "img",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-7": {
             "type": "btn",
@@ -881,23 +873,19 @@
           },
           "mb_nav-4": {
             "type": "wis",
-            "settings": {
-            }
+            "settings": {}
           },
           "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063": {
             "type": "compe",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-5": {
             "type": "sea",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-6": {
             "type": "acc",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-7": {
             "type": "help",
@@ -908,8 +896,7 @@
           },
           "mb_nav-8": {
             "type": "cur",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -923,8 +910,7 @@
           "mb_nav-7",
           "mb_nav-8"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "mb_cat": {
         "type": "mb_cat",
@@ -1016,8 +1002,7 @@
           "1585642450066",
           "1585642629333"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "toolbar_mobile": {
         "type": "toolbar_mobile",
@@ -1203,13 +1188,11 @@
         "blocks": {
           "cat_heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "cat_heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1284,8 +1267,7 @@
           "1581913909406",
           "1581913174211"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "collection_page": {
         "type": "collection_page",
@@ -1313,18 +1295,15 @@
         "blocks": {
           "article-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-heading-2": {
             "type": "3",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1351,13 +1330,11 @@
         "blocks": {
           "article-template-0": {
             "type": "content",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-template-1": {
             "type": "tags",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-template-2": {
             "type": "social",
@@ -1369,8 +1346,7 @@
           },
           "article-template-3": {
             "type": "nav",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-template-4": {
             "type": "related",
@@ -1400,8 +1376,7 @@
           },
           "article-template-5": {
             "type": "comments",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1412,8 +1387,7 @@
           "article-template-4",
           "article-template-5"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "pr_summary": {
         "type": "pr_summary",
@@ -1461,8 +1435,7 @@
           },
           "tab_iqnY6d": {
             "type": "tab",
-            "settings": {
-            }
+            "settings": {}
           },
           "1585709158220": {
             "type": "img",
@@ -1554,8 +1527,7 @@
           "pr_summary-6",
           "complementary_product_Y6Echg"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "pr_description": {
         "type": "pr_description",
@@ -1743,28 +1715,23 @@
         "blocks": {
           "cart-template-0": {
             "type": "price",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-1": {
             "type": "tax",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-2": {
             "type": "agree",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-3": {
             "type": "btnck",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-4": {
             "type": "btnmr",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-5": {
             "type": "img",
@@ -1830,13 +1797,11 @@
         "blocks": {
           "blog-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "blog-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1925,13 +1890,11 @@
         "blocks": {
           "bptf-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "bptf-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1978,13 +1941,11 @@
         "blocks": {
           "aptf-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "aptf-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2010,8 +1971,7 @@
         "blocks": {
           "aptf-template-0": {
             "type": "content",
-            "settings": {
-            }
+            "settings": {}
           },
           "aptf-template-1": {
             "type": "infos",
@@ -2031,8 +1991,7 @@
           },
           "aptf-template-3": {
             "type": "nav",
-            "settings": {
-            }
+            "settings": {}
           },
           "aptf-template-4": {
             "type": "related",
@@ -2077,8 +2036,7 @@
         "blocks": {
           "pages_heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2203,13 +2161,11 @@
       },
       "page_meta_ntt4": {
         "type": "page_meta_ntt4",
-        "settings": {
-        }
+        "settings": {}
       },
       "img_meta_ntt4": {
         "type": "img_meta_ntt4",
-        "settings": {
-        }
+        "settings": {}
       },
       "nt_filter2": {
         "type": "nt_filter2",
@@ -2273,8 +2229,7 @@
           "nt_filter2-4",
           "nt_filter2-5"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "sidebar_shop2": {
         "type": "sidebar_shop2",
@@ -2357,8 +2312,7 @@
           "tag2_kBbaqD",
           "tag2_ptFVkF"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header_4": {
         "type": "header_4",
@@ -2585,8 +2539,7 @@
           "hcat_nav-0",
           "hcat_nav-1"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header_9": {
         "type": "header_9",
@@ -2768,8 +2721,7 @@
           "page_about_us-7",
           "4143db8f-06cf-493a-ae3c-e9974cd2e53f"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "custom_banner_section_RfRQeV": {
         "type": "custom-banner-section",
@@ -2852,8 +2804,7 @@
           "ticker_item_7qfKQb",
           "ticker_item_LRXWkr"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "custom_category_section_X7n9FW": {
         "type": "custom-category-section",
@@ -2923,8 +2874,7 @@
       },
       "sidebar_shop": {
         "type": "sidebar_shop",
-        "settings": {
-        }
+        "settings": {}
       },
       "celebrity_slider_dbeGLh": {
         "type": "celebrity-slider",
@@ -3131,6 +3081,88 @@
           "mainimg": "shopify://shop_images/00_a580fc89-feda-4959-8df5-3686d949cfc5.jpg",
           "show_navigation": false
         }
+      },
+      "custom_banner_2_BXiHCW": {
+        "type": "custom-banner-2",
+        "blocks": {
+          "image_text_block_MEKyak": {
+            "type": "image_text_block",
+            "settings": {
+              "image": "shopify://shop_images/truck_d4ff36fe-93f1-4a58-baf0-4a21af9f0b87.png",
+              "title": "Worldwide Free Shipping",
+              "banner_heading": "",
+              "banner_main_heading": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
+          "image_text_block_QcY39L": {
+            "type": "image_text_block",
+            "settings": {
+              "image": "shopify://shop_images/back_ee7f3fff-94ac-48de-9774-19eb2920d881.png",
+              "title": "7-Day Return Applicable",
+              "banner_heading": "",
+              "banner_main_heading": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
+          "image_text_block_yterEt": {
+            "type": "image_text_block",
+            "settings": {
+              "image": "shopify://shop_images/money_installment_4040ad81-704a-464c-8569-f3e4dce5ee6d.png",
+              "title": "Layaway Payment Plan",
+              "banner_heading": "",
+              "banner_main_heading": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
+          "image_text_block_9nmkEe": {
+            "type": "image_text_block",
+            "settings": {
+              "image": "shopify://shop_images/customer_suport_0ccba679-6b34-4c90-9234-23dd8c93adac.png",
+              "title": "24X7 Customer Service",
+              "banner_heading": "",
+              "banner_main_heading": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
+          "image_text_block_RFTTWQ": {
+            "type": "image_text_block",
+            "settings": {
+              "title": "",
+              "background_image": "shopify://shop_images/10_81d2dccd-bc18-432d-a07d-24c991b1d36b.jpg",
+              "backgroundmobile": "shopify://shop_images/10_-_M_9fb63489-9cf2-4090-9a50-ccaf8518b933.jpg",
+              "banner_heading": "Special Offer",
+              "banner_main_heading": "Explore the Best  <br> Hip Hop Jewelry <br>Collection",
+              "button_text": "Shop Now",
+              "button_link": ""
+            }
+          },
+          "image_text_block_ejdEka": {
+            "type": "image_text_block",
+            "settings": {
+              "title": "",
+              "background_image": "shopify://shop_images/uEHTVjCTS9iUKw8ToKwZwA.png",
+              "backgroundmobile": "shopify://shop_images/10_-_M_9fb63489-9cf2-4090-9a50-ccaf8518b933.jpg",
+              "banner_heading": "",
+              "banner_main_heading": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_text_block_MEKyak",
+          "image_text_block_QcY39L",
+          "image_text_block_yterEt",
+          "image_text_block_9nmkEe",
+          "image_text_block_RFTTWQ",
+          "image_text_block_ejdEka"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": [
@@ -3143,20 +3175,19 @@
       "custom_img_with_text_ya7Ygh",
       "advance_image_text_94NpUY",
       "custom_testimonial_section_XkVBje",
-      "celebrity_slider_dbeGLh"
+      "celebrity_slider_dbeGLh",
+      "custom_banner_2_BXiHCW"
     ],
     "blocks": {
       "13768625480086291342": {
         "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "776302416715791028": {
         "type": "shopify://apps/bucks/blocks/app-embed/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -3175,8 +3206,7 @@
       "478144830049398400": {
         "type": "shopify://apps/storeseo/blocks/store_seo_meta/64b24496-16f9-4afc-a800-84e6acc4a36c",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   }
