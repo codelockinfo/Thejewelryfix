@@ -2725,50 +2725,8 @@
       },
       "custom_banner_section_RfRQeV": {
         "type": "custom-banner-section",
-        "blocks": {
-          "image_text_block_ip9Umj": {
-            "type": "image_text_block",
-            "settings": {
-              "image": "shopify://shop_images/truck.png",
-              "title": "Worldwide Free Shipping"
-            }
-          },
-          "image_text_block_cdHHhj": {
-            "type": "image_text_block",
-            "settings": {
-              "image": "shopify://shop_images/back.png",
-              "title": "7-Day Return Applicable"
-            }
-          },
-          "image_text_block_jmNN8a": {
-            "type": "image_text_block",
-            "settings": {
-              "image": "shopify://shop_images/money_installment.png",
-              "title": "Layaway Payment Plan"
-            }
-          },
-          "image_text_block_8A8ebm": {
-            "type": "image_text_block",
-            "settings": {
-              "image": "shopify://shop_images/customer_suport.png",
-              "title": "24X7 Customer Service"
-            }
-          }
-        },
-        "block_order": [
-          "image_text_block_ip9Umj",
-          "image_text_block_cdHHhj",
-          "image_text_block_jmNN8a",
-          "image_text_block_8A8ebm"
-        ],
-        "settings": {
-          "background_image": "shopify://shop_images/10_81d2dccd-bc18-432d-a07d-24c991b1d36b.jpg",
-          "backgroundmobile": "shopify://shop_images/10_-_M_9fb63489-9cf2-4090-9a50-ccaf8518b933.jpg",
-          "banner_heading": "Special Offer",
-          "banner_main_heading": "Explore the Best  <br> Hip Hop Jewelry <br>Collection",
-          "button_text": "Shop Now",
-          "button_link": "shopify://collections/pendant"
-        }
+        "disabled": true,
+        "settings": {}
       },
       "custom-announcment": {
         "type": "custom-announcment",
@@ -3166,6 +3124,7 @@
       }
     },
     "content_for_index": [
+      "custom_banner_2_BXiHCW",
       "custom_banner_section_RfRQeV",
       "custom_category_section_X7n9FW",
       "collection_img_with_slider_NfCrdk",
@@ -3175,8 +3134,7 @@
       "custom_img_with_text_ya7Ygh",
       "advance_image_text_94NpUY",
       "custom_testimonial_section_XkVBje",
-      "celebrity_slider_dbeGLh",
-      "custom_banner_2_BXiHCW"
+      "celebrity_slider_dbeGLh"
     ],
     "blocks": {
       "13768625480086291342": {
