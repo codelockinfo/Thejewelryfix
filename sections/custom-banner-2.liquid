@@ -9,8 +9,7 @@
           {% for block in section.blocks  offset:4 %}
           <div 
         class="swiper-slide"
-        data-desktop-image="{{ block.settings.background_image | img_url: 'master' }}"
-        data-mobile-image="{{ block.settings.backgroundmobile | img_url: 'master' }}"
+       
         style="
           background-image: url({{ block.settings.background_image | img_url: 'master' }}); 
           background-size: cover; 
