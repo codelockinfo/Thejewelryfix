@@ -8,7 +8,7 @@
       <div class="swiper-wrapper">
           {% for block in section.blocks  offset:4 %}
           <div class="swiper-slide" style="
-  background-image: url({{ block.settings.background_image | img_url: 'master' }}); 
+  background-image: url({% if request.device_type == 'mobile' %}{{ block.settings.backgroundmobile | img_url: 'master' }}{% else %}{{ block.settings.background_image | img_url: 'master' }}{% endif %});  
   background-size: cover; 
   background-position: center; 
   width: 100%; 
