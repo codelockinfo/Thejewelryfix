@@ -262,6 +262,9 @@
     .customselect{
       width: 100%;
   }
+    .custom-banner-img{
+    height:50vh;
+  }
 }
 @media (max-width:600px) {
     .category-main-section .heading-button2{
