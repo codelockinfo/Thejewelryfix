@@ -970,14 +970,9 @@ h6 {
 
 .customtabs {
     display: flex;
-    /* Arrange tabs in a row */
-    /* overflow-x: auto;            Enable horizontal scrolling */
     white-space: nowrap;
-    /* Prevents the tabs from wrapping to the next line */
     scrollbar-width: none;
-    /* Hide scrollbar for Firefox */
     -ms-overflow-style: none;
-    /* Hide scrollbar for Internet Explorer and Edge */
 }
 
 .customtabs::-webkit-scrollbar {
