@@ -1,8 +1,13 @@
-<div class="custom-banner-section lazyloaded">
-  <div class="swiper bannerSwiper">
-    <div class="swiper-wrapper">
-      {% for block in section.blocks offset:4 %}
-      <div 
+
+  <div
+    class="custom-banner-section lazyloaded"
+  >
+
+    
+    <div class="swiper bannerSwiper">
+      <div class="swiper-wrapper">
+          {% for block in section.blocks  offset:4 %}
+          <div 
         class="swiper-slide"
         data-desktop-image="{{ block.settings.background_image | img_url: 'master' }}"
         data-mobile-image="{{ block.settings.backgroundmobile | img_url: 'master' }}"
@@ -14,82 +19,169 @@
           height: 100%;
         "
       >
-        <div class="custom-banner-img">
-          <div class="width-container">
-            <div class="custom-content">
-              {% if block.settings.banner_heading != blank %}
-                <div class="banner-heading">{{ block.settings.banner_heading }}</div>
-              {% endif %}
-              {% if block.settings.banner_main_heading != blank %}
-                <div class="banner-main-heading">{{ block.settings.banner_main_heading }}</div>
-              {% endif %}
-              {% if block.settings.button_text != blank %}
-                <a href="{{ block.settings.button_link }}" class="banner-button">{{ block.settings.button_text }}</a>
-              {% endif %}
+      <div class=custom-banner-img >
+      <div class="width-container">
+      <div class="custom-content">
+      
+          <div class="banner-heading">{{ block.settings.banner_heading }}</div>
+       
+        
+          <div class="banner-main-heading">{{ block.settings.banner_main_heading }}</div>
+       
+        {% if block.settings.button_text != blank %}
+          <a href="{{ block.settings.button_link }}" class="banner-button">{{ block.settings.button_text }}</a>
+        {% endif %}
+      </div>
+    </div>
+ </div>
+              </div>
+        {% endfor %}
+      </div>
+    </div>
+
+
+    
+     <div class="mainclass">
+      <div class="custom-width-container">
+        <div class="maindiv">
+          {% for block in section.blocks limit:4 %}
+            <div class="content-block">
+              <div class="image-container">
+                {% if block.settings.image != blank %}
+                  <div class="image-box">
+                    <img src="{{ block.settings.image | img_url: 'master' }}">
+                  </div>
+                {% else %}
+
+                {% endif %}
+              </div>
+              <div class="text-container">
+                <div class="custome-heading">{{ block.settings.title }}</div>
+              </div>
             </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
-      {% endfor %}
     </div>
-    <div class="swiper-pagination"></div>
   </div>
-</div>
+{% schema %}
+{
+  "name": "Custom Banner Section2",
+  "settings": [
+   
+  ],
+  "blocks": [
+    {
+      "type": "image_text_block",
+      "name": "Image and Text Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Text"
+        },
+        {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "backgroundmobile",
+      "label": "Mobile background image"
+    },
+    {
+      "type": "text",
+      "id": "banner_heading",
+      "label": "Banner Heading"
+    },
+    {
+      "type": "text",
+      "id": "banner_main_heading",
+      "label": "Main Heading"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Banner Section2",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
 
 <style>
-/* General Swiper styles */
-.swiper-slide {
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-}
-
-/* Mobile-specific styles */
-@media (max-width: 768px) {
+   /* .custom-banner-section  .swiper-slide {
+  background-image: url({{ block.settings.background_image | img_url: 'master' }});
+     background-size: cover;
+    background-position: center;
+    align-content: center;
+    position: relative;
+    z-index: 1;
+    width:100%;
+    height:100%;
+}    */
+  @media (max-width:768px){
+   @media (max-width: 768px) {
   .swiper-slide {
-    background-image: none !important; /* Remove desktop background */
+    background-image: none !important; /* Clear inline desktop image */
   }
+
   .swiper-slide[data-mobile-image] {
-    background-image: url(var(--mobile-image)) !important; /* Apply mobile image */
+    background-image: url(var(--mobile-image)) !important; /* Apply mobile background */
   }
 }
+  }
 </style>
 
+
 <script>
+
 document.addEventListener("DOMContentLoaded", function () {
+  // Apply correct image based on screen size
   const slides = document.querySelectorAll(".swiper-slide");
 
-  // Adjust background image based on screen size
-  function updateBackgroundImages() {
-    slides.forEach(slide => {
-      const mobileImage = slide.getAttribute("data-mobile-image");
-      const desktopImage = slide.getAttribute("data-desktop-image");
+  slides.forEach(slide => {
+    const mobileImage = slide.getAttribute("data-mobile-image");
+    const desktopImage = slide.getAttribute("data-desktop-image");
 
-      if (window.innerWidth <= 768 && mobileImage) {
-        slide.style.setProperty("--mobile-image", mobileImage);
-        slide.style.backgroundImage = `url(${mobileImage})`;
-      } else if (desktopImage) {
-        slide.style.backgroundImage = `url(${desktopImage})`;
-      }
-    });
-  }
-
-  // Initial update on page load
-  updateBackgroundImages();
-
-  // Update on window resize
-  window.addEventListener("resize", updateBackgroundImages);
+    // Set the mobile image dynamically for mobile view
+    if (window.innerWidth <= 768 && mobileImage) {
+      slide.style.setProperty("--mobile-image", mobileImage);
+    } else if (desktopImage) {
+      slide.style.backgroundImage = `url(${desktopImage})`;
+    }
+  });
 });
-
-// Swiper initialization
+  
 var swiper = new Swiper(".bannerSwiper", {
-  slidesPerView: 1,
-  spaceBetween: 0,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+slidesPerView: 1,
+spaceBetween: 0,
+// autoplay:true,
+loop:true,
+freeMode: true,
+pagination: {
+  el: ".swiper-pagination",
+  clickable: true,
+},
+
 });
 </script>
