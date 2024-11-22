@@ -7,6 +7,7 @@
     <div class="swiper bannerSwiper">
       <div class="swiper-wrapper">
           {% for block in section.blocks  offset:4 %}
+            {% assign mobile_image = block.settings.backgroundmobile | default: block.settings.background_image %}
           <div class="swiper-slide" style="
   background-image: url({{ block.settings.background_image | img_url: 'master' }};  
   background-size: cover; 
