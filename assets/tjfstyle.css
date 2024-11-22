@@ -141,7 +141,8 @@ element {
     align-content: center;
     position: relative;
     z-index: 1;
-  height:70vh;
+   padding: 200px 0;
+    /* height:70vh; */
 }
 
 .banner-img {
