@@ -1161,3 +1161,6 @@ font-weight: 600 !important;
     bottom: 0;
     top: unset;
 }
+.post-info h4 a{
+  color:#fff !important; 
+}
