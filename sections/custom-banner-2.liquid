@@ -9,21 +9,15 @@
           {% for block in section.blocks  offset:4 %}
           <div 
         class="swiper-slide"
-       
-        style="
-          background-image: url({{ block.settings.background_image | img_url: 'master' }}) ;  
-          background-size: cover; 
-          background-position: center; 
-          width: 100%; 
-          height: 100%;
-        " >
-            <style>
-    @media (max-width: 768px) {
-      .swiper-slide {
-        background-image: url({{ block.settings.backgroundmobile | img_url: 'master' }}) !important;
-      }
-    }
-  </style>
+        data-desktop-image="{{ block.settings.background_image | img_url: 'master' }}"
+  data-mobile-image="{{ block.settings.backgroundmobile | img_url: 'master' }}"
+  style="
+    background-size: cover; 
+    background-position: center; 
+    width: 100%; 
+    height: 100%;
+  " >
+            
       <div class=custom-banner-img >
       <div class="width-container">
       <div class="custom-content">
@@ -134,10 +128,36 @@
 {% endschema %}
 
 
-
-
 <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const slides = document.querySelectorAll(".swiper-slide");
 
+    slides.forEach(slide => {
+      const desktopImage = slide.getAttribute("data-desktop-image");
+      const mobileImage = slide.getAttribute("data-mobile-image");
+
+      // Check screen size and apply the correct image
+      if (window.innerWidth <= 768 && mobileImage) {
+        slide.style.backgroundImage = `url(${mobileImage})`;
+      } else if (desktopImage) {
+        slide.style.backgroundImage = `url(${desktopImage})`;
+      }
+    });
+
+    // Add resize event listener to update images dynamically
+    window.addEventListener("resize", () => {
+      slides.forEach(slide => {
+        const desktopImage = slide.getAttribute("data-desktop-image");
+        const mobileImage = slide.getAttribute("data-mobile-image");
+
+        if (window.innerWidth <= 768 && mobileImage) {
+          slide.style.backgroundImage = `url(${mobileImage})`;
+        } else if (desktopImage) {
+          slide.style.backgroundImage = `url(${desktopImage})`;
+        }
+      });
+    });
+  });
 
 var swiper = new Swiper(".bannerSwiper", {
 slidesPerView: 1,
