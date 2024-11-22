@@ -178,7 +178,7 @@
     
     .custom-banner-section .custom-banner-img {
         width: 100%;
-        height: auto;
+        /* height: auto; */
         order: -1;
     }
 
