@@ -609,7 +609,7 @@
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
-              "cl": "#ec0101",
+              "cl": "#ffffff",
               "lb": "",
               "lb_cl": ""
             }
@@ -1841,9 +1841,9 @@
           "show_cm": false,
           "show_tg": true,
           "cl": "#ffffff",
-          "cl2": "#878787",
+          "cl2": "#ffffff",
           "bg": "#000000",
-          "overlay": 90,
+          "overlay": 55,
           "des_cnt": "1",
           "use_eq_height": true,
           "image_ratio": "ratio4_3",
