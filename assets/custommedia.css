@@ -298,6 +298,11 @@
     padding-right: 15px !important; 
   }
 }
+@media (max-width:470px) {
+ .custom-banner-section  .custom-content {
+        margin-top: 30%;
+    }
+}
 @media (max-width:439px) {
   .custom-banner-section {
     margin-bottom: 250px;
