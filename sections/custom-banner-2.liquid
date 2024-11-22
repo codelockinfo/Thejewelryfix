@@ -9,10 +9,9 @@
           {% for block in section.blocks  offset:4 %}
           <div 
         class="swiper-slide"
-        data-desktop-image="{{ block.settings.background_image | img_url: 'master' }}"
-        data-mobile-image="{{ block.settings.backgroundmobile | img_url: 'master' }}"
+       
         style="
-          background-image: url({{ block.settings.background_image | img_url: 'master' }}); 
+         
           background-size: cover; 
           background-position: center; 
           width: 100%; 
@@ -130,13 +129,13 @@
 
 <style>
   
+ .swiper-slide {
+     background-image: url({{ block.settings.background_image | img_url: 'master' }}); 
+  }
  
    @media (max-width: 768px) {
- .swiper-slide {
-    background-image: none !important; /* Clear desktop background */
-  }
   .swiper-slide[data-mobile-image] {
-    background-image: url(var(--mobile-image)) !important; /* Apply mobile image */
+     background-image: url({{ block.settings.backgroundmobile | img_url: 'master' }}); 
   }
 }
 
@@ -145,23 +144,7 @@
 
 <script>
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Apply correct image based on screen size
-  const slides = document.querySelectorAll(".swiper-slide");
 
-  slides.forEach(slide => {
-    const mobileImage = slide.getAttribute("data-mobile-image");
-    const desktopImage = slide.getAttribute("data-desktop-image");
-
-    // Set the mobile image dynamically for mobile view
-    if (window.innerWidth <= 768 && mobileImage) {
-      slide.style.setProperty("--mobile-image", mobileImage);
-    } else if (desktopImage) {
-      slide.style.backgroundImage = `url(${desktopImage})`;
-    }
-  });
-});
-  
 var swiper = new Swiper(".bannerSwiper", {
 slidesPerView: 1,
 spaceBetween: 0,
