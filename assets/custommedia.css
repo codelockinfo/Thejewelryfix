@@ -35,10 +35,10 @@
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
     .custom-banner-section .banner-heading {
-     font-size: 60px;
+     font-size: 56px;
    }
    .custom-banner-section .banner-main-heading {
-     font-size: 60px;
+     font-size: 52px;
    }
    /* .custom-banner-img {
      right: -35%;
@@ -79,12 +79,12 @@
 }
 @media (min-width: 769px) and (max-width: 1024px) {
     .custom-banner-section .banner-heading {
-     font-size: 50px;
+     font-size: 42px;
      font-weight: 600;
      line-height: 80.92px;
    }
    .custom-banner-section .banner-main-heading {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     line-height: 60.92px;
   }
@@ -202,7 +202,7 @@
     }
 
     .custom-banner-section .banner-main-heading {
-        font-size: 32px;
+        font-size: 28px;
         line-height: 40px;
         text-align: center;
     }
