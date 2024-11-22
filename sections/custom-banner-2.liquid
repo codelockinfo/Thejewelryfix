@@ -20,7 +20,7 @@
             <style>
     @media (max-width: 768px) {
       .swiper-slide {
-        background-image: url({{ block.settings.backgroundmobile | img_url: 'master' }}) ;
+        background-image: url({{ block.settings.backgroundmobile | img_url: 'master' }}) !important;
       }
     }
   </style>
@@ -133,36 +133,12 @@
 }
 {% endschema %}
 
-<style>
-  
- 
-   @media (max-width: 768px) {
 
- 
-}
-
-</style>
 
 
 <script>
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Apply correct image based on screen size
-  const slides = document.querySelectorAll(".swiper-slide");
 
-  slides.forEach(slide => {
-    const mobileImage = slide.getAttribute("data-mobile-image");
-    const desktopImage = slide.getAttribute("data-desktop-image");
-
-    // Set the mobile image dynamically for mobile view
-    if (window.innerWidth <= 768 && mobileImage) {
-      slide.style.setProperty("--mobile-image", mobileImage);
-    } else if (desktopImage) {
-      slide.style.backgroundImage = `url(${desktopImage})`;
-    }
-  });
-});
-  
 var swiper = new Swiper(".bannerSwiper", {
 slidesPerView: 1,
 spaceBetween: 0,
