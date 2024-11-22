@@ -188,11 +188,11 @@
         height: 375px;
     }
 
-    .custom-banner-section    .custom-content {
+    .custom-banner-section  .custom-content {
         padding: 30px 0;
         text-align: center;
         margin-top: 10%;
-        padding-top: 100%;
+        padding-top: 30%;
     }
 
     .custom-banner-section .banner-heading {
