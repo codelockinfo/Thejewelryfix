@@ -129,10 +129,13 @@
 
 <style>
   
- .swiper-slide {
+
+ 
+   @media (min-width: 769px) {
+  .swiper-slide {
      background-image: url({{ block.settings.background_image | img_url: 'master' }}); 
   }
- 
+}
    @media (max-width: 768px) {
   .swiper-slide {
      background-image: url({{ block.settings.backgroundmobile | img_url: 'master' }}); 
