@@ -165,7 +165,7 @@ element {
     font-size: 64px;
     font-weight: 600;
     line-height: 80.92px;
-    text-align: left;
+    /* text-align: left; */
     color: #FFFFFF;
     margin-bottom: 18px;
 }
