@@ -1159,3 +1159,7 @@ font-weight: 600 !important;
 .post-info h4 a ,span{
   color:#fff !important; 
 }
+.page-numbers li a{
+  color:#fff !important;
+  font-size:14px !important;
+}
