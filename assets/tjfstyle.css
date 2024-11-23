@@ -1163,7 +1163,7 @@ font-weight: 600 !important;
   color:#fff !important;
   font-size:16px !important;
 }
-.page-numbers current{
+.page-numbers.current{
   color:#caa45d !important;
   font-size:18px !important;
 }
