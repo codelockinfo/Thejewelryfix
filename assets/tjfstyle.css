@@ -22,7 +22,7 @@ body,
     font-size: 15px !important;
     color: #F0D882 !important;
 }
-
+.category-main-section .swiper-pagination-bullet
 /* HEADER SECTION  */
 .nt_menu>li>a {
     font-family: Poppins !important;
@@ -417,7 +417,7 @@ transform: rotate(45deg); */
     background: transparent !important;
     border-radius: 0 !important;
     transform: rotate(45deg) !important;
-    border: 1px solid #71717A !important;
+    border: 2px solid #ffffff !important;
     margin: 0 8px !important;
 }
 
