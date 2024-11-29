@@ -40,23 +40,10 @@
    .custom-banner-section .banner-main-heading {
      font-size: 52px;
    }
-   /* .custom-banner-img {
-     right: -35%;
-   } */
- }
- /* @media (min-width: 1281px) and (max-width: 1500px) {
-   .custom-banner-img {
-     right: -30%;
-   }
- } */
-@media (min-width: 1501px) and (max-width: 1640px) {
-   /* .custom-banner-img {
-     right: -19%;
-   } */
  }
 @media (max-width:1024px) { 
     .promo-title {
-        font-size: 50px;
+      font-size: 50px;
     }
     .custom-v .wrap{
       align-items: flex-end !important;
@@ -65,17 +52,16 @@
     .shopify-payment-button{
       display: block !important;
       width: 60%;
-
     }
     .video-descrpiton .custom-tab-dec{
       width: 100%;
-  }
-      .video-descrpiton .custom-video{
-          width: 100%;
-          padding-left: 0;
-      }
-      .des_style_1 .sp-tab-content{display:block !important}
-      .des_style_1 .sp-tab-content{display:none !important}
+    }
+    .video-descrpiton .custom-video{
+        width: 100%;
+        padding-left: 0;
+    }
+    .des_style_1 .sp-tab-content{display:block !important}
+    .des_style_1 .sp-tab-content{display:none !important}
 }
 @media (min-width: 769px) and (max-width: 1024px) {
     .custom-banner-section .banner-heading {
@@ -93,9 +79,6 @@
     font-weight: 600;
     line-height: 30px;
   }
-  /* .custom-banner-img {
-    right: -40%;
-  } */
 }
 @media (max-width:991px) {
     .category-main-section .category-name {
@@ -110,10 +93,8 @@
 }
 @media (min-width:769px) {
   .ntheader {
-    margin: 0 50px;
-    /* height: 0 !important; */
-    
-}
+    margin: 0 50px;    
+  }
   .custom-banner-img{
     height:70vh;
   }
@@ -128,85 +109,63 @@
     .promo-section {
         flex-direction: column;
         height: auto;
-        /* padding: 20px; */
-      }
-      .promo-title{
+    }
+    .promo-title{
         line-height: normal;
-      }
-      .promo-content, .promo-image {
+    }
+    .promo-content, .promo-image {
         width: 100%;
-      }
-  
-      .promo-title {
+    }
+    .promo-title {
         flex-direction: column;
         align-items: center;
-      }
-  
-      .promo-button {
-         width: 52%;
+    }
+    .promo-button {
+        width: 52%;
         margin-top: 10px;
-      }
-      .custom-image-text .top-bottom-padding{
+    }
+    .custom-image-text .top-bottom-padding{
         padding-top: 0;
         padding-bottom: 0;
-      }
-      .custom-image-text .container{
-            padding-right: 0; 
-   padding-left: 0;
-      }
-      
-      .custom-banner-section {
-        /* padding: 30px 0; */
+    }
+    .custom-image-text .container{
+        padding-right: 0; 
+        padding-left: 0;
+    }
+    .custom-banner-section {
         display: flex;
         flex-direction: column;
         position: relative;
         margin-bottom: 200px;
     }
-      /* .custom-banner-section::after {
-      position: absolute;
-      content: "";
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgb(255,255,255);
-      background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 65%);
-    } */
     .custom-banner-section .width-container{
-   z-index: 2;
+        z-index: 2;
     }
-    
     .custom-banner-section .custom-banner-img {
         width: 100%;
-        /* height: auto; */
         order: -1;
     }
-
     .custom-banner-section  .banner-img {
         object-fit: cover;
         width: 100%;
         height: 375px;
     }
-
     .custom-banner-section  .custom-content {
         padding: 30px 0;
         text-align: center;
         margin-top: 10%;
         padding-top: 30%;
     }
-
     .custom-banner-section .banner-heading {
         font-size: 36px;
         line-height: 50px;
         text-align: center;
     }
-
     .custom-banner-section .banner-main-heading {
         font-size: 28px;
         line-height: 40px;
         text-align: center;
     }
-
     .banner-button {
         font-size: 16px;
         padding: 12px 30px;
@@ -214,33 +173,32 @@
     }
     .custom-banner-section .owl-nav-buttons {
         display: none;
-      }
-      .custom-banner-section  .heading{
-        font-size: 24px;
-        line-height: 40px;
-        margin-bottom: 60px;
-      }
-      .custom-banner-section  .maindiv {
-        flex-wrap: wrap;
-      }
-      .custom-banner-section .content-block {
-        width: 50%; 
-        padding: 10px; 
-        box-sizing: border-box;
-        display: block;
-      }
-      .custom-banner-section  .image-box img {
-        width: 48px;
-        height: 48px;
-      }
-  
-      .custom-banner-section .custome-heading {
-        text-align: center; 
-        padding-left: 0; 
-        padding-top: 10px; 
-      }
-      .custom-banner-section .mainclass {
-        bottom: -38%;
+    }
+    .custom-banner-section  .heading{
+      font-size: 24px;
+      line-height: 40px;
+      margin-bottom: 60px;
+    }
+    .custom-banner-section  .maindiv {
+      flex-wrap: wrap;
+    }
+    .custom-banner-section .content-block {
+      width: 50%; 
+      padding: 10px; 
+      box-sizing: border-box;
+      display: block;
+    }
+    .custom-banner-section  .image-box img {
+      width: 48px;
+      height: 48px;
+    }
+    .custom-banner-section .custome-heading {
+      text-align: center; 
+      padding-left: 0; 
+      padding-top: 10px; 
+    }
+    .custom-banner-section .mainclass {
+      bottom: -38%;
     }
     .template-product .product_title {
       font-size: 28px !important;
@@ -261,10 +219,10 @@
     }
     .customselect{
       width: 100%;
-  }
+    }
     .custom-banner-img{
-    height:600px;
-  }
+      height:600px;
+    }
 }
 @media (max-width:600px) {
     .category-main-section .heading-button2{
@@ -289,27 +247,27 @@
       font-size: 24px !important;
       line-height: 30.84px;
     }
-  .watch_slider{
-    padding-top:0 !important;
-  }
-  .footer__top_wrap .textwidget  .db{
-    text-align: center !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important; 
-  }
+    .watch_slider{
+      padding-top:0 !important;
+    }
+    .footer__top_wrap .textwidget  .db{
+      text-align: center !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important; 
+    }
 }
 @media (max-width:470px) {
- .custom-banner-section  .custom-content {
+    .custom-banner-section  .custom-content {
         margin-top: 30%;
     }
 }
 @media (max-width:439px) {
   .custom-banner-section {
     margin-bottom: 250px;
-}
-.custom-banner-section .mainclass {
-  bottom: -47%;
-}
+  }
+  .custom-banner-section .mainclass {
+    bottom: -47%;
+  }
   .collection-i-slider .add_btn_watch{
     font-size:10px;
   }
