@@ -3,7 +3,7 @@
         <div class="jewelry-section">
             <div class="imgcenter">
             {% if section.settings.center_image != blank %}
-                <img src="{{ section.settings.center_image | img_url: 'large' }}" alt="Center Image" class="w-full">
+                <img src="{{ section.settings.center_image | img_url: 'large' }}" alt="Center Image" class="w-full lazyload" loading="lazy">
             {% endif %}
             </div>
             <div class="jewelry-right">
@@ -24,7 +24,7 @@
     </div>
     {% if section.settings.left_bg_pattern != blank %}
         <div class="jewelry-bgleft">
-            <img src="{{ section.settings.left_bg_pattern | img_url: 'large' }}" alt="Center Image" class="w-full">
+            <img src="{{ section.settings.left_bg_pattern | img_url: 'large' }}" alt="Center Image" class="w-full lazyload" loading="lazy">
         </div>
     {% endif %}
 
