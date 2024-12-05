@@ -616,6 +616,7 @@
           },
           "simple_Jkiekn": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "BLOGS",
               "url": "shopify://blogs/news",
