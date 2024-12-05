@@ -497,6 +497,19 @@
               "lb_cl": ""
             }
           },
+          "simple_Bndyhy": {
+            "type": "simple",
+            "settings": {
+              "title": "BRACELETS",
+              "url": "shopify://collections/bracelets",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "simple_q9VreK": {
             "type": "simple",
             "settings": {
@@ -631,6 +644,7 @@
         },
         "block_order": [
           "simple_LiRrCa",
+          "simple_Bndyhy",
           "simple_q9VreK",
           "simple_7eiMGU",
           "simple_qbXkQx",
