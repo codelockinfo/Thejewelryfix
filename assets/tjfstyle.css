@@ -931,3 +931,6 @@ strong {
 .bg_color_yellow-gold{
       background: linear-gradient(180deg, #eece78, #fdf5dc 50.5%, #eece7a) !important;
 }
+..bg_color_rose-gold{
+      background:linear-gradient(180deg, #f6c8ae, #feeee6 50.5%, #f4bea0) !important;
+}
