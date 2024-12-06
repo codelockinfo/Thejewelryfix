@@ -929,5 +929,5 @@ strong {
   font-size:16px !important;
 }
 .bg_color_yellow-gold{
-  linear-gradient(180deg,#eece78,#fdf5dc 50.5%,#eece7a) !important;
+      background: linear-gradient(180deg, #eece78, #fdf5dc 50.5%, #eece7a) !important;
 }
