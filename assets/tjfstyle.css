@@ -937,3 +937,8 @@ strong {
 .bg_color_white-gold{
       background:linear-gradient(180deg, #dddddc, #f6f6f6 50.5%, #d7d6d6) !important;
 }
+
+
+.mb_nav_title .truncate{
+  color:#000 !important;
+}
