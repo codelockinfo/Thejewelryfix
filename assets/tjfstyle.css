@@ -946,6 +946,6 @@ strong {
   flex: 0 0 100% !important;
   max-width: 100% !important;
 }
-.menu-mobile .menu-item span {
+.menu-mobile .menu-item a span {
   color:#000 !important;
 }
