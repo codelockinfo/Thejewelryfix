@@ -946,3 +946,6 @@ strong {
   flex: 0 0 100% !important;
   max-width: 100% !important;
 }
+.menu-mobile .menu-item {
+  color:#000 !important;
+}
