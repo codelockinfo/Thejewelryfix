@@ -942,3 +942,7 @@ strong {
 .mb_nav_title .truncate{
   color:#000 !important;
 }
+.menu-mobile {
+  flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
