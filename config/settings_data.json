@@ -1026,6 +1026,7 @@
         "blocks": {
           "1585642167981": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Watches",
@@ -1039,6 +1040,7 @@
           },
           "1585641915360": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Cuban Chains",
@@ -1052,6 +1054,7 @@
           },
           "1585642130935": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Pendants",
@@ -1065,6 +1068,7 @@
           },
           "1585642277236": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Rings",
@@ -1078,6 +1082,7 @@
           },
           "1585642450066": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Earrings",
@@ -1091,6 +1096,7 @@
           },
           "1585642629333": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Kid's Jewelry",
