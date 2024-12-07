@@ -850,8 +850,93 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
+          "menu_cTGPmX": {
+            "type": "menu",
+            "settings": {
+              "title": "Watches",
+              "url": "shopify://collections/watches",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "menu_JLePcG": {
+            "type": "menu",
+            "settings": {
+              "title": "Bracelets",
+              "url": "shopify://collections/bracelets",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "menu_6yXLTX": {
+            "type": "menu",
+            "settings": {
+              "title": "Cuban Chains",
+              "url": "shopify://collections/pendant",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "menu_mM9xyT": {
+            "type": "menu",
+            "settings": {
+              "title": "Pendants",
+              "url": "shopify://collections/hip-hop-pendants",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "menu_HFWqtd": {
+            "type": "menu",
+            "settings": {
+              "title": "Rings",
+              "url": "shopify://collections/rings",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "menu_tM6LKx": {
+            "type": "menu",
+            "settings": {
+              "title": "Earrings",
+              "url": "shopify://collections/earrings",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "menu_E4Yh3a": {
+            "type": "menu",
+            "settings": {
+              "title": "Kids jewelry",
+              "url": "",
+              "open_link": "_self",
+              "menu": "kids-jewelry",
+              "icon": "",
+              "lb": "",
+              "lb_cl": "#000000"
+            }
+          },
           "mb_nav-0": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "About Us",
               "url": "shopify://pages/about",
@@ -864,6 +949,7 @@
           },
           "1585642908420": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Contact Us",
               "url": "shopify://pages/contact",
@@ -876,6 +962,7 @@
           },
           "1585642887352": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Blog",
               "url": "shopify://pages/career",
@@ -915,6 +1002,13 @@
           }
         },
         "block_order": [
+          "menu_cTGPmX",
+          "menu_JLePcG",
+          "menu_6yXLTX",
+          "menu_mM9xyT",
+          "menu_HFWqtd",
+          "menu_tM6LKx",
+          "menu_E4Yh3a",
           "mb_nav-0",
           "1585642908420",
           "1585642887352",
