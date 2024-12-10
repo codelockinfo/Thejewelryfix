@@ -3202,18 +3202,6 @@
               "button_link": ""
             }
           },
-          "image_text_block_RFTTWQ": {
-            "type": "image_text_block",
-            "settings": {
-              "title": "",
-              "background_image": "shopify://shop_images/10_81d2dccd-bc18-432d-a07d-24c991b1d36b.jpg",
-              "backgroundmobile": "shopify://shop_images/10_-_M_9fb63489-9cf2-4090-9a50-ccaf8518b933.jpg",
-              "banner_heading": "Special Offer",
-              "banner_main_heading": "Explore the Best  <br> Hip Hop Jewelry <br>Collection",
-              "button_text": "Shop Now",
-              "button_link": ""
-            }
-          },
           "image_text_block_ejdEka": {
             "type": "image_text_block",
             "settings": {
@@ -3225,6 +3213,18 @@
               "button_text": "",
               "button_link": ""
             }
+          },
+          "image_text_block_RFTTWQ": {
+            "type": "image_text_block",
+            "settings": {
+              "title": "",
+              "background_image": "shopify://shop_images/10_81d2dccd-bc18-432d-a07d-24c991b1d36b.jpg",
+              "backgroundmobile": "shopify://shop_images/10_-_M_9fb63489-9cf2-4090-9a50-ccaf8518b933.jpg",
+              "banner_heading": "Special Offer",
+              "banner_main_heading": "Explore the Best  <br> Hip Hop Jewelry <br>Collection",
+              "button_text": "Shop Now",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
@@ -3232,8 +3232,8 @@
           "image_text_block_QcY39L",
           "image_text_block_yterEt",
           "image_text_block_9nmkEe",
-          "image_text_block_RFTTWQ",
-          "image_text_block_ejdEka"
+          "image_text_block_ejdEka",
+          "image_text_block_RFTTWQ"
         ],
         "settings": {}
       }
