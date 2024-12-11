@@ -16,13 +16,13 @@
           <div class="swiper-slide">
               
             {% if block.settings.image != blank %}
-                <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="collection_img lazyload" loading="lazy">
+                <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="collection_img lazyloadt4s" loading="lazy">
             {% endif %}
             {% if block.settings.smallimg != blank %}
               <a href="{{block.settings.product.url }}">
                 <div class="jewel_img_box">
                 <div class="j-box"> 
-                  <img src="{{ block.settings.smallimg | img_url: 'master' }}" class="j_img lazyload" alt="" loading="lazy">
+                  <img src="{{ block.settings.smallimg | img_url: 'master' }}" class="j_img lazyloadt4s" alt="" loading="lazy">
                 </div>
                 {% if block.settings.nametext != blank %}
                     <div class="name_text">{{ block.settings.nametext }}</div>
