@@ -20,7 +20,7 @@
               <div class="image">
                 {%- render 'quote_3',rating:block.settings.rating -%}
                 {% if block.settings.right_image !=blank %}
-                  <img src="{{ block.settings.right_image | img_url: 'medium' }}" alt="{{ block.settings.name }}'s right image" draggable="false" class="right">
+                  <img src="{{ block.settings.right_image | img_url: 'medium' }}" alt="{{ block.settings.name }}'s right image " draggable="false" class="right lazyloadt4s" loading="lazy">
                 {% endif %}
               </div>
               <div class="media-body">
