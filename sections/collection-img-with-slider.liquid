@@ -13,7 +13,7 @@
       <div class="watch_single_image">
         <div class="watch_img">
           {% if section.settings.mainimg != blank %}
-            <img src="{{ section .settings.mainimg  |img_url : 'master' }}" alt="Product Image" class="lazyload" loading="lazy">
+            <img src="{{ section .settings.mainimg  |img_url : 'master' }}" alt="Product Image" class="lazyloadt4s" loading="lazy">
           {%- endif %}
           <div class="overlay">
 
@@ -32,7 +32,7 @@
                 <div class="watch_sliders">
                   <a href="{{product.url}}">
                   <div class="slider_image">
-                    <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}" class="lazyload" loading="lazy">
+                    <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}" class="lazyloadt4s" loading="lazy">
                   </div>
                   </a>
                   <div class="watch_slider_text">
