@@ -18,7 +18,7 @@
             <div class="category-main-box">
               {% if block.settings.image != blank %}
               <div class="category-img-box">
-                <img src="{{ block.settings.image | image_url }}" alt="category-img" class="category-img" loading="eager" />
+                <img src="{{ block.settings.image | image_url }}" alt="category-img" class="category-img lazyloadt4s" loading="lazy" />
               </div>
             {% endif %}
             {% if block.settings.category_name != blank %}
