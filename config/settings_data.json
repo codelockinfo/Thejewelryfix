@@ -61,7 +61,7 @@
     "enable_tag": true,
     "filter_price_list": "$7-$50, $50-$150, $150-$500",
     "logo_svg": "",
-    "logo": "shopify://shop_images/TJF_logo_1.png",
+    "logo": "shopify://shop_images/TJF_logo_3.png",
     "logo_width": 180,
     "logos_width": 180,
     "logo_mb": "",
@@ -1428,12 +1428,12 @@
         ],
         "settings": {
           "shown": true,
+          "image": "",
           "use_specify_image": true,
           "parallax": true,
-          "color": "#000000",
+          "color": "#000",
           "overlay": 54,
           "padding": 50,
-          "paddingmb": 50,
           "bg_pos": "center center",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
@@ -1449,7 +1449,6 @@
           },
           "article-template-1": {
             "type": "tags",
-            "disabled": true,
             "settings": {}
           },
           "article-template-2": {
@@ -1949,8 +1948,8 @@
           "btn_rd": true,
           "btn_style": "default",
           "date": "date",
-          "col_pr": "4",
-          "col_pr_tb": "6",
+          "col_pr": "12",
+          "col_pr_tb": "12",
           "col_pr_mb": "12",
           "show_au": true,
           "show_dt": true,
