@@ -1960,7 +1960,7 @@
           "bg": "#000000",
           "overlay": 55,
           "des_cnt": "1",
-          "use_eq_height": true,
+          "use_eq_height": false,
           "image_ratio": "ratio2_1",
           "image_size": "nt_cover",
           "image_position": "8",
