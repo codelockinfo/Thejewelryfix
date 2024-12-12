@@ -1428,12 +1428,12 @@
         ],
         "settings": {
           "shown": true,
-          "image": "",
           "use_specify_image": true,
           "parallax": true,
-          "color": "#000",
+          "color": "#000000",
           "overlay": 54,
           "padding": 50,
+          "paddingmb": 50,
           "bg_pos": "center center",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
@@ -1449,6 +1449,7 @@
           },
           "article-template-1": {
             "type": "tags",
+            "disabled": true,
             "settings": {}
           },
           "article-template-2": {
