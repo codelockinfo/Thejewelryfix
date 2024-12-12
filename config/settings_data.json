@@ -1961,7 +1961,7 @@
           "overlay": 55,
           "des_cnt": "1",
           "use_eq_height": false,
-          "image_ratio": "ratio2_1",
+          "image_ratio": "ratio_nt",
           "image_size": "nt_cover",
           "image_position": "8",
           "source": "0",
