@@ -488,7 +488,7 @@
             "type": "simple",
             "settings": {
               "title": "RINGS",
-              "url": "shopify://collections/rings",
+              "url": "shopify://collections/diamond-rings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -902,7 +902,7 @@
             "type": "menu",
             "settings": {
               "title": "Rings",
-              "url": "shopify://collections/rings",
+              "url": "shopify://collections/diamond-rings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1072,7 +1072,7 @@
             "settings": {
               "cat": "",
               "title": "Rings",
-              "url": "shopify://collections/rings",
+              "url": "shopify://collections/diamond-rings",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
@@ -2927,7 +2927,7 @@
             "settings": {
               "image": "shopify://shop_images/Untitled-1_7100a881-7521-4262-bd9d-923a149c7d10.jpg",
               "category_name": "Rings",
-              "category_url": "shopify://collections/rings"
+              "category_url": "shopify://collections/diamond-rings"
             }
           }
         },
@@ -3039,7 +3039,7 @@
           "main_title": "A Symbol of Love, Crafted to Last Forever",
           "description": "A wedding band is a timeless symbol of love and commitment. From classic gold to sleek platinum, it reflects personal style and the bond between partners. Simple or detailed, it’s a lasting reminder of your special journey together.",
           "button_text": "Shop Now",
-          "button_link": "shopify://collections/rings"
+          "button_link": "shopify://collections/diamond-rings"
         }
       },
       "custom_testimonial_section_XkVBje": {
@@ -3134,7 +3134,7 @@
       "collection_img_with_slider_q6Ftzt": {
         "type": "collection-img-with-slider",
         "settings": {
-          "collectionproduct": "rings",
+          "collectionproduct": "diamond-rings",
           "hedding_text": "Rings",
           "hedding": "",
           "btn_lable": "view all",
