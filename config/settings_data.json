@@ -540,7 +540,7 @@
             "type": "simple",
             "settings": {
               "title": "PENDANTS",
-              "url": "shopify://collections/hip-hop-pendants",
+              "url": "shopify://collections/diamond-pendants",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -890,7 +890,7 @@
             "type": "menu",
             "settings": {
               "title": "Pendants",
-              "url": "shopify://collections/hip-hop-pendants",
+              "url": "shopify://collections/diamond-pendants",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1058,7 +1058,7 @@
             "settings": {
               "cat": "",
               "title": "Pendants",
-              "url": "shopify://collections/hip-hop-pendants",
+              "url": "shopify://collections/diamond-pendants",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
@@ -2895,7 +2895,7 @@
             "settings": {
               "image": "shopify://shop_images/3.jpg",
               "category_name": "Pendants",
-              "category_url": "shopify://collections/hip-hop-pendants"
+              "category_url": "shopify://collections/diamond-pendants"
             }
           },
           "category_block_jHtTdW": {
@@ -3122,7 +3122,7 @@
       "collection_img_with_slider_qcGLhd": {
         "type": "collection-img-with-slider",
         "settings": {
-          "collectionproduct": "hip-hop-pendants",
+          "collectionproduct": "diamond-pendants",
           "hedding_text": "Pendants",
           "hedding": "",
           "btn_lable": "view all",
