@@ -514,7 +514,7 @@
             "type": "simple",
             "settings": {
               "title": "WATCHES",
-              "url": "shopify://collections/watches",
+              "url": "shopify://collections/moissanite-watches",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -854,7 +854,7 @@
             "type": "menu",
             "settings": {
               "title": "Watches",
-              "url": "shopify://collections/watches",
+              "url": "shopify://collections/moissanite-watches",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1030,7 +1030,7 @@
             "settings": {
               "cat": "",
               "title": "Watches",
-              "url": "shopify://collections/watches",
+              "url": "shopify://collections/moissanite-watches",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
@@ -2903,7 +2903,7 @@
             "settings": {
               "image": "shopify://shop_images/04_5f1632fa-7ab9-4e4a-992d-1adc34b6f906.jpg",
               "category_name": "Watches",
-              "category_url": "shopify://collections/watches"
+              "category_url": "shopify://collections/moissanite-watches"
             }
           },
           "category_block_kCf336": {
@@ -3110,7 +3110,7 @@
       "collection_img_with_slider_NfCrdk": {
         "type": "collection-img-with-slider",
         "settings": {
-          "collectionproduct": "watches",
+          "collectionproduct": "moissanite-watches",
           "hedding_text": "watches",
           "hedding": "Popular Trends",
           "btn_lable": "view all",
