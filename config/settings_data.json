@@ -484,6 +484,32 @@
       "header_3": {
         "type": "header_3",
         "blocks": {
+          "simple_qbXkQx": {
+            "type": "simple",
+            "settings": {
+              "title": "RINGS",
+              "url": "shopify://collections/rings",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_8xhpxM": {
+            "type": "simple",
+            "settings": {
+              "title": "EARRINGS",
+              "url": "shopify://collections/earrings",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "simple_LiRrCa": {
             "type": "simple",
             "settings": {
@@ -510,19 +536,6 @@
               "lb_cl": ""
             }
           },
-          "simple_q9VreK": {
-            "type": "simple",
-            "settings": {
-              "title": "CUBAN CHAINS",
-              "url": "shopify://collections/pendant",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "simple_7eiMGU": {
             "type": "simple",
             "settings": {
@@ -536,24 +549,11 @@
               "lb_cl": ""
             }
           },
-          "simple_qbXkQx": {
+          "simple_q9VreK": {
             "type": "simple",
             "settings": {
-              "title": "RINGS",
-              "url": "shopify://collections/rings",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "simple_8xhpxM": {
-            "type": "simple",
-            "settings": {
-              "title": "EARRINGS",
-              "url": "shopify://collections/earrings",
+              "title": "CUBAN CHAINS",
+              "url": "shopify://collections/pendant",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -644,12 +644,12 @@
           }
         },
         "block_order": [
-          "simple_LiRrCa",
-          "simple_Bndyhy",
-          "simple_q9VreK",
-          "simple_7eiMGU",
           "simple_qbXkQx",
           "simple_8xhpxM",
+          "simple_LiRrCa",
+          "simple_Bndyhy",
+          "simple_7eiMGU",
+          "simple_q9VreK",
           "simple_hnb73z",
           "mega_JpaKMm",
           "link_nXcPHH",
