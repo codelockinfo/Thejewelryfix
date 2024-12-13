@@ -527,7 +527,7 @@
             "type": "simple",
             "settings": {
               "title": "BRACELETS",
-              "url": "shopify://collections/bracelets",
+              "url": "shopify://collections/diamond-bracelets",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -866,7 +866,7 @@
             "type": "menu",
             "settings": {
               "title": "Bracelets",
-              "url": "shopify://collections/bracelets",
+              "url": "shopify://collections/diamond-bracelets",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -2919,7 +2919,7 @@
             "settings": {
               "image": "shopify://shop_images/06_10181076-632e-48b8-9371-7b7a57d2202b.jpg",
               "category_name": "Bracelets",
-              "category_url": "shopify://collections/bracelets"
+              "category_url": "shopify://collections/diamond-bracelets"
             }
           },
           "category_block_mYQeak": {
