@@ -553,7 +553,7 @@
             "type": "simple",
             "settings": {
               "title": "CUBAN CHAINS",
-              "url": "shopify://collections/hip-hop-chain",
+              "url": "shopify://collections/diamond-chains",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -878,7 +878,7 @@
             "type": "menu",
             "settings": {
               "title": "Cuban Chains",
-              "url": "shopify://collections/hip-hop-chain",
+              "url": "shopify://collections/diamond-chains",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1044,7 +1044,7 @@
             "settings": {
               "cat": "",
               "title": "Cuban Chains",
-              "url": "shopify://collections/hip-hop-chain",
+              "url": "shopify://collections/diamond-chains",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
@@ -2887,7 +2887,7 @@
             "settings": {
               "image": "shopify://shop_images/MG_2047.jpg",
               "category_name": "Chains",
-              "category_url": "shopify://collections/hip-hop-chain"
+              "category_url": "shopify://collections/diamond-chains"
             }
           },
           "category_block_pnaND3": {
@@ -3146,7 +3146,7 @@
       "collection_img_with_slider_X8R7RW": {
         "type": "collection-img-with-slider",
         "settings": {
-          "collectionproduct": "hip-hop-chain",
+          "collectionproduct": "diamond-chains",
           "hedding_text": "Chains",
           "hedding": "",
           "btn_lable": "view all",
