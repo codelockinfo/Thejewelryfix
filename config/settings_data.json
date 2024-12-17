@@ -537,6 +537,7 @@
           },
           "simple_8xhpxM": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "EARRINGS",
               "url": "shopify://collections/earrings",
@@ -546,6 +547,43 @@
               "cl": "#ec0101",
               "lb": "",
               "lb_cl": ""
+            }
+          },
+          "mega_H9La8f": {
+            "type": "mega",
+            "settings": {
+              "title": "EARRINGS",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 1200
+            }
+          },
+          "link_Fjjakr": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Shop by Style",
+              "url": "",
+              "open_link": "_self",
+              "menu": "shop-by-style-earrings",
+              "col": "6"
+            }
+          },
+          "link_enXFYN": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "EARRINGS",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "col": "4"
             }
           },
           "simple_Bndyhy": {
@@ -687,6 +725,9 @@
           "link_fhRHUp",
           "link_87Eexp",
           "simple_8xhpxM",
+          "mega_H9La8f",
+          "link_Fjjakr",
+          "link_enXFYN",
           "simple_Bndyhy",
           "simple_7eiMGU",
           "simple_q9VreK",
