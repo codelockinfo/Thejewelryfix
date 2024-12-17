@@ -579,11 +579,11 @@
           "link_enXFYN": {
             "type": "link",
             "settings": {
-              "tt_hd": "EARRINGS",
+              "tt_hd": "Shop by Diamond",
               "url": "",
               "open_link": "_self",
-              "menu": "",
-              "col": "4"
+              "menu": "shop-by-diamond-type",
+              "col": "6"
             }
           },
           "simple_Bndyhy": {
