@@ -528,7 +528,7 @@
           "link_87Eexp": {
             "type": "link",
             "settings": {
-              "tt_hd": "Shop By Diamonds",
+              "tt_hd": "Heading",
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-diamond-type-ring",
@@ -685,7 +685,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-diamond-types",
-              "col": "4"
+              "col": "6"
             }
           },
           "simple_q9VreK": {
