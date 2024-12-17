@@ -486,6 +486,7 @@
         "blocks": {
           "simple_qbXkQx": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "RINGS",
               "url": "shopify://collections/diamond-rings",
@@ -495,6 +496,43 @@
               "cl": "#ec0101",
               "lb": "",
               "lb_cl": ""
+            }
+          },
+          "mega_NcER3j": {
+            "type": "mega",
+            "settings": {
+              "title": "RINGS",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 600
+            }
+          },
+          "link_fhRHUp": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Shop by Style",
+              "url": "",
+              "open_link": "_self",
+              "menu": "shop-by-style-ring",
+              "col": "6"
+            }
+          },
+          "link_87Eexp": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Heading",
+              "url": "",
+              "open_link": "_self",
+              "menu": "shop-by-diamond-type-ring",
+              "col": "6"
             }
           },
           "simple_8xhpxM": {
@@ -645,6 +683,9 @@
         },
         "block_order": [
           "simple_qbXkQx",
+          "mega_NcER3j",
+          "link_fhRHUp",
+          "link_87Eexp",
           "simple_8xhpxM",
           "simple_Bndyhy",
           "simple_7eiMGU",
