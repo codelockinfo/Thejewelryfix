@@ -568,6 +568,7 @@
           },
           "link_Fjjakr": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Shop by Style",
               "url": "",
@@ -578,6 +579,7 @@
           },
           "link_enXFYN": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Shop by Diamonds",
               "url": "",
@@ -619,6 +621,7 @@
           },
           "link_XYNp6V": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Shop by Style",
               "url": "",
@@ -629,6 +632,7 @@
           },
           "link_kWcfJB": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Shop by Diamonds",
               "url": "",
@@ -670,6 +674,7 @@
           },
           "link_tdxxkW": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Shop By Style",
               "url": "",
@@ -680,6 +685,7 @@
           },
           "link_QMEHWN": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Shop by Diamonds",
               "url": "",
