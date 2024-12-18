@@ -537,7 +537,6 @@
           },
           "simple_8xhpxM": {
             "type": "simple",
-            "disabled": true,
             "settings": {
               "title": "EARRINGS",
               "url": "shopify://collections/earrings",
@@ -551,6 +550,7 @@
           },
           "mega_H9La8f": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "EARRINGS",
               "url": "",
@@ -590,7 +590,6 @@
           },
           "simple_Bndyhy": {
             "type": "simple",
-            "disabled": true,
             "settings": {
               "title": "BRACELETS",
               "url": "shopify://collections/diamond-bracelets",
@@ -604,6 +603,7 @@
           },
           "mega_4DjedN": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "BRACELETS",
               "url": "",
@@ -643,7 +643,6 @@
           },
           "simple_7eiMGU": {
             "type": "simple",
-            "disabled": true,
             "settings": {
               "title": "PENDANTS",
               "url": "shopify://collections/diamond-pendants",
@@ -657,6 +656,7 @@
           },
           "mega_aqxzem": {
             "type": "mega",
+            "disabled": true,
             "settings": {
               "title": "PENDANTS",
               "url": "",
