@@ -3209,7 +3209,7 @@
           "main_title": "A Symbol of Love, Crafted to Last Forever",
           "description": "A wedding band is a timeless symbol of love and commitment. From classic gold to sleek platinum, it reflects personal style and the bond between partners. Simple or detailed, it’s a lasting reminder of your special journey together.",
           "button_text": "Shop Now",
-          "button_link": "shopify://collections/diamond-rings"
+          "button_link": "shopify://collections/wedding-bands"
         }
       },
       "custom_testimonial_section_XkVBje": {
@@ -3283,7 +3283,7 @@
           "collectionproduct": "moissanite-watches",
           "hedding_text": "watches",
           "hedding": "Popular Trends",
-          "btn_lable": "view all",
+          "btn_lable": "View All",
           "btnurl": "shopify://collections/moissanite-watches",
           "mainimg": "shopify://shop_images/01_ed0b66c7-e826-467f-ac90-c886cb34a4fd.jpg",
           "show_navigation": true
@@ -3295,7 +3295,7 @@
           "collectionproduct": "diamond-pendants",
           "hedding_text": "Pendants",
           "hedding": "",
-          "btn_lable": "view all",
+          "btn_lable": "View All",
           "btnurl": "shopify://collections/diamond-pendants",
           "mainimg": "shopify://shop_images/03_85db0c94-9853-4e55-942a-09129f4e0afb.jpg",
           "show_navigation": false
@@ -3307,7 +3307,7 @@
           "collectionproduct": "diamond-rings",
           "hedding_text": "Rings",
           "hedding": "",
-          "btn_lable": "view all",
+          "btn_lable": "View All",
           "btnurl": "shopify://collections/diamond-rings",
           "mainimg": "shopify://shop_images/02_cc7e1f0d-70b6-427a-a5c9-0c980a12981f.jpg",
           "show_navigation": false
@@ -3319,7 +3319,7 @@
           "collectionproduct": "diamond-chains",
           "hedding_text": "Chains",
           "hedding": "",
-          "btn_lable": "view all",
+          "btn_lable": "View All",
           "btnurl": "",
           "mainimg": "shopify://shop_images/00_a580fc89-feda-4959-8df5-3686d949cfc5.jpg",
           "show_navigation": false
