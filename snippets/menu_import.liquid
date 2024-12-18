@@ -143,7 +143,7 @@
 	         {%- if llists.size == 0 -%}{% continue %}{%- endif -%}
 
 	         <div id="bk_{{block.id}}" class="type_mn_link menu-item sub-column-item col-{{block.settings.col}}">
-	         	{%- if block.settings.tt_hd != blank %}<a href="{{ block.settings.url }}"class="vvvv" target="{{block.settings.open_link}}">{%- render 'tt_inc',title:block.settings.tt_hd -%}</a>{% endif -%}
+	         	{%- if block.settings.tt_hd != blank %}<div  target="{{block.settings.open_link}}">{%- render 'tt_inc',title:block.settings.tt_hd -%}</div>{% endif -%}
 					<ul class="sub-column{% if block.settings.tt_hd != blank %} not_tt_mn{% endif %}">{%- for link in llists -%}
 						<li class="menu-item{% if link.active %} current{% endif %}"><a href="{{ link.url }}">{%- render 'tt_inc',title:link.title -%}</a></li>
 					 {%- endfor -%}</ul>
