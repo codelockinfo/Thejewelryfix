@@ -1018,7 +1018,7 @@
             "type": "menu",
             "settings": {
               "title": "Rings",
-              "url": "shopify://collections/diamond-rings",
+              "url": "",
               "open_link": "_self",
               "menu": "ring-mobile-nenu",
               "icon": "",
@@ -1030,7 +1030,7 @@
             "type": "menu",
             "settings": {
               "title": "Earrings",
-              "url": "shopify://collections/earrings",
+              "url": "",
               "open_link": "_self",
               "menu": "earring-mobile",
               "icon": "",
@@ -1042,7 +1042,7 @@
             "type": "menu",
             "settings": {
               "title": "Bracelets",
-              "url": "shopify://collections/diamond-bracelets",
+              "url": "",
               "open_link": "_self",
               "menu": "bracelets-mobile",
               "icon": "",
@@ -1054,7 +1054,7 @@
             "type": "menu",
             "settings": {
               "title": "Pendants",
-              "url": "shopify://collections/diamond-pendants",
+              "url": "",
               "open_link": "_self",
               "menu": "pendants-mobile",
               "icon": "",
