@@ -724,8 +724,19 @@
               "cus_wid": 600
             }
           },
+          "link_EJrxNY": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Shop by Diamond Type",
+              "url": "",
+              "open_link": "_self",
+              "menu": "shop-by-dimond-cuban-chain",
+              "col": "12"
+            }
+          },
           "link_nXcPHH": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "",
               "url": "shopify://collections/kids-rings",
@@ -793,6 +804,7 @@
           "simple_LiRrCa",
           "simple_hnb73z",
           "mega_JpaKMm",
+          "link_EJrxNY",
           "link_nXcPHH",
           "cat_7VwQQx",
           "simple_Jkiekn",
