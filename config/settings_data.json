@@ -793,6 +793,7 @@
           },
           "cat_7VwQQx": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/ndjsad.png",
               "cat_design": "1",
