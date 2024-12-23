@@ -517,6 +517,7 @@
           },
           "link_fhRHUp": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Shop by Style",
               "url": "",
@@ -532,11 +533,12 @@
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-diamond-type-ring",
-              "col": "6"
+              "col": "12"
             }
           },
           "simple_8xhpxM": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "EARRINGS",
               "url": "shopify://collections/earrings",
@@ -550,7 +552,6 @@
           },
           "mega_H9La8f": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "title": "EARRINGS",
               "url": "",
@@ -566,30 +567,19 @@
               "cus_wid": 600
             }
           },
-          "link_Fjjakr": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "tt_hd": "Shop by Style",
-              "url": "",
-              "open_link": "_self",
-              "menu": "shop-by-style-earrings",
-              "col": "6"
-            }
-          },
           "link_enXFYN": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "Shop by Diamonds",
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-diamond-type",
-              "col": "6"
+              "col": "12"
             }
           },
           "simple_Bndyhy": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "BRACELETS",
               "url": "shopify://collections/diamond-bracelets",
@@ -603,7 +593,6 @@
           },
           "mega_4DjedN": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "title": "BRACELETS",
               "url": "",
@@ -632,26 +621,12 @@
           },
           "link_kWcfJB": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "Shop by Diamonds",
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-diamonds-types-bracelets",
-              "col": "6"
-            }
-          },
-          "simple_7eiMGU": {
-            "type": "simple",
-            "settings": {
-              "title": "PENDANTS",
-              "url": "shopify://collections/diamond-pendants",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
+              "col": "12"
             }
           },
           "mega_aqxzem": {
@@ -685,13 +660,12 @@
           },
           "link_QMEHWN": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "Shop by Diamonds",
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-diamond-types",
-              "col": "6"
+              "col": "12"
             }
           },
           "simple_q9VreK": {
@@ -808,13 +782,11 @@
           "link_87Eexp",
           "simple_8xhpxM",
           "mega_H9La8f",
-          "link_Fjjakr",
           "link_enXFYN",
           "simple_Bndyhy",
           "mega_4DjedN",
           "link_XYNp6V",
           "link_kWcfJB",
-          "simple_7eiMGU",
           "mega_aqxzem",
           "link_tdxxkW",
           "link_QMEHWN",
