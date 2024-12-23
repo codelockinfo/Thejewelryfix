@@ -708,8 +708,26 @@
               "col": "12"
             }
           },
+          "mega_HXb3Tt": {
+            "type": "mega",
+            "settings": {
+              "title": "DELICATE JEWELRY",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 400
+            }
+          },
           "simple_LiRrCa": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "WATCHES",
               "url": "shopify://collections/moissanite-watches",
@@ -820,6 +838,7 @@
           "simple_q9VreK",
           "mega_zdk3dx",
           "link_EJrxNY",
+          "mega_HXb3Tt",
           "simple_LiRrCa",
           "simple_hnb73z",
           "mega_JpaKMm",
