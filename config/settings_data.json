@@ -722,7 +722,37 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 400
+              "cus_wid": 800
+            }
+          },
+          "link_cbxFtp": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Shop by Category",
+              "url": "",
+              "open_link": "_self",
+              "menu": "shop-by-category-delicate",
+              "col": "4"
+            }
+          },
+          "link_YN9UcV": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Shop by Style",
+              "url": "",
+              "open_link": "_self",
+              "menu": "shop-by-style-delicate",
+              "col": "4"
+            }
+          },
+          "link_4NAzwF": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Shop by Diamond",
+              "url": "",
+              "open_link": "_self",
+              "menu": "shop-by-diamond-delicate",
+              "col": "4"
             }
           },
           "simple_LiRrCa": {
@@ -851,6 +881,9 @@
           "mega_zdk3dx",
           "link_EJrxNY",
           "mega_HXb3Tt",
+          "link_cbxFtp",
+          "link_YN9UcV",
+          "link_4NAzwF",
           "simple_LiRrCa",
           "simple_hnb73z",
           "mega_JpaKMm",
