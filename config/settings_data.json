@@ -669,6 +669,7 @@
           },
           "simple_q9VreK": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "CUBAN CHAINS",
               "url": "shopify://collections/diamond-chains",
@@ -678,6 +679,33 @@
               "cl": "#ec0101",
               "lb": "",
               "lb_cl": ""
+            }
+          },
+          "mega_zdk3dx": {
+            "type": "mega",
+            "settings": {
+              "title": "CUBAN CHAINS",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 400
+            }
+          },
+          "link_EJrxNY": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Shop by Diamond Type",
+              "url": "",
+              "open_link": "_self",
+              "menu": "shop-by-dimond-cuban-chain",
+              "col": "12"
             }
           },
           "simple_LiRrCa": {
@@ -724,19 +752,8 @@
               "cus_wid": 600
             }
           },
-          "link_EJrxNY": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Shop by Diamond Type",
-              "url": "",
-              "open_link": "_self",
-              "menu": "shop-by-dimond-cuban-chain",
-              "col": "12"
-            }
-          },
           "link_nXcPHH": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "",
               "url": "shopify://collections/kids-rings",
@@ -801,10 +818,11 @@
           "link_tdxxkW",
           "link_QMEHWN",
           "simple_q9VreK",
+          "mega_zdk3dx",
+          "link_EJrxNY",
           "simple_LiRrCa",
           "simple_hnb73z",
           "mega_JpaKMm",
-          "link_EJrxNY",
           "link_nXcPHH",
           "cat_7VwQQx",
           "simple_Jkiekn",
