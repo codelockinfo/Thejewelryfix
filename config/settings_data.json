@@ -772,12 +772,23 @@
           },
           "link_nXcPHH": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "",
               "url": "shopify://collections/kids-rings",
               "open_link": "_self",
               "menu": "kids-jewelry",
               "col": "6"
+            }
+          },
+          "link_NXxbk3": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Shop by Diamond Type",
+              "url": "",
+              "open_link": "_self",
+              "menu": "shop-by-dimond-kid",
+              "col": "12"
             }
           },
           "cat_7VwQQx": {
@@ -843,6 +854,7 @@
           "simple_hnb73z",
           "mega_JpaKMm",
           "link_nXcPHH",
+          "link_NXxbk3",
           "cat_7VwQQx",
           "simple_Jkiekn",
           "simple_rVU4qB"
