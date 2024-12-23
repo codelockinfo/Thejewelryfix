@@ -631,7 +631,6 @@
           },
           "mega_aqxzem": {
             "type": "mega",
-            "disabled": true,
             "settings": {
               "title": "PENDANTS",
               "url": "",
