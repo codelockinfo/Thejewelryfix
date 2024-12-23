@@ -1146,8 +1146,21 @@
               "lb_cl": ""
             }
           },
+          "menu_DiG7Bm": {
+            "type": "menu",
+            "settings": {
+              "title": "Delicate Jewelry",
+              "url": "",
+              "open_link": "_self",
+              "menu": "delicate-jewelry-mobile",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "menu_cTGPmX": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Watches",
               "url": "shopify://collections/moissanite-watches",
@@ -1243,6 +1256,7 @@
           "menu_JLePcG",
           "menu_mM9xyT",
           "menu_6yXLTX",
+          "menu_DiG7Bm",
           "menu_cTGPmX",
           "menu_E4Yh3a",
           "mb_nav-0",
