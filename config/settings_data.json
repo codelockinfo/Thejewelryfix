@@ -797,12 +797,11 @@
               "lazy_mn": true,
               "pos": "center",
               "wid": "cus",
-              "cus_wid": 400
+              "cus_wid": 600
             }
           },
           "link_nXcPHH": {
             "type": "link",
-            "disabled": true,
             "settings": {
               "tt_hd": "",
               "url": "shopify://collections/kids-rings",
@@ -813,6 +812,7 @@
           },
           "link_NXxbk3": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Shop by Diamond Type",
               "url": "",
@@ -823,7 +823,6 @@
           },
           "cat_7VwQQx": {
             "type": "cat",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/ndjsad.png",
               "cat_design": "1",
