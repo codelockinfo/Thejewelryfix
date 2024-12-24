@@ -533,7 +533,18 @@
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-diamond-type-ring",
-              "col": "12"
+              "col": "6"
+            }
+          },
+          "cat_mHd68t": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/DSC09989_c2a4c761-4cf7-4fcd-ab14-4f88e078387d.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "",
+              "title": "",
+              "col": "6"
             }
           },
           "simple_8xhpxM": {
@@ -877,6 +888,7 @@
           "mega_NcER3j",
           "link_fhRHUp",
           "link_87Eexp",
+          "cat_mHd68t",
           "simple_8xhpxM",
           "mega_H9La8f",
           "link_enXFYN",
