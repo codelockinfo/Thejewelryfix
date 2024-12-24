@@ -722,7 +722,7 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 800
+              "cus_wid": 1200
             }
           },
           "link_cbxFtp": {
@@ -732,7 +732,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-category-delicate",
-              "col": "3"
+              "col": "2"
             }
           },
           "link_YN9UcV": {
