@@ -502,7 +502,7 @@
             "type": "mega",
             "settings": {
               "title": "RINGS",
-              "url": "shopify://collections/diamond-rings",
+              "url": "shopify://collections/hip-hop-rings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -541,7 +541,7 @@
             "disabled": true,
             "settings": {
               "title": "EARRINGS",
-              "url": "shopify://collections/diamond-earrings",
+              "url": "shopify://collections/earrings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -554,7 +554,7 @@
             "type": "mega",
             "settings": {
               "title": "EARRINGS",
-              "url": "",
+              "url": "shopify://collections/hip-hop-earrings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -595,7 +595,7 @@
             "type": "mega",
             "settings": {
               "title": "BRACELETS",
-              "url": "",
+              "url": "shopify://collections/hip-hop-bracelets",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -633,7 +633,7 @@
             "type": "mega",
             "settings": {
               "title": "PENDANTS",
-              "url": "",
+              "url": "shopify://collections/hip-hop-pendants",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -685,7 +685,7 @@
             "type": "mega",
             "settings": {
               "title": "CUBAN CHAINS",
-              "url": "",
+              "url": "shopify://collections/cuban-chain",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3172,7 +3172,7 @@
             "settings": {
               "image": "shopify://shop_images/05_db9b74d7-57b8-4e17-b2ca-e7e8c9ef43eb.jpg",
               "category_name": "Earrings",
-              "category_url": "shopify://collections/diamond-earrings"
+              "category_url": "shopify://collections/earrings"
             }
           },
           "category_block_i4f4wm": {
