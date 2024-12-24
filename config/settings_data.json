@@ -739,7 +739,7 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 400
+              "cus_wid": 550
             }
           },
           "link_EJrxNY": {
@@ -749,7 +749,18 @@
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-dimond-cuban-chain",
-              "col": "12"
+              "col": "6"
+            }
+          },
+          "cat_h77cqf": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/03_The_Craftsmanship_of_Moissanite_Chain.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "",
+              "title": "Cuban Chain",
+              "col": "6"
             }
           },
           "mega_HXb3Tt": {
@@ -938,6 +949,7 @@
           "simple_q9VreK",
           "mega_zdk3dx",
           "link_EJrxNY",
+          "cat_h77cqf",
           "mega_HXb3Tt",
           "link_cbxFtp",
           "link_YN9UcV",
