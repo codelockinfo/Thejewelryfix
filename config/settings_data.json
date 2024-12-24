@@ -541,7 +541,7 @@
             "disabled": true,
             "settings": {
               "title": "EARRINGS",
-              "url": "shopify://collections/earrings",
+              "url": "shopify://collections/diamond-earrings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -1347,7 +1347,7 @@
             "settings": {
               "cat": "",
               "title": "Earrings",
-              "url": "shopify://collections/earrings",
+              "url": "shopify://collections/diamond-earrings",
               "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
@@ -3172,7 +3172,7 @@
             "settings": {
               "image": "shopify://shop_images/05_db9b74d7-57b8-4e17-b2ca-e7e8c9ef43eb.jpg",
               "category_name": "Earrings",
-              "category_url": "shopify://collections/earrings"
+              "category_url": "shopify://collections/diamond-earrings"
             }
           },
           "category_block_i4f4wm": {
