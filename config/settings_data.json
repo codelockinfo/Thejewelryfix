@@ -676,7 +676,7 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 400
+              "cus_wid": 550
             }
           },
           "link_tdxxkW": {
@@ -697,7 +697,18 @@
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-diamond-types",
-              "col": "12"
+              "col": "6"
+            }
+          },
+          "cat_QWfETA": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/011113-1.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "",
+              "title": "Pendants",
+              "col": "6"
             }
           },
           "simple_q9VreK": {
@@ -923,6 +934,7 @@
           "mega_aqxzem",
           "link_tdxxkW",
           "link_QMEHWN",
+          "cat_QWfETA",
           "simple_q9VreK",
           "mega_zdk3dx",
           "link_EJrxNY",
