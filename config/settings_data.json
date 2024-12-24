@@ -575,7 +575,7 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 400
+              "cus_wid": 550
             }
           },
           "link_enXFYN": {
@@ -585,7 +585,18 @@
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-diamond-type",
-              "col": "12"
+              "col": "6"
+            }
+          },
+          "cat_4XJdGB": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/FLER19177_1.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "",
+              "title": "",
+              "col": "6"
             }
           },
           "simple_Bndyhy": {
@@ -892,6 +903,7 @@
           "simple_8xhpxM",
           "mega_H9La8f",
           "link_enXFYN",
+          "cat_4XJdGB",
           "simple_Bndyhy",
           "mega_4DjedN",
           "link_XYNp6V",
