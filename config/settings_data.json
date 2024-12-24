@@ -732,7 +732,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-category-delicate",
-              "col": "4"
+              "col": "3"
             }
           },
           "link_YN9UcV": {
@@ -742,7 +742,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-style-delicate",
-              "col": "4"
+              "col": "3"
             }
           },
           "link_4NAzwF": {
@@ -752,7 +752,18 @@
               "url": "",
               "open_link": "_self",
               "menu": "shop-by-diamond-delicate",
-              "col": "4"
+              "col": "3"
+            }
+          },
+          "cat_q9e4wY": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/DSC05188_72053e70-75bd-424a-bbe0-ecae055f9d01.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "",
+              "title": "",
+              "col": "3"
             }
           },
           "simple_LiRrCa": {
@@ -883,6 +894,7 @@
           "link_cbxFtp",
           "link_YN9UcV",
           "link_4NAzwF",
+          "cat_q9e4wY",
           "simple_LiRrCa",
           "simple_hnb73z",
           "mega_JpaKMm",
