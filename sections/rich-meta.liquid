@@ -1,6 +1,29 @@
+{% if collection.metafields.custom.content != blank %}
+<div class="rich-meta">
+    <div class="width-container">
+        <div class="rich-meta-content">{{ collection.metafields.custom.content | metafield_tag }}</div>
+    </div>
+</div>
+{% endif %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Rich text metafield",
+  "settings": [
+ 
+  ],
+  "presets": [
+    {
+      "name": "Rich text metafield"
+    }
+  ]
+}
 {% endschema %}
+<style>
+  .rich-meta{
+    padding:40px 0;
+  }
+  .rich-meta-content .metafield-rich_text_field h1,h2,h3,h5,h6{
+ color:#fff !important;
+  }
+</style>
