@@ -1185,7 +1185,7 @@
             "type": "menu",
             "settings": {
               "title": "Bracelets",
-              "url": "",
+              "url": "shopify://collections/hip-hop-bracelets",
               "open_link": "_self",
               "menu": "bracelets-mobile",
               "icon": "",
@@ -1197,7 +1197,7 @@
             "type": "menu",
             "settings": {
               "title": "Pendants",
-              "url": "",
+              "url": "shopify://collections/hip-hop-pendants",
               "open_link": "_self",
               "menu": "pendants-mobile",
               "icon": "",
@@ -1209,7 +1209,7 @@
             "type": "menu",
             "settings": {
               "title": "Cuban Chains",
-              "url": "shopify://collections/diamond-chains",
+              "url": "shopify://collections/cuban-chain",
               "open_link": "_self",
               "menu": "cuban-chain-mobile",
               "icon": "",
@@ -1220,8 +1220,8 @@
           "menu_DiG7Bm": {
             "type": "menu",
             "settings": {
-              "title": "Delicate Jewelry",
-              "url": "",
+              "title": "Fine Jewelry",
+              "url": "shopify://collections/fine-jewelry",
               "open_link": "_self",
               "menu": "delicate-jewelry-mobile",
               "icon": "",
@@ -1246,7 +1246,7 @@
             "type": "menu",
             "settings": {
               "title": "Kids jewelry",
-              "url": "",
+              "url": "shopify://collections/kids-jewelry",
               "open_link": "_self",
               "menu": "kids-jewelry",
               "icon": "",
