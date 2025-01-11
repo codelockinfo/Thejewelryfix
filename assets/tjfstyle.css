@@ -3,5 +3,11 @@
       bottom: 45px;
 }
 .post-info a{
-  color:#caa45d;
+  color:#caa45d !important;
+}
+.post-info p{
+  color:#fff !important;
+}
+.post-info h1 ,h2 ,h3 ,h4 ,h6{
+  color:#fff !important;
 }
