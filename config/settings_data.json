@@ -1173,7 +1173,7 @@
             "type": "menu",
             "settings": {
               "title": "Earrings",
-              "url": "",
+              "url": "shopify://collections/hip-hop-earrings",
               "open_link": "_self",
               "menu": "earring-mobile",
               "icon": "",
