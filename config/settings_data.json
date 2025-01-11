@@ -1299,7 +1299,7 @@
               "title": "Ring",
               "url": "shopify://collections/hip-hop-rings",
               "open_link": "_self",
-              "menu": "",
+              "menu": "ring-mobile-nenu",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -3569,6 +3569,10 @@
           "image_text_block_ejdEka",
           "image_text_block_RFTTWQ"
         ],
+        "settings": {}
+      },
+      "rich-meta": {
+        "type": "rich-meta",
         "settings": {}
       }
     },
