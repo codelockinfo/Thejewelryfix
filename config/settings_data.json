@@ -1210,7 +1210,7 @@
             "settings": {
               "title": "Cuban Chains",
               "url": "shopify://collections/cuban-chain",
-              "open_link": "_self",
+              "open_link": "_blank",
               "menu": "cuban-chain-mobile",
               "icon": "",
               "lb": "",
