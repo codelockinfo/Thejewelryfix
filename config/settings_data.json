@@ -1293,18 +1293,6 @@
               "lb_cl": ""
             }
           },
-          "menu_q3Bmbp": {
-            "type": "menu",
-            "settings": {
-              "title": "Ring",
-              "url": "shopify://collections/hip-hop-rings",
-              "open_link": "_self",
-              "menu": "ring-mobile-nenu",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "mb_nav-4": {
             "type": "wis",
             "settings": {}
@@ -1345,7 +1333,6 @@
           "mb_nav-0",
           "1585642908420",
           "1585642887352",
-          "menu_q3Bmbp",
           "mb_nav-4",
           "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063",
           "mb_nav-5",
