@@ -1161,7 +1161,7 @@
             "type": "menu",
             "settings": {
               "title": "Rings",
-              "url": "",
+              "url": "shopify://collections/hip-hop-rings",
               "open_link": "_self",
               "menu": "ring-mobile-nenu",
               "icon": "",
