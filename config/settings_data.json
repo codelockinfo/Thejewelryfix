@@ -3430,6 +3430,7 @@
       },
       "collection_img_with_slider_NfCrdk": {
         "type": "collection-img-with-slider",
+        "disabled": true,
         "settings": {
           "collectionproduct": "moissanite-watches",
           "hedding_text": "watches",
@@ -3567,10 +3568,10 @@
       "custom_banner_2_BXiHCW",
       "custom_banner_section_RfRQeV",
       "custom_category_section_X7n9FW",
+      "collection_img_with_slider_q6Ftzt",
       "collection_img_with_slider_NfCrdk",
       "collection_img_with_slider_qcGLhd",
       "collection_img_with_slider_X8R7RW",
-      "collection_img_with_slider_q6Ftzt",
       "custom_img_with_text_ya7Ygh",
       "advance_image_text_94NpUY",
       "custom_testimonial_section_XkVBje",
