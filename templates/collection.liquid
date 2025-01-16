@@ -66,7 +66,7 @@ endif -%}
 
 {%- if cat_des == '2' and IsShowDesSUB %}<div class="cat_des_ntt4 container container_cat tc mt__40 rtet4">{{ collection.description}}</div>{%- endif -%}
 {%- if IsShowSUBcat %}{% section 'sub-collections' %}{% endif -%}
-
+{%- section 'background-img-button-meta' -%}
 {%- if IsShowPRS -%}
   <div class="container container_cat {{settings.pop_style}} cat_{{settings.shop_layout}} mb__60">
      {%- if settings.breadcrumb_cat %}<nav class="sp-breadcrumb mt__10" aria-label="Breadcrumbs"><a href="{{ routes.root_url }}" class="dib">{{ 'general.breadcrumbs.home' | t }}</a><i class="facl facl-angle-right"></i>{{collection.title}}{% endif -%}
