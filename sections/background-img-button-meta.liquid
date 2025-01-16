@@ -1,6 +1,82 @@
+{%  if   collection.metafields.custom.custom_section_img != blank %}
+<div class="img-button-section">
+   <div class="container">
+     <div class="button-text-box">
+       {%  if collection.metafields.custom.custom_section_heading != blank %}
+       <div class="custom-text-meta">{{ collection.metafields.custom.custom_section_heading }}</div>
+       {%  endif %}
+       {%  if collection.metafields.custom.custom_section_button_text != blank %}
+       <a href="{{ collection.metafields.custom.custom_section_button_url}} " class="custom-button-meta"> {{  collection.metafields.custom.custom_section_button_text}} </a>
+       {%  endif %}
+     </div>
+   </div>
+</div>
+{%  endif %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Background img and button",
+  "settings": [
+  
+  ],
+  "presets": [
+    {
+      "name": "Background img and button"
+    }
+  ]
+}
 {% endschema %}
+
+<style>
+  .img-button-section{
+    padding:50px 0;
+    margin-top:15px;
+    position:relative;
+    z-index:1;
+  }
+  .img-button-section::after{
+    position:absolute;
+    content:"";
+    width:100%;
+    height:100%;
+    background-color:#00000080;
+    top:0;
+    left:0;
+    z-index:-1;
+  }
+  .img-button-section{
+    background-image:url('{{ collection.metafields.custom.custom_section_img | img_url: 'master'  }}');
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-position:center center; */
+  }
+  .button-text-box{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .custom-button-meta{
+    text-align:end;
+    padding:10px 20px;
+    font-family: poppins;
+    background-color:#caa45d;
+    color:#000 !important;
+    font-size:16px;
+    font-weight:600 !important;
+  }
+  .custom-text-meta{
+    font-size:30px;
+    color:#fff;
+    font-weight:600;
+  }
+  @media (max-width:576px){
+    .custom-text-meta{
+    font-size:22px;
+  }
+    .custom-button-meta{
+    padding:8px 20px;
+    font-size:14px;
+  }
+  }
+   
+</style>
