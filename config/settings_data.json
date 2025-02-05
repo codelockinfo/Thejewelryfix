@@ -2261,7 +2261,7 @@
         "settings": {
           "shop_des": "default",
           "art_des": "1",
-          "limit": 5,
+          "limit": 9,
           "space": 40,
           "use_pagination": "default",
           "use_bar_lm": true,
