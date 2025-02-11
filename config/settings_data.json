@@ -3701,9 +3701,9 @@
           },
           "collection_fcM6id": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "hip-hop-rings",
+              "image": "shopify://shop_images/FMR20872_2.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
