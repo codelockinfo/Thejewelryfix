@@ -3821,9 +3821,9 @@
           },
           "collection_xQhTQ8": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "moissanite-chains",
+              "image": "shopify://shop_images/FMC8698_1.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
