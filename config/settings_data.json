@@ -3568,6 +3568,214 @@
       },
       "collection-list": {
         "type": "collection-list",
+        "blocks": {
+          "collection_RU3JmH": {
+            "type": "collection",
+            "settings": {
+              "collection": "cuban-chain",
+              "image": "shopify://shop_images/FMC14371_5.jpg",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_D7kBhD": {
+            "type": "collection",
+            "settings": {
+              "collection": "diamond-bracelets",
+              "image": "shopify://shop_images/DSC01535.jpg",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_HDkxEa": {
+            "type": "collection",
+            "settings": {
+              "collection": "diamond-earrings",
+              "image": "shopify://shop_images/DSC00328.jpg",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_GE7U3t": {
+            "type": "collection",
+            "settings": {
+              "collection": "diamond-fine-jewelry",
+              "image": "shopify://shop_images/DSC03096.jpg",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_zJqfqV": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_YKiqTY": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_btinCE": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_Wm6CcX": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_GGetYK": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_GDRJdr": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_UpTWEB": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_peBLKw": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_rz7ffc": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_fcM6id": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_iEiWgK": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_WkKXMr": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_KWT3XW": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_9EEJYr": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_zcbPp4": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_rHUJV8": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection_RU3JmH",
+          "collection_D7kBhD",
+          "collection_HDkxEa",
+          "collection_GE7U3t",
+          "collection_zJqfqV",
+          "collection_YKiqTY",
+          "collection_btinCE",
+          "collection_Wm6CcX",
+          "collection_GGetYK",
+          "collection_GDRJdr",
+          "collection_UpTWEB",
+          "collection_peBLKw",
+          "collection_rz7ffc",
+          "collection_fcM6id",
+          "collection_iEiWgK",
+          "collection_WkKXMr",
+          "collection_KWT3XW",
+          "collection_9EEJYr",
+          "collection_zcbPp4",
+          "collection_rHUJV8"
+        ],
         "settings": {
           "title": "",
           "sub_title": "",
@@ -3576,7 +3784,7 @@
           "ic_tt": "gem",
           "show_clpr": false,
           "round": 0,
-          "cat_layout": "1",
+          "cat_layout": "2",
           "hoverz": true,
           "cat_design": "1",
           "cat_space": "30",
@@ -3589,12 +3797,12 @@
           "loop": true,
           "autoplay": false,
           "au_time": 6,
-          "au_hover": true,
-          "button": false,
+          "au_hover": false,
+          "button": true,
           "btn_vi": "1",
           "btn_owl": "1",
           "btn_color": "0",
-          "dot": true,
+          "dot": false,
           "dot_owl": "1",
           "dot_color": "1",
           "hidden": false,
