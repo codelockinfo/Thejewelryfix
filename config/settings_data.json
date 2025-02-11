@@ -3759,16 +3759,6 @@
               "url": ""
             }
           },
-          "collection_zcbPp4": {
-            "type": "collection",
-            "disabled": true,
-            "settings": {
-              "collection": "lab-diamond-chains",
-              "img_align": "center",
-              "title": "",
-              "url": ""
-            }
-          },
           "collection_rHUJV8": {
             "type": "collection",
             "disabled": true,
@@ -3868,6 +3858,15 @@
               "title": "",
               "url": ""
             }
+          },
+          "collection_Mqfb79": {
+            "type": "collection",
+            "settings": {
+              "collection": "natural-diamond-pendants",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
           }
         },
         "block_order": [
@@ -3890,7 +3889,6 @@
           "collection_WkKXMr",
           "collection_KWT3XW",
           "collection_9EEJYr",
-          "collection_zcbPp4",
           "collection_rHUJV8",
           "collection_886L4Y",
           "collection_dxjVnW",
@@ -3900,7 +3898,8 @@
           "collection_xQhTQ8",
           "collection_ppXwb9",
           "collection_g4k4Yq",
-          "collection_PcmDiJ"
+          "collection_PcmDiJ",
+          "collection_Mqfb79"
         ],
         "settings": {
           "title": "",
