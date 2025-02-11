@@ -3611,7 +3611,6 @@
           },
           "collection_zJqfqV": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "diamond-hoop-earrings",
               "image": "shopify://shop_images/FLR21186_5.jpg",
@@ -3622,9 +3621,9 @@
           },
           "collection_YKiqTY": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "diamond-pendants",
+              "image": "shopify://shop_images/FMP20689_1.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
