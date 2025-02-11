@@ -3691,9 +3691,9 @@
           },
           "collection_rz7ffc": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "hip-hop-pendants",
+              "image": "shopify://shop_images/FMP19114_3.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
