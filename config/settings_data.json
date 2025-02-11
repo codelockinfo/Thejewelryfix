@@ -3709,11 +3709,21 @@
               "url": ""
             }
           },
+          "collection_ygi4fY": {
+            "type": "collection",
+            "settings": {
+              "collection": "kids-pendant-necklace",
+              "image": "shopify://shop_images/011113-1_53e7e457-ab7d-4873-a14e-d4ac2eff5b30.jpg",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
           "collection_iEiWgK": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "kids-earrings",
+              "image": "shopify://shop_images/FLER19193_3_c9256910-b89d-4617-be24-71689a8a29cf.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3785,6 +3795,7 @@
           "collection_peBLKw",
           "collection_rz7ffc",
           "collection_fcM6id",
+          "collection_ygi4fY",
           "collection_iEiWgK",
           "collection_WkKXMr",
           "collection_KWT3XW",
