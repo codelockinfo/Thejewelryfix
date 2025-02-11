@@ -3749,6 +3749,16 @@
               "url": ""
             }
           },
+          "collection_BcLhN3": {
+            "type": "collection",
+            "settings": {
+              "collection": "lab-diamond-chains",
+              "image": "shopify://shop_images/FMC14371_1.jpg",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
           "collection_9EEJYr": {
             "type": "collection",
             "settings": {
@@ -3784,6 +3794,16 @@
             "settings": {
               "collection": "lab-diamond-rings",
               "image": "shopify://shop_images/FMR19962W_1.jpg",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_DN7ini": {
+            "type": "collection",
+            "settings": {
+              "collection": "lab-diamond-fine-jewelry",
+              "image": "shopify://shop_images/DSC00372.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3889,10 +3909,12 @@
           "collection_iEiWgK",
           "collection_WkKXMr",
           "collection_KWT3XW",
+          "collection_BcLhN3",
           "collection_9EEJYr",
           "collection_rHUJV8",
           "collection_886L4Y",
           "collection_dxjVnW",
+          "collection_DN7ini",
           "collection_i3Wqjp",
           "collection_fXQHzn",
           "collection_fnrEjn",
