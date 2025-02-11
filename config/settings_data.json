@@ -3631,9 +3631,9 @@
           },
           "collection_btinCE": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "diamond-rings",
+              "image": "shopify://shop_images/DSC04337.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
