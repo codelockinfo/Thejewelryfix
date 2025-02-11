@@ -3911,8 +3911,29 @@
           },
           "collection_Wh9FxL": {
             "type": "collection",
+            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "natural-diamond-bracelets",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_pTjehe": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "natural-diamond-chains",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_3WNkRp": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "personalized-jewelry",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3954,7 +3975,9 @@
           "collection_g4k4Yq",
           "collection_PcmDiJ",
           "collection_Mqfb79",
-          "collection_Wh9FxL"
+          "collection_Wh9FxL",
+          "collection_pTjehe",
+          "collection_3WNkRp"
         ],
         "settings": {
           "title": "",
