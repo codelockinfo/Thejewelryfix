@@ -3771,9 +3771,9 @@
           },
           "collection_886L4Y": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "lab-diamond-pendants",
+              "image": "shopify://shop_images/FMP21532_2.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
