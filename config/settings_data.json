@@ -3643,7 +3643,8 @@
             "type": "collection",
             "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "diamond-stud-earrings",
+              "image": "shopify://shop_images/FLER18130R_5_a7d1d280-2eea-4b49-a432-bf337b862ac0.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
