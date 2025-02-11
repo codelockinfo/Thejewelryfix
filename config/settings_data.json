@@ -3681,9 +3681,9 @@
           },
           "collection_peBLKw": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "hip-hop-earrings",
+              "image": "shopify://shop_images/FLER21292_3.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
