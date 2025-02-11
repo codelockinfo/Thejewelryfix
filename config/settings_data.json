@@ -3671,9 +3671,9 @@
           },
           "collection_UpTWEB": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "hip-hop-bracelets",
+              "image": "shopify://shop_images/FMB12397_2_d15d4eef-febd-4019-9484-3ed3165fd6ce.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
