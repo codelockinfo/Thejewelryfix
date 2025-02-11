@@ -3911,9 +3911,9 @@
           },
           "collection_Wh9FxL": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "natural-diamond-bracelets",
+              "image": "shopify://shop_images/FMB19619Y_2.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3921,9 +3921,9 @@
           },
           "collection_pTjehe": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "natural-diamond-chains",
+              "image": "shopify://shop_images/FMC14371R_3.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3931,9 +3931,9 @@
           },
           "collection_3WNkRp": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "personalized-jewelry",
+              "image": "shopify://shop_images/DSC02785.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
