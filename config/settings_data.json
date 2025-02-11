@@ -3661,9 +3661,9 @@
           },
           "collection_GDRJdr": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "fine-jewelry",
+              "image": "shopify://shop_images/FMP19587_1.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
