@@ -3831,9 +3831,9 @@
           },
           "collection_ppXwb9": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "wedding-bands",
+              "image": "shopify://shop_images/DSC05874.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
