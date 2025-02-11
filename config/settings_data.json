@@ -3773,6 +3773,96 @@
             "type": "collection",
             "disabled": true,
             "settings": {
+              "collection": "lab-diamond-earrings",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_886L4Y": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_dxjVnW": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_i3Wqjp": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_fXQHzn": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_fnrEjn": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_xQhTQ8": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_ppXwb9": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_g4k4Yq": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_PcmDiJ": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
               "collection": "",
               "img_align": "center",
               "title": "",
@@ -3801,7 +3891,16 @@
           "collection_KWT3XW",
           "collection_9EEJYr",
           "collection_zcbPp4",
-          "collection_rHUJV8"
+          "collection_rHUJV8",
+          "collection_886L4Y",
+          "collection_dxjVnW",
+          "collection_i3Wqjp",
+          "collection_fXQHzn",
+          "collection_fnrEjn",
+          "collection_xQhTQ8",
+          "collection_ppXwb9",
+          "collection_g4k4Yq",
+          "collection_PcmDiJ"
         ],
         "settings": {
           "title": "",
