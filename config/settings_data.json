@@ -3811,9 +3811,9 @@
           },
           "collection_fnrEjn": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "moissanite-rings",
+              "image": "shopify://shop_images/FMR21490_1_38fa39f0-4ae5-4062-9806-ce22b568b6be.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
