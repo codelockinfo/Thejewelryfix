@@ -3849,6 +3849,26 @@
               "url": ""
             }
           },
+          "collection_RkbdJJ": {
+            "type": "collection",
+            "settings": {
+              "collection": "moissanite-earrings",
+              "image": "shopify://shop_images/FLER18130R_3.jpg",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_BnkfVy": {
+            "type": "collection",
+            "settings": {
+              "collection": "moissanite-fine-jewelry",
+              "image": "shopify://shop_images/FMP20747_1.jpg",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
           "collection_ppXwb9": {
             "type": "collection",
             "settings": {
@@ -3888,6 +3908,15 @@
               "title": "",
               "url": ""
             }
+          },
+          "collection_Wh9FxL": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
           }
         },
         "block_order": [
@@ -3919,10 +3948,13 @@
           "collection_fXQHzn",
           "collection_fnrEjn",
           "collection_xQhTQ8",
+          "collection_RkbdJJ",
+          "collection_BnkfVy",
           "collection_ppXwb9",
           "collection_g4k4Yq",
           "collection_PcmDiJ",
-          "collection_Mqfb79"
+          "collection_Mqfb79",
+          "collection_Wh9FxL"
         ],
         "settings": {
           "title": "",
