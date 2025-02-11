@@ -3761,9 +3761,9 @@
           },
           "collection_rHUJV8": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "lab-diamond-earrings",
+              "image": "shopify://shop_images/FLER18130R_4_ce706ee7-f45c-485f-8508-a36e552877da.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3861,6 +3861,7 @@
           },
           "collection_Mqfb79": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "natural-diamond-pendants",
               "img_align": "center",
