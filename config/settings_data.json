@@ -3751,9 +3751,9 @@
           },
           "collection_9EEJYr": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "lab-diamond-bracelets",
+              "image": "shopify://shop_images/FMB19288R_1_e7d9ce35-be33-4d8f-808a-05ab76f3984b.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
