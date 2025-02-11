@@ -3763,7 +3763,7 @@
             "type": "collection",
             "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "lab-diamond-chains",
               "img_align": "center",
               "title": "",
               "url": ""
