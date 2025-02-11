@@ -3641,7 +3641,6 @@
           },
           "collection_Wm6CcX": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "diamond-stud-earrings",
               "image": "shopify://shop_images/FLER18130R_5_a7d1d280-2eea-4b49-a432-bf337b862ac0.jpg",
@@ -3652,9 +3651,9 @@
           },
           "collection_GGetYK": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "engagement-rings",
+              "image": "shopify://shop_images/FMR21490_1_38fa39f0-4ae5-4062-9806-ce22b568b6be.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
