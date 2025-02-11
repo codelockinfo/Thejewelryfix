@@ -3841,9 +3841,9 @@
           },
           "collection_g4k4Yq": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "natural-diamond-earrings",
+              "image": "shopify://shop_images/FLER18130R_4.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
