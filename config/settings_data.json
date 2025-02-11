@@ -3833,7 +3833,7 @@
             "type": "collection",
             "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "moissanite-chains",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3843,7 +3843,7 @@
             "type": "collection",
             "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "wedding-bands",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3853,7 +3853,7 @@
             "type": "collection",
             "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "natural-diamond-earrings",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3863,7 +3863,7 @@
             "type": "collection",
             "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "natural-diamond-rings",
               "img_align": "center",
               "title": "",
               "url": ""
