@@ -3783,7 +3783,7 @@
             "type": "collection",
             "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "lab-diamond-pendants",
               "img_align": "center",
               "title": "",
               "url": ""
