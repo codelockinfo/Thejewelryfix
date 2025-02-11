@@ -3731,9 +3731,9 @@
           },
           "collection_WkKXMr": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "kids-jewelry",
+              "image": "shopify://shop_images/FLR19385_7_f2fe20a9-460f-4f2f-ac57-1c2f36e14a6b.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
