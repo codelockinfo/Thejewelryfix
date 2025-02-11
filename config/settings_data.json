@@ -3813,7 +3813,7 @@
             "type": "collection",
             "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "moissanite-bracelets",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3823,7 +3823,7 @@
             "type": "collection",
             "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "moissanite-rings",
               "img_align": "center",
               "title": "",
               "url": ""
