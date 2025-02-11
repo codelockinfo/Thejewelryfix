@@ -3791,9 +3791,9 @@
           },
           "collection_i3Wqjp": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "moissanite-pendants",
+              "image": "shopify://shop_images/FMP19414_3.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
