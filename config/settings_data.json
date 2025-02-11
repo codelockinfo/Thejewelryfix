@@ -3793,7 +3793,7 @@
             "type": "collection",
             "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "lab-diamond-rings",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3803,7 +3803,7 @@
             "type": "collection",
             "disabled": true,
             "settings": {
-              "collection": "",
+              "collection": "moissanite-pendants",
               "img_align": "center",
               "title": "",
               "url": ""
