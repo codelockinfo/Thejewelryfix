@@ -3851,9 +3851,9 @@
           },
           "collection_PcmDiJ": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "natural-diamond-rings",
+              "image": "shopify://shop_images/FLR21358_1.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3861,9 +3861,9 @@
           },
           "collection_Mqfb79": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "natural-diamond-pendants",
+              "image": "shopify://shop_images/FMP20923_1.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
