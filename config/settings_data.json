@@ -3781,9 +3781,9 @@
           },
           "collection_dxjVnW": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "lab-diamond-rings",
+              "image": "shopify://shop_images/FMR19962W_1.jpg",
               "img_align": "center",
               "title": "",
               "url": ""
