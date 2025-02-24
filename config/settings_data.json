@@ -1637,7 +1637,7 @@
         "settings": {
           "shown": true,
           "image": "shopify://shop_images/ebdfb2facbb85db0eb173c3a6360cc1e.jpg",
-          "use_specify_image": true,
+          "use_specify_image": false,
           "parallax": false,
           "color": "#000000",
           "overlay": 0,
