@@ -3218,14 +3218,6 @@
               "category_url": "shopify://collections/hip-hop-pendants"
             }
           },
-          "category_block_jHtTdW": {
-            "type": "category_block",
-            "settings": {
-              "image": "shopify://shop_images/04_5f1632fa-7ab9-4e4a-992d-1adc34b6f906.jpg",
-              "category_name": "Watches",
-              "category_url": "shopify://collections/moissanite-watches"
-            }
-          },
           "category_block_kCf336": {
             "type": "category_block",
             "settings": {
@@ -3254,7 +3246,6 @@
         "block_order": [
           "category_block_QCtRPP",
           "category_block_pnaND3",
-          "category_block_jHtTdW",
           "category_block_kCf336",
           "category_block_i4f4wm",
           "category_block_mYQeak"
