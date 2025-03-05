@@ -1,3 +1,5 @@
+ {% comment %}
+
 {%- section 'contact_heading' -%}
 {%- assign page_content = page.content -%}
 {%- assign formId = 'contact_form_page' -%}
@@ -48,6 +50,12 @@
            <textarea rows="20" id="{{ formId }}-message" name="contact[body]" required="required">{% if form.body %}{{ form.body }}{% endif %}</textarea>
            </p>
            <input type="submit" class="button w__100" value="{{ 'contact.form.submit' | t }}">
+         {%- endform -%}
+      </div>
+    {%- if page_content.size > 0 %}<div class="contact-content col-12 col-md-6">{{ page_content }}</div>{% endif -%}
+  </div>
+</div>
+{% endcomment %}
 
 <section class="contact-address-area">
     <div class="container">
@@ -184,15 +192,3 @@
         </div>
     </div>
 </section>
-
-
-
-
-
-
-
-         {%- endform -%}
-      </div>
-    {%- if page_content.size > 0 %}<div class="contact-content col-12 col-md-6">{{ page_content }}</div>{% endif -%}
-  </div>
-</div>
