@@ -4049,6 +4049,46 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "contact_heading": {
+        "type": "contact_heading",
+        "blocks": {
+          "contact_heading-0": {
+            "type": "1",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "contact_heading-0"
+        ],
+        "settings": {
+          "parallax": false,
+          "color": "#000",
+          "overlay": 54,
+          "padding": 50,
+          "paddingmb": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "contact-item": {
+        "type": "contact-item",
+        "blocks": {
+          "contact_item_G6XDm3": {
+            "type": "contact_item",
+            "settings": {
+              "icon": "fa-solid fa-location-dot",
+              "text": "307, Sunday Hub, Ambatalavadi, Katargam, Surat, Gujarat 395004 India",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "contact_item_G6XDm3"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": [
