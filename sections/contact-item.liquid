@@ -1,6 +1,106 @@
+<section>
+  <div class="width-container">
+    <div class="contact-section">
+      {% for block in section.blocks %}
+        <div class="contact-box">
+          <a href="{{ block.settings.url }}">
+            <div class="icon">
+              <i class="{{ block.settings.icon }}"></i>
+            </div>
+            <div class="contect-text">{{ block.settings.text }}</div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Dynamic Contact Info",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "contact_item",
+      "name": "Contact Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "FontAwesome Icon Class"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Dynamic Contact Info",
+      "category": "Custom Sections",
+      "blocks": [
+        {
+          "type": "contact_item"
+        },
+        {
+          "type": "contact_item"
+        },
+        {
+          "type": "contact_item"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
+
+<style>
+.contact-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 20px;
+  background-color: #1a1a1a;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.contact-box {
+  max-width: 300px;
+}
+.contact-box a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.contact-box .icon i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.contect-text {
+  font-size: 16px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact-section {
+    gap: 50px;
+    justify-content: center;
+  }
+  .contact-box {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+</style>
