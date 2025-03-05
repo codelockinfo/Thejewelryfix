@@ -4091,11 +4091,20 @@
               "text": "hello@diamondrensu.com",
               "url": ""
             }
+          },
+          "contact_item_LkfVqF": {
+            "type": "contact_item",
+            "settings": {
+              "icon": "fa-solid fa-phone",
+              "text": "+91 90239-30923",
+              "url": ""
+            }
           }
         },
         "block_order": [
           "contact_item_G6XDm3",
-          "contact_item_wA9fJg"
+          "contact_item_wA9fJg",
+          "contact_item_LkfVqF"
         ],
         "settings": {}
       }
