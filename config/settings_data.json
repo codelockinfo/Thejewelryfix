@@ -1284,7 +1284,7 @@
             "disabled": true,
             "settings": {
               "title": "Blog",
-              "url": "shopify://pages/career",
+              "url": "shopify://pages/blogs",
               "open_link": "_self",
               "menu": "",
               "icon": "",
