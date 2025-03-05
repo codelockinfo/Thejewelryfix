@@ -4063,7 +4063,7 @@
         ],
         "settings": {
           "parallax": false,
-          "color": "#000",
+          "color": "#000000",
           "overlay": 54,
           "padding": 50,
           "paddingmb": 50,
@@ -4080,24 +4080,24 @@
             "type": "contact_item",
             "settings": {
               "icon": "fa-solid fa-location-dot",
-              "text": "307, Sunday Hub, Ambatalavadi, Katargam, Surat, Gujarat 395004 India",
-              "url": ""
+              "text": "6401 Bluebonnet Blvd, Suite 2016, Baton Rouge, LA-70836",
+              "url": "https://maps.app.goo.gl/CF5m2TjXk5gMejfNA"
             }
           },
           "contact_item_wA9fJg": {
             "type": "contact_item",
             "settings": {
               "icon": "fa-regular fa-envelope",
-              "text": "hello@diamondrensu.com",
-              "url": ""
+              "text": "TheJewelryFlare@gmail.com",
+              "url": "mailto:TheJewelryFlare@gmail.com"
             }
           },
           "contact_item_LkfVqF": {
             "type": "contact_item",
             "settings": {
               "icon": "fa-solid fa-phone",
-              "text": "+91 90239-30923",
-              "url": ""
+              "text": "+1 (225) 469-7615",
+              "url": "tel:+1 (225) 469-7615"
             }
           }
         },
