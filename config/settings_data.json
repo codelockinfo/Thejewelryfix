@@ -4083,10 +4083,19 @@
               "text": "307, Sunday Hub, Ambatalavadi, Katargam, Surat, Gujarat 395004 India",
               "url": ""
             }
+          },
+          "contact_item_wA9fJg": {
+            "type": "contact_item",
+            "settings": {
+              "icon": "fa-regular fa-envelope",
+              "text": "hello@diamondrensu.com",
+              "url": ""
+            }
           }
         },
         "block_order": [
-          "contact_item_G6XDm3"
+          "contact_item_G6XDm3",
+          "contact_item_wA9fJg"
         ],
         "settings": {}
       }
