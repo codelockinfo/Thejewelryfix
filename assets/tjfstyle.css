@@ -17,3 +17,6 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+.ContactBubble__Bubble {
+  display: none !important;
+}
