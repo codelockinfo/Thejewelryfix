@@ -186,7 +186,7 @@
     "cat_des": "1",
     "shop_sidebar": "left",
     "shop_size_sidebar": "2",
-    "use_hidden_cat": false,
+    "use_hidden_cat": true,
     "space_sidebar": 30,
     "ajax_shop": true,
     "ajax_scroll_top": false,
