@@ -97,9 +97,9 @@
     {% elsif template contains 'collection' %}
         {% assign collection_custom_canonical = collection.metafields.custom.canonical_url %}
         {% if collection_custom_canonical !=  blank %}
-            <link rel="canonical 1" href="{{ collection_custom_canonical }}" >
+            <link rel="canonical" href="{{ collection_custom_canonical }}" >
         {% else %}
-            <link rel="canonical 2" href="{{ canonical_url }}" >
+            <link rel="canonical" href="{{ canonical_url }}" >
         {% endif %}
     {% else %}
         <link rel="canonical" href="{{ canonical_url }}">
