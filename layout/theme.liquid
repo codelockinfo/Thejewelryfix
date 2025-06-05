@@ -90,9 +90,9 @@
  {% if template contains 'product' %}
         {% assign product_custom_canonical = product.metafields.custom.canonical_url %}
         {% if product_custom_canonical !=  blank %}
-            <link rel="canonical 1" href="{{ product_custom_canonical }}" >
+            <link rel="canonical" href="{{ product_custom_canonical }}" >
         {% else %}
-            <link rel="canonical 2" href="{{ canonical_url }}" >
+            <link rel="canonical" href="{{ canonical_url }}" >
         {% endif %}
     {% elsif template contains 'collection' %}
         {% assign collection_custom_canonical = collection.metafields.custom.canonical_url %}
