@@ -87,3 +87,20 @@
 </body>
   <!-- <script defer src="https://connect.podium.com/widget.js#ORG_TOKEN=bfe9bc1a-8821-41ff-8fb6-6b8e7af807e8" id="podium-widget" data-organization-api-token="bfe9bc1a-8821-41ff-8fb6-6b8e7af807e8"></script> -->
 </html>
+ {% if template contains 'product' %}
+        {% assign product_custom_canonical = product.metafields.custom.canonical_url %}
+        {% if product_custom_canonical !=  blank %}
+            <link rel="canonical" href="{{ product_custom_canonical }}" >
+        {% else %}
+            <link rel="canonical" href="{{ canonical_url }}" >
+        {% endif %}
+    {% elsif template contains 'collection' %}
+        {% assign collection_custom_canonical = collection.metafields.custom.canonical_url %}
+        {% if collection_custom_canonical !=  blank %}
+            <link rel="canonical" href="{{ collection_custom_canonical }}" >
+        {% else %}
+            <link rel="canonical" href="{{ canonical_url }}" >
+        {% endif %}
+    {% else %}
+        <link rel="canonical" href="{{ canonical_url }}">
+    {% endif %}
